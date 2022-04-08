@@ -2,12 +2,12 @@
 lab:
   title: '探索 Azure AD 中的 Privileged Identity Management 标识治理。 '
   module: 'Module 2 Lesson 4: Describe the identity protection and governance capabilities of Azure AD: Describe Azure Identity Protection.'
-ms.openlocfilehash: 1bbe93105312be8b5a22c078d42def2a6daefc6b
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: a291567279c9ffd6ba9b47154390dc8c418b1527
+ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893836"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "141489231"
 ---
 # <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>实验室：探索 Azure AD 中的 Privileged Identity Management 标识治理。
 
@@ -50,9 +50,9 @@ ms.locfileid: "137893836"
 
 2. 从左侧导航面板中，选择“标识治理”。
 
-3. 在主窗口中，确保“入门”带有下划线，然后选择屏幕右侧中间部分的“管理角色分配” 。  或者，从左侧导航面板的“Privileged Identity Management”下，选择“Azure AD 角色”。
+3. 在左侧导航面板中的“Privileged Identity Management”下，选择“Azure AD 角色”。
 
-4. 你现在位于 Privileged Identity Management“快速启动”窗口。  选择“管理访问权限”。
+4. 你现在位于 Privileged Identity Management“快速启动”窗口。  选择“管理”。
 
 5. 你现在位于“Contoso 角色”页面。  在页面顶部的搜索栏中，输入“用户”。  从搜索结果中，选择“用户管理员”。
 
@@ -85,7 +85,7 @@ ms.locfileid: "137893836"
 19. 通过选择屏幕右上角电子邮件地址旁边的用户图标并选择“注销”进行注销。然后关闭所有浏览器窗口。
 
 
-#### <a name="task-3-task-3--in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>任务 3：任务 3：在此任务中，你将以 Diego Siciliani 的身份登录 Azure 门户，访问 Azure Active Directory 的 Privileged Identity Management 功能，从而激活以用户管理员身份执行的分配。  激活后，将对现有用户进行一些配置更改。 注意：对于此任务，你需要访问可立即使用且可接收短信的移动设备。
+#### <a name="task-3-in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>任务 3：在此任务中，你将以 Diego Siciliani 的身份登录 Azure 门户，访问 Azure Active Directory 的 Privileged Identity Management 功能，从而激活以用户管理员身份执行的分配。  激活后，将对现有用户进行一些配置更改。 注意：对于此任务，你需要访问可立即使用且可接收短信的移动设备。
 
 1. 打开 Microsoft Edge。  在浏览器的地址栏中，输入“portal.azure.com”。
 
