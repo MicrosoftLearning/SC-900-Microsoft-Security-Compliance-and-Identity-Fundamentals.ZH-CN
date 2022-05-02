@@ -1,13 +1,13 @@
 ---
 Demo:
   title: Microsoft 365 中的敏感度标签
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
-ms.openlocfilehash: 00da5f8577c31a02d1afb9afcfe8e84e89c07fa9
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
+ms.openlocfilehash: 489021addff2c867ace4460708f5c880c8ae3e4f
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893868"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614226"
 ---
 # <a name="demo-sensitivity-labels-in-microsoft-365"></a>演示：Microsoft 365 中的敏感度标签
 
@@ -32,7 +32,7 @@ ms.locfileid: "137893868"
 
 1. 在左侧导航面板的“解决方案”下，选择“信息保护”。
 
-1. 在黄色的信息框中，指示你的组织尚未开启处理 Office 联机文件（已应用加密的敏感度标签且存储在 OneDrive 和 SharePoint 中）中的内容的功能。  选择“立即开启”。  执行此操作后，设置在系统中传播可能存在延迟。
+1. 黄色信息框指示你的组织尚未开启处理 Office 联机文件（已应用加密的敏感度标签且存储在 OneDrive 和 SharePoint 中）中的内容的功能。  选择“立即开启”。  执行此操作后，设置在系统中传播可能存在延迟。
 
 1. 验证是否已选中页面顶部的“标签”选项卡（带下划线）。
 

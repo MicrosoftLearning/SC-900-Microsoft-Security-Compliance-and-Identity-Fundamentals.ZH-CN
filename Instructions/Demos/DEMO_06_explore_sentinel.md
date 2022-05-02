@@ -2,19 +2,19 @@
 Demo:
   title: Microsoft Sentinel
   module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 607c8097d17041f711aa1f40601e8433fcfce7f0
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 15788d59891cea9ae5c3117e9c79c7bc60bc2806
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893880"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614430"
 ---
 # <a name="demo-microsoft-sentinel"></a>演示：Microsoft Sentinel 
 
 ### <a name="demo-scenario"></a>演示方案
-在本演示中，你将演练创建 Microsoft Sentinel 实例的过程。  你还将设置权限，以确保可访问将为支持 Microsoft Sentinel 而部署的资源。  完成此基本设置后，你将完成将 Microsoft Sentinel 连接到数据源的步骤，并使用内置分析以在发生任何可疑情况时获得通知，最后，你将探索自动化功能。  
+在本演示中，你将演练创建 Microsoft Sentinel 实例的过程。  你还将设置权限，以确保可访问将为支持 Microsoft Sentinel 而部署的资源。  完成此基本设置后，你将逐步完成将 Microsoft Sentinel 连接到数据源并创建工作簿以监视和可视化数据的步骤。  最后，你将显示可用的一些其他选项，包括在发生任何可疑情况时获得通知的内置分析、自动化功能等等。
 
-#### <a name="demo-part-1--create-an-microsoft-sentinel-instance"></a>演示第 1 部分：创建 Microsoft Sentinel 实例
+#### <a name="pre-demo-setup--create-an-microsoft-sentinel-instance"></a>预演示设置：创建 Microsoft Sentinel 实例
 
 1. 打开浏览器选项卡“主页 - Microsoft Azure”。  如果之前关闭了该选项卡，请打开浏览器页面，在地址栏中输入 portal.azure.com，然后重新登录。
 
@@ -28,10 +28,8 @@ ms.locfileid: "137893880"
     1. 订阅：Azure Pass - 赞助
     1. 资源组：选择“新建”，输入名称“SC900-Sentinel-RG”，然后选择“确定”  。
     1. 名称：SC900-LogAnalytics-workspace。
-    1. 区域：美国东部（保留此默认值）
-    1. 选择“下一页:定价层 >”
-
-1. 对于定价层，保留默认设置：“即用即付(每 GB 2018)”，然后选择“下一步: 标记 >”。
+    1. 区域：美国东部（可能会根据你的位置选择不同的默认区域）
+    1. 选择“下一页:标记 >”
 
 1. 对于标记，可将其留空，然后选择“查看 + 创建”。
 
@@ -43,27 +41,26 @@ ms.locfileid: "137893880"
 
 1. 请将此页面保持打开状态，因为在下一个任务中将用到它。
 
-#### <a name="demo-part-2--with-the-microsoft-sentinel-instance-created-you-will-want-to-make-sure-that-you-have-the-necessary-access-to-the-resources-that-get-deployed-to-support-microsoft-sentinel--in-this-task-you-will-go-to-the-access-control-iam-page-for-the-resource-group-that-you-created-with-the-instance-of-microsoft-sentinel-view-the-available-roles-and-assign-yourself-mod-administrator-the-required-role-assigning-the-role-at-the-resource-group-level-will-ensure-the-role-will-apply-to-all-the-resources-that-are-deployed-to-support-microsoft-sentinel"></a>演示第 2 部分：创建 Microsoft Sentinel 实例后，你需要确保具有对为支持 Microsoft Sentinel 而部署的资源的必要访问权限。  在此任务中，你将转到使用 Microsoft Sentinel 实例创建的资源组的访问控制 (IAM) 页面、查看可用的角色以及向你自己（MOD 管理员）分配所需的角色。 在资源组级别分配角色可确保该角色会应用到为支持 Microsoft Sentinel 而部署的所有资源。
+#### <a name="demo-part-2--with-the-microsoft-sentinel-instance-created-you-will-want-to-make-sure-that-you-have-the-necessary-access-to-the-resources-that-get-deployed-to-support-microsoft-sentinel"></a>演示第 2 部分：创建 Microsoft Sentinel 实例后，你需要确保具有对为支持 Microsoft Sentinel 而部署的资源的必要访问权限。  
 
-1. 在页面顶部显示 Microsoft Azure 旁边蓝色栏的搜索框中，输入“资源组”，然后在搜索结果中选择“资源组” 。
+1. 在页面顶部显示 Microsoft Azure 旁边蓝色栏的搜索框中，输入“资源组”，然后在搜索结果中选择“资源组” 。 在资源组级别分配角色可确保该角色会应用到为支持 Microsoft Sentinel 而部署的所有资源。
 
-1. 从“资源组”页中选择使用 Microsoft Sentinel 创建的资源组“SC900-Sentinel-RG”。
+1. 从“资源组”页中选择使用 Microsoft Sentinel 创建的资源组“SC900-Sentinel-RG”。 
 
 1. 在 SC900-Sentinel-RG 页面中，从左侧导航面板中选择“访问控制(IAM)”。
 
-1. 从“访问控制”页面中选择“查看我的访问权限”。  请注意，当前角色是“服务管理员”。  选择窗口右上角的“X”关闭 MOD 管理员分配窗口。
+1. 从“访问控制”页面中选择“查看我的访问权限”。  作为 MOD 管理员，当前角色是服务管理员。  这将授予你所需的权限，但出于演示目的，你可能需要显示 Sentinel 特定角色。  选择窗口右上角的“X”关闭 MOD 管理员分配窗口。
 
-1. 从“访问控制”页面中选择“+添加”，然后选择“添加角色分配” 。
+    1. 从“访问控制”页面中选择“+添加”，然后选择“添加角色分配” 。
 
-1. “添加角色分配”窗口随即打开。  在“选择角色”字段中选择下拉箭头，以显示可用的角色。 在“选择角色”搜索框中，输入“Microsoft Sentinel”以查看与 Microsoft Sentinel 相关的 4 个角色。 最佳做法是分配角色所需的最低特权。  为便于进行本实验室，在搜索框中输入“所有者”，然后从结果中选择“所有者” 。  作为参考，请查看 Microsoft Sentinel 中的权限： https://docs.microsoft.com/en-us/azure/sentinel/roles
+    1. “添加角色分配”窗口随即打开。  在搜索框中，输入“Microsoft Sentinel”以查看与 Microsoft Sentinel 相关的 4 个角色。 
+    1. 从列出的任一角色中，选择“视图”以查看该角色的详细信息。  最佳做法是分配角色所需的最低特权。  
 
-1. 从显示的用户列表中，选择“MOD 管理员”。
+    1. 选择窗口右上角的“X”关闭此窗口。
 
-1. 选择页面底部的“保存”  。
+1. 在访问控制页面中，选择窗口右上角的“X”关闭此窗口。
 
-1. 从“访问控制”页面中选择“查看我的访问权限”，确认已添加角色，然后选择窗口右上角的“X”关闭此窗口 。
-
-#### <a name="demo-part-3--in-this-part-of-the-demo-you-will-walk-through-the-process-of-connecting-microsoft-sentinel-to-your-data-source-to-begin-to-collect-data--note-it-can-take-a-bit-time-to-show-the-connected-status-of-a-connector-30-minutes-depending-on-the-tenant"></a>演示第 3 部分：在演示的本部分中，你需完成将 Microsoft Sentinel 连接到数据源以开始收集数据的过程。  备注：可能需要一段时间才会显示连接器的已连接状态（大约 30 分钟，具体取决于租户）。
+#### <a name="demo-part-3--in-this-part-of-the-demo-you-will-walk-through-the-process-of-connecting-microsoft-sentinel-to-your-data-source-to-begin-to-collect-data"></a>演示第 3 部分：在演示的本部分中，你需完成将 Microsoft Sentinel 连接到数据源以开始收集数据的过程。
 
 1. 在页面顶部显示 Microsoft Azure 旁边蓝色栏的搜索框中，输入“Microsoft Sentinel”，然后在搜索结果中选择“Microsoft Sentinel”。 
 
@@ -71,70 +68,62 @@ ms.locfileid: "137893880"
 
 1. 可使用 Microsoft Sentinel 完成的第一步是收集数据。 在左侧导航面板中选择配置下方列出的“数据连接器”。
 
-1. 在“数据连接器”页面中，向下滚动主窗口，以查看可用连接器的详细列表。 在“数据连接器”页面的搜索框中，输入 Azure，然后从列表中选择“Azure Active Directory” 。
+1. 在“数据连接器”页面中，向下滚动主窗口，以查看可用连接器的详细列表。 在“数据连接器”页面的“搜索”框中，输入“Office 365”，然后从列表中选择“Office 365”。
 
-1. “Azure Active Directory 连接器”窗口随即打开。  选择“打开连接器页”。
+1. 此时会打开“Office 365 连接器”窗口。  选择“打开连接器页”。
 
-1. 在“Azure Active Directory 连接器”页面中，查看描述，并注意包含工作簿、查询和分析规则模板的相关内容。  
+1. 在“Office 365 连接器”页面中，查看窗口左侧的“说明”。
 
-1. 主窗口中的“说明”选项卡提供 Microsoft Sentinel 与 Azure Active Directory 集成的先决条件。   在“配置”下，选择“登录日志”，然后选择“应用更改”（可选择多个连接器）。  备注：可能需要一段时间才能看到连接器的已连接状态（大约 30 分钟左右）。  参考：
-    1. 查看 Microsoft Sentinel 中的概述： https://docs.microsoft.com/en-us/azure/sentinel/roles
-    1. 连接到 Azure Active Directory： https://docs.microsoft.com/en-us/azure/sentinel/connect-azure-active-directory
+1. 主窗口中的“说明”选项卡提供 Microsoft Sentinel 与 Office 365 集成的先决条件，这些都应显示绿色复选标记。   在配置下，选择“Exchange”和“SharePoint”，然后选择“应用更改”。  几乎立即会看到窗口左侧的连接状态。
 
-1. 在“后续步骤”选项卡中，请注意建议的工作簿列表。   在“建议的工作簿”下，选择“Azure 登录日志”（可选择其他工作簿）。
+1. 通过选择窗口右上角的“X”关闭该窗口以返回到“数据连接器”页面。
 
-1. 在工作簿页面中，在选中“模板”选项卡（带下划线）的情况下，选择“Azure 登录日志”。
+1. “数据连接器”页面顶部应显示已连接 1 个连接器，以反映现已连接到 Office 365。 如果未看到此连接器，请选择“刷新”。 可能需要几分钟时间才能更新此页面。
 
-1. 在打开的“Azure AD 登录日志”窗口中，查看描述并选择“查看模板”。  选择屏幕右上角的“X”退出此模板。  选择页面底部的“保存”，然后选择“确定”以将工作簿保存到默认位置 。
+1. 请将此页面保持打开状态，因为在下一个任务中将用到它。
 
-1. 在“工作簿”页的左上角，选择“工作簿”上方的“Microsoft Sentinel”。 这会使你返回到“Microsoft Sentinel 数据连接器”页。
-
-1. “数据连接器”页面顶部应显示已连接 1 个连接器，以反映现已连接到 Azure Active Directory。
+#### <a name="demo-part-4--in-this-part-of-the-demo-you-will-walk-through-the-process-of-setting-up-a-workbook-for-office-365-to-visualize-and-monitor-your-data"></a>演示第 4 部分：在演示的此部分中，你将逐步完成为 Office 365 设置工作簿的过程，以可视化和监视数据。
 
 1. 从左侧导航面板中，选择“工作簿”。
 
-1. 从“工作簿”页面中选择“我的工作簿”选项卡，其位于搜索框上方。  已列出刚刚保存的工作簿，并且该工作簿可用于查看和监视数据。  后续登录将反映在此工作簿中，因此你可能会选择显示此工作簿。
+1. 在搜索框中输入“Office 365”，然后选择“Office 365”。
 
-1. 请将此页面保持打开状态，因为在下一个任务中将用到它。
+1. 在屏幕右侧打开的窗口中查看说明，然后从屏幕底部选择“保存”，然后选择“确定”将工作簿保存到默认位置。  现在选择“查看保存的工作簿”。
 
-#### <a name="demo-part-4-optional--in-this-part-of-the-demo-you-will-walk-through-the-process-of-using-a-built-in-analytics-rule-template-to-create-a-rule-to-get-notified-when-something-suspicious-occurs"></a>演示第 4 部分（可选）：在演示的本部分中，你将完成以下过程：使用内置分析规则模板创建一条用于在发生可疑情况时获得通知的规则。
+1. 此时会打开“Office 365 工作簿”页面。  选择“操作: 取消设置”旁边的下拉箭头，然后选择“全部”。  现在选择“用户: 查询挂起”旁边的下拉箭头，然后选择“全部”。  选择“保存(磁盘)”图标。 选择窗口右上角的“X”关闭此窗口。 数据可能需要几分钟时间才能开始显示在工作簿中，因此稍后将返回到工作簿。
 
-1. 从左侧导航面板中，选择“分析”。
+1. 在“工作簿”页的左上角，选择“工作簿”上方的“Microsoft Sentinel”。 这会返回到“概述”页面。
 
-1. “分析”页面将显示可用规则（默认启用高级多阶段攻击检测），还将提供对规则模板的访问权限。  选择“规则模板”选项卡。请注意可用模板列表以及用于筛选此列表的不同方式。  如果在 Microsoft Sentinel 工作区中使用内置的分析警报，则发生任何可疑事件时，你都会收到通知。
+#### <a name="demo-part-5--in-this-part-of-the-demo-you-will-show-some-of-the-options-available-in-sentinel"></a>演示第 5 部分：在演示的此部分中，你将显示 Sentinel 中可用的一些选项。
 
-1. 在搜索栏中，输入“Azure 门户”。  选择“尝试登录 Azure 门户失败”。  
+1. 从左侧导航面板中，选择“搜寻”。  从已选中（带下划线）的“查询”选项卡中，从列表中选择任何查询。  选择查询后，请注意提供的有关该查询的信息，包括查询的代码，以及运行查询和查看结果的选项。  不要选择任何内容。
 
-1. 在打开的窗口中，阅读描述并查看与模板相关的信息。  选择页面底部的“创建规则”。
-    1. 在分析规则向导中，查看信息，然后选择“下一步:设置规则逻辑 >”。
-    1. 可在“设置规则逻辑”页面中定义新分析规则的逻辑。 模板已提供一些逻辑和预定义的设置。  滚动该页面以查看可用设置。  保留默认值。 选择“下一页:事件设置(预览版) >”。
-    1. 通过事件设置，可将 Microsoft Sentinel 警报分组为应查看的事件。 可设置由该分析规则触发的警报是否应生成事件。  保留默认设置，然后选择“下一步:自动响应 >”。
-    1. 在“自动响应”选项卡中，请注意如何添加 playbook 以自动进行响应。  同样，可创建事件自动化规则。  选择“事件自动化”下方的“+ 添加新规则”。  用于创建新自动化规则的窗口随即打开。  在此页面上创建的任何自动化规则均由最初选择的分析规则触发，在这种情况下，尝试登录 Azure 门户会失败。  请注意，可为该规则添加条件并设置操作。   选择“取消”退出此窗口。
-    1. 选择“下一页:查看 >”，以查看基于所选模板且与规则相关的所有详细信息。 现在，可选择通过选择“创建”来创建规则，或通过选择页面右上角的“X”退出而不创建规则 。
+1. 从左侧导航面板中，选择“MITRE ATT&CK”。  MITRE ATT&CK 是攻击者常用的策略和技术的公开访问知识库。 通过 Microsoft Sentinel，可以根据 MITRE ATT&CK® 框架中的策略和技术，来查看工作区中已经处于活动状态的检测，以及可供配置的检测，从而了解组织的安全覆盖范围。  从矩阵中选择任何单元格，并记下屏幕右侧可用的信息。  
 
-1. 请将此页面保持打开状态，因为在下一个任务中将用到它。
+1. 从左侧导航面板中，选择“社区”。 Microsoft 安全分析师会不断创建和添加新的工作簿、playbook、搜寻式查询及其他资源，并将其发布到社区，供你在环境中使用。 可以从个人社区 GitHub 存储库下载示例内容，以创建适用于 Microsoft Sentinel 的自定义工作簿、搜寻式查询、Notebook 和 Playbook。  选择“加入社区内容”。  此时会打开 GitHub 存储库的新选项卡，可在其中下载内容以启用方案。  在浏览器中，返回到 Azure 选项卡。
 
-#### <a name="demo-step-5-optional--in-the-previous-step-you-created-an-analytics-rule-to-be-alerted-of-suspicious-activities--embedded-in-that-wizard-is-the-option-to-automate-the-response-to-an-incident-based-on-the-specific-rule--but-you-can-also-create-automation-rules-by-going-directly-to-the-automation-configuration-option"></a>演示步骤 5（可选）：在上一步中，你创建了一条对可疑活动发出警报的分析规则。  该向导中嵌入的选项是根据特定规则自动响应事件。  但是，你还可以通过直接转到自动化配置选项来创建自动化规则。
+1. 从左侧导航面板中，选择“分析”。  从“高级多阶段攻击检测”列表中选择第一项。  请注意详细信息。  Microsoft Sentinel 使用 Fusion（基于可缩放的机器学习算法的关联引擎）通过识别在不同杀伤链阶段观测到的异常行为与可疑活动的组合来自动检测多阶段攻击（也称为高级持久威胁）。 Microsoft Sentinel 根据这些发现结果生成事件，否则很难捕获这些事件。
 
-1. 从左侧导航面板中，选择“自动化”。  
+1. 从左侧导航面板中，选择“自动化”。  在这里，可以创建简单的自动化规则、与现有 playbook 集成或创建新的 playbook。  选择“+ 创建”，然后选择“自动化规则”。  请注意在屏幕右侧打开的窗口以及可用于创建条件和操作的选项。  选择屏幕底部的“取消”。
 
-1. 选择“+ 新建”。  在下拉列表中，请注意如何选择是添加新 playbook 还是添加新规则。  选择“添加新规则”。  
-    1. 用于创建新自动化规则的窗口随即打开。  请注意，可为该规则添加条件并设置操作。  唯一的区别是，第一个条件会与要对其应用此自动化规则的分析规则关联。  此选项在上一个任务中灰显，因为已针对特定规则配置自动化。  选择“取消”以退出“创建新自动化规则”窗口。
+1. 从左侧导航面板中，选择“工作簿”。 从“工作簿”页面中选择“我的工作簿”选项卡，其位于搜索框上方。  已列出先前保存的工作簿，并且该工作簿可用于查看和监视数据。  选择“Office 365”，然后在屏幕右侧打开的窗口中，选择“查看保存的工作簿”。  请注意与 Office 365 工作负载相关的可视化效果。  
 
-1. 请将此页面保持打开状态，因为在下一个任务中将用到它。
+1. 选择窗口右上角的“X”关闭此窗口。
 
-#### <a name="step-6-tear-down---instructor-do-this-step-after-class-delete-microsoft-sentinel-resource-group--microsoft-sentinel-is-billed-based-on-the-volume-of-data-ingested-for-analysis-in-microsoft-sentinel-although-the-amount-of-data-ingested-as-a-result-of-this-lab-is-minimal-it-is-recommended-that-you-delete-the-microsoft-sentinel-resource-group-when-you-are-done-exploring-the-features-of-capabilities-of-microsoft-sentinel"></a>步骤 6：清除 - 讲师会在课后执行此步骤。 删除 Microsoft Sentinel 资源组。  我们将根据 Microsoft Sentinel 中为分析引入的数据量对 Microsoft Sentinel 进行计费。 尽管本实验室中引入的数据量非常少，但也建议在完成探索 Microsoft Sentinel 的功能特征后删除 Microsoft Sentinel 资源组。
+1. 从窗口左上角的蓝色条下方，选择“主页”以返回到 Azure 门户的主页。
+
+#### <a name="task-6-post-course-delivery-tear-down-microsoft-sentinel-is-billed-based-on-the-volume-of-data-ingested-for-analysis-in-microsoft-sentinel-although-the-amount-of-data-ingested-as-a-result-of-this-demo-is-minimal-it-is-recommended-that-you-delete-the-microsoft-sentinel-resource-group-when-you-are-done-exploring-the-capabilities-of-microsoft-sentinel"></a>任务 6：授课后拆解。 我们将根据 Microsoft Sentinel 中为分析引入的数据量对 Microsoft Sentinel 进行计费。 尽管本演示中引入的数据量非常少，但也建议在完成探索 Microsoft Sentinel 的功能后删除 Microsoft Sentinel 资源组。
 
 1. 在 Microsoft Sentinel 页的左上角，选择 Microsoft Sentinel 上方的“所有服务”。
 
-1. 在“筛选服务”框中，输入资源组，然后从提供的列表中选择“资源组”。
+2. 在“筛选服务”框中，输入资源组，然后从提供的列表中选择“资源组”。
 
-1. 从“资源组”页中选择使用 Microsoft Sentinel 创建的资源组“SC900-Sentinel-RG”。
+3. 从“资源组”页面选择使用 Microsoft Sentinel 创建的资源组“SC900-ResourceGroup”。
 
-1. 在页面顶部中心选择“删除资源组”。  查看警告。  输入资源组名称“SC900-Sentinel-RG”，然后从页面底部选择“删除” 。  可能需要几分钟时间才可删除资源组。
+4. 在页面顶部中心选择“删除资源组”。  查看警告。  输入资源组名称“SC900-ResourceGroup”，然后从页面底部选择“删除” 。  可能需要几分钟时间才可删除资源组。
 
-1. 验证已删除资源组后，关闭浏览器页面。 
+5. 验证已删除资源组后，关闭浏览器页面。 
 
 #### <a name="review"></a>审阅
 
-在本演示中，你演示了创建 Microsoft Sentinel 实例的过程。  你演示了如何设置权限，以确保可访问与 Microsoft Sentinel 实例关联的资源。  创建 Microsoft Sentinel 实例后，你完成了将 Microsoft Sentinel 连接到数据源的步骤，了解了如何使用内置分析规则在发生任何可疑情况时获得通知，最后还探索了自动化功能。 在本演示的末尾，你删除了与创建的 Microsoft Sentinel 实例关联的资源组。
+在此演示中，你演练了将 Microsoft Sentinel 连接到数据源的步骤，你设置了工作簿，并演示了 Microsoft Sentinel 中提供的多个选项。

@@ -1,13 +1,13 @@
 ---
 lab:
   title: 了解 Azure Policy
-  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: b202e4b7dadc2fdadec4ac2df7aa6bcee7400b6b
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
+ms.openlocfilehash: a9e9e273544eeb2d42ba0094a83f4ff1f4d61b7d
+ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893802"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "142614418"
 ---
 # <a name="lab-explore-azure-policy"></a>实验室：了解 Azure Policy
 
@@ -33,7 +33,7 @@ Azure Policy 可帮助实施组织标准并大规模评估合规性。 Azure Pol
 
 1. 在页面顶部的“概要”下，可以看到名称、描述和其他基本信息。  阅读描述（将鼠标悬停在描述上）。 注意：说明字段引用了 Azure 安全中心（已重命名为 Microsoft Defender for Cloud）。
 
-1. 请注意，仪表板提供的信息已更新，可反映所选项目，即 ASC Default 计划定义。  回想一下，计划定义是策略定义的集合，专为实现一个单一的总体目标而量身定制。 可以按组、策略、非合规资源或事件查看信息。
+1. 请注意，仪表板提供的信息已更新，可反映所选项目，即 ASC 默认值。 此 ASC 默认值是 Azure 安全基准计划定义。  回想一下，计划定义是策略定义的集合，专为实现一个单一的总体目标而量身定制。 可以按组、策略、非合规资源或事件查看信息。
 
 1. 选择窗口右上角的“X”退出 ASC 页面并返回策略主页。
 
@@ -69,7 +69,9 @@ Azure Policy 可帮助实施组织标准并大规模评估合规性。 Azure Pol
 
 1. 记下默认分配名称。  保持名称不变，在页面底部选择“下一步”。
 
-1. 在“标记名称”字段中，输入“环境”，然后选择“下一步” 。  
+1. 在“标记名称”字段中，输入“环境”，然后选择“下一步” 。 
+
+1. 保留默认修正设置，然后选择“下一步”。 
 
 1. 在“不合规”消息中，输入“需要环境标记”，然后选择“下一步” 。 备注：对于在策略分配之前创建且没有环境标记的资源组，将显示此消息作为不合规的原因。  对于在策略创建后再创建的资源组，如果没有环境标记，将拒绝创建资源组。
 
@@ -97,11 +99,13 @@ Azure Policy 可帮助实施组织标准并大规模评估合规性。 Azure Pol
 
 1. 你将看到验证通过（标记名称和值不是向导中的必填字段），然后选择“创建”。
 
-1. 屏幕顶部将显示一条失败消息，指示“资源组创建失败。 查看错误详细信息”。  选择“查看错误详细信息”。 不满足该 Azure 策略包含的条件，因此资源组创建因不合规而遭到阻止。 注意：如果没有看到失败消息，且资源组已创建，则原因是该策略尚未生效。  请转到“策略”页面，查看在上一任务中创建的策略；策略生效后，将看到该资源不合规。  详细信息页面将包含“不合规”消息。
+1. 屏幕顶部将显示一条失败消息，指示“资源组创建失败。 查看错误详细信息”。  选择“查看错误详细信息”。 不满足该 Azure 策略包含的条件，因此资源组创建因不合规而遭到阻止。 
+
+    注意：如果没有看到失败消息，且资源组已创建，则原因是该策略尚未生效。  请转到“策略”页面，查看在上一任务中创建的策略；策略生效后，将看到该资源不合规。  详细信息页面将包含“不合规”消息。 如果收到错误，以下步骤演示如何修正部署。
 
 1. 错误摘要显示错误类型“策略禁止使用资源 SC900-Labs”。  选择屏幕左上角的“X”关闭此窗口。
 
-1. 在“创建资源组”窗口中，选择“<上一步”。
+1. 在“创建资源组”窗口中，选择“上一步”。
 
 1. 这会回到创建资源组的“标记”页面。  在“名称”字段输入“环境”，在“值”字段输入“SC900-Labs”，然后选择“下一步: 审阅 + 创建 >”。
 
