@@ -2,28 +2,30 @@
 lab:
   title: 了解 Azure Policy
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: a9e9e273544eeb2d42ba0094a83f4ff1f4d61b7d
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 23e8f4f8417367a16cbd41496428918ca219fa40
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614418"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557514"
 ---
 # <a name="lab-explore-azure-policy"></a>实验室：了解 Azure Policy
 
 ## <a name="lab-scenario"></a>实验室场景
-Azure Policy 可帮助实施组织标准并大规模评估合规性。 Azure Policy 通过将 Azure 中资源的属性与业务规则进行比较，来评估这些资源。 在本实验室中，你将首先探索 Azure 策略的登陆页面。 在初步探索“Azure 策略”页面后，你将创建一个策略并了解该策略的影响。
 
+Azure Policy 可帮助实施组织标准并大规模评估合规性。 Azure Policy 通过将 Azure 中资源的属性与业务规则进行比较，来评估这些资源。 在本实验室中，你将首先探索 Azure 策略的登陆页面。 在初步探索“Azure 策略”页面后，你将创建一个策略并了解该策略的影响。
 
 预计用时：20-25 分钟
 
-#### <a name="task-1-briefly-explore-the-azure-policy-page"></a>任务 1：简要探索“Azure 策略”页面。
+### <a name="task-1"></a>任务 1
+
+简要探索“Azure 策略”页面。
 
 1. 打开 Microsoft Edge。 在地址栏中，输入“portal.microsoft.com”。
 
 1. 使用管理员凭据登录。
     1. 在“登录”窗口中，输入 admin@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供商提供的唯一租户 ID），然后选择“下一步” 。
-    
+
     1. 输入管理员密码，该密码应由实验室托管提供商提供。 选择“登录”。
     1. 在提示保持登录状态时，选择“是”。
 
@@ -53,7 +55,9 @@ Azure Policy 可帮助实施组织标准并大规模评估合规性。 Azure Pol
 
 1. 将此浏览器选项卡（策略 – Microsoft Azure）保持打开状态以进行下一个任务。
 
-#### <a name="task-2--in-this-task-you-will-create-a-basic-policy-assignment-to-require-a-tag-on-resource-groups"></a>任务 2：在此任务中，你将创建一个基本策略分配以要求资源组上带有标记。
+### <a name="task-2"></a>任务 2
+
+在此任务中，你将创建一个基本策略分配以要求资源组上带有标记。
 
 1. 打开浏览器选项卡“策略 - Microsoft Azure”。
 
@@ -69,9 +73,9 @@ Azure Policy 可帮助实施组织标准并大规模评估合规性。 Azure Pol
 
 1. 记下默认分配名称。  保持名称不变，在页面底部选择“下一步”。
 
-1. 在“标记名称”字段中，输入“环境”，然后选择“下一步” 。 
+1. 在“标记名称”字段中，输入“环境”，然后选择“下一步” 。
 
-1. 保留默认修正设置，然后选择“下一步”。 
+1. 保留默认修正设置，然后选择“下一步”。
 
 1. 在“不合规”消息中，输入“需要环境标记”，然后选择“下一步” 。 备注：对于在策略分配之前创建且没有环境标记的资源组，将显示此消息作为不合规的原因。  对于在策略创建后再创建的资源组，如果没有环境标记，将拒绝创建资源组。
 
@@ -81,7 +85,9 @@ Azure Policy 可帮助实施组织标准并大规模评估合规性。 Azure Pol
 
 1. 现在位于 Azure 服务主页。  请将此页面保持在打开状态，在下一个任务中将用到它。
 
-#### <a name="task-3--in-this-task-you-will-see-the-impact-of-the-azure-policy-assignment-by-creating-a-resource-group-in-azure-that-does-not-have-a-tag-then-you-will-see-update-the-resource-group-to-include-a-tag--note-it-may-take-up-to-30-minutes-for-the-policy-created-in-the-previous-task-to-take-effect-but-it-usually-happens-faster"></a>任务 3：在此任务中，通过在 Azure 中创建一个没有标记的资源组，你将看到 Azure 策略分配的影响，然后你将更新资源组以包含标记。  注意：上一个任务中创建的策略可能需要长达 30 分钟才能生效，但通常会更快。
+### <a name="task-3"></a>任务 3
+
+在此任务中，通过在 Azure 中创建一个没有标记的资源组，你将看到 Azure 策略分配的影响，然后你将更新资源组以包含标记。  注意：上一个任务中创建的策略可能需要长达 30 分钟才能生效，但通常会更快。
 
 1. 打开浏览器选项卡“主页 - Microsoft Azure”。
 
@@ -99,7 +105,7 @@ Azure Policy 可帮助实施组织标准并大规模评估合规性。 Azure Pol
 
 1. 你将看到验证通过（标记名称和值不是向导中的必填字段），然后选择“创建”。
 
-1. 屏幕顶部将显示一条失败消息，指示“资源组创建失败。 查看错误详细信息”。  选择“查看错误详细信息”。 不满足该 Azure 策略包含的条件，因此资源组创建因不合规而遭到阻止。 
+1. 屏幕顶部将显示一条失败消息，指示“资源组创建失败。 查看错误详细信息”。  选择“查看错误详细信息”。 不满足该 Azure 策略包含的条件，因此资源组创建因不合规而遭到阻止。
 
     注意：如果没有看到失败消息，且资源组已创建，则原因是该策略尚未生效。  请转到“策略”页面，查看在上一任务中创建的策略；策略生效后，将看到该资源不合规。  详细信息页面将包含“不合规”消息。 如果收到错误，以下步骤演示如何修正部署。
 
@@ -115,12 +121,11 @@ Azure Policy 可帮助实施组织标准并大规模评估合规性。 Azure Pol
 
 1. 退出之前请删除 Azure 策略。
     1. 从页面的左上角，选择“主页”，返回到 Azure 主页。
-    
+
     1. 在显示 Azure 服务的下方，选择“Azure 策略”。
     1. 在页面中间，你将看到 Azure 策略/计划分配的列表。  选择策略分配“要求资源组上带有标记”的省略号，然后选择“删除分配”。
     1. 系统会提示确认删除该分配。  选择“是”。
 
-
-#### <a name="review"></a>审阅
+### <a name="review"></a>审阅
 
 在本实验室中，你浏览了 Azure 策略的登陆页面。 在初步探索“Azure 策略”页面后，你完成了创建策略的过程，并能够了解该策略的影响。

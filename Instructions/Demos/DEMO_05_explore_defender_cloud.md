@@ -2,16 +2,16 @@
 Demo:
   title: Microsoft Defender for Cloud
   module: 'Module 3 Lesson 2: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Azure'
-ms.openlocfilehash: 1548f7ff825d472eeb53697342abf8cd48ad084f
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: b9cf202b9aef7f700b08c1dd6f55444d328fac9a
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893881"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557334"
 ---
 # <a name="demo-microsoft-defender-for-cloud"></a>演示：Microsoft Defender for Cloud
 
-### <a name="demo-scenario"></a>演示方案
+## <a name="demo-scenario"></a>演示方案
 
 在本演示中，你将演练 Microsoft Defender for Cloud，并介绍如何利用 Azure 安全功能分数来改善组织的安全态势。
 
@@ -54,4 +54,3 @@ ms.locfileid: "137893881"
 ## <a name="review"></a>审阅
 
 在本演示中，你演练了 Microsoft Defender for Cloud，并介绍了如何利用 Azure 安全功能分数来改善组织的安全态势。
-

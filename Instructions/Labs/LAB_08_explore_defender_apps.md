@@ -2,23 +2,26 @@
 lab:
   title: '探索 Microsoft Defender for Cloud Apps '
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: aa360b3d9e604e384cc5b040ef747425af76e13b
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: cdd0953cafd267114577b53eb7470cd65a4c2bc5
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893829"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557565"
 ---
 # <a name="lab-explore-microsoft-defender-for-cloud-apps"></a>实验室：探索 Microsoft Defender for Cloud Apps
 
 ## <a name="lab-scenario"></a>实验室场景
-在本实验室中，你将探索 Microsoft Defender for Cloud Apps 的功能。  你将了解 Cloud Discovery 仪表板上提供的信息以及可用于调查结果和通过策略控制对组织的影响的功能。  注意：组织必须拥有许可证才能使用 Microsoft Defender for Cloud Apps，这是一项基于用户的订阅服务。 
+
+在本实验室中，你将探索 Microsoft Defender for Cloud Apps 的功能。  你将了解 Cloud Discovery 仪表板上提供的信息以及可用于调查结果和通过策略控制对组织的影响的功能。  注意：组织必须拥有许可证才能使用 Microsoft Defender for Cloud Apps，这是一项基于用户的订阅服务。
 
 预计用时：15-20 分钟
 
-#### <a name="task-1-explore-cloud-discovery"></a>任务 1：探索 Cloud Discovery。
+### <a name="task-1"></a>任务 1
 
-1.  打开 Microsoft Edge。 在地址栏中，输入“admin.microsoft.com”。
+探索 Cloud Discovery。
+
+1. 打开 Microsoft Edge。 在地址栏中，输入“admin.microsoft.com”。
 
 1. 使用管理员凭据登录。
     1. 在“登录”窗口中，输入 admin@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供商提供的唯一租户 ID），然后选择“下一步” 。
@@ -50,7 +53,9 @@ ms.locfileid: "137893829"
 
 1. 请将此页面保持打开状态，因为在下一个任务中将用到它。
 
-#### <a name="task-2-explore-ways-in-which-you-can-investigate-the-recorded-activities"></a>任务 2：了解调查记录的活动的方法。
+### <a name="task-2"></a>任务 2
+
+了解调查记录的活动的方法。
 
 1. 在左侧导航面板的“调查”下，选择“活动日志”。  在此处可查看已连接应用的所有活动。   由于你已将 Office 365 连接器连接，因此应能看到一些数据。 使用应用连接器将 Cloud App Security 连接到应用后，Cloud App Security 会扫描发生的所有活动（各应用的追溯扫描时间段不同），然后不断更新新活动。  
 
@@ -66,14 +71,16 @@ ms.locfileid: "137893829"
 
 1. 请将此页面保持打开状态，因为在下一个任务中将用到它。
 
+### <a name="task-3"></a>任务 3
 
-#### <a name="task-3-in-this-task-you-will-explore-the-policies-and-alerts-pages-in-microsoft-defender-for-cloud-apps"></a>任务 3：在此任务中，你将探索 Microsoft Defender for Cloud Apps 中的策略和警报页。
+在此任务中，你将探索 Microsoft Defender for Cloud Apps 中的策略和警报页。
 
-1. 从左侧导航面板中，选择“控制”，然后选择“策略”旁边的向下箭头键。  列出的策略提供有关策略生成的警报数量、严重性等的信息。选择任意行项（例如“风险登录”）将提供编辑策略的选项。 选择页面底部的“取消”。 
+1. 从左侧导航面板中，选择“控制”，然后选择“策略”旁边的向下箭头键。  列出的策略提供有关策略生成的警报数量、严重性等的信息。选择任意行项（例如“风险登录”）将提供编辑策略的选项。 选择页面底部的“取消”。
 
 1. 从左侧导航面板中，选择“警报”。  如果有任何警报列出，请从警报列表中选择一项。 查看提供的信息。  在窗口的右上方选择“关闭警报”，以查看用于关闭该警报的选项。  
 
 1. 关闭浏览器窗口。
 
-#### <a name="review"></a>审阅
+### <a name="review"></a>审阅
+
 在本实验室中，你探索了 Microsoft Defender for Cloud Apps 的功能。  你了解了 Cloud Discovery 仪表板上提供的信息以及可用于调查结果和通过策略控制对组织的影响的功能。

@@ -2,16 +2,16 @@
 Demo:
   title: Azure Active Directory 自助式密码重置
   module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 8b5ab5e9ba2670841d8bcf897cbfb4f6e76c9265
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 819439157f86ba4a28255cf876e239f3960df8f4
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893905"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557214"
 ---
 # <a name="demo-azure-active-directory-self-service-password-reset-sspr"></a>演示：Azure Active Directory 自助式密码重置 (SSPR)
 
-### <a name="demo-scenario"></a>演示方案
+## <a name="demo-scenario"></a>演示方案
 
 在本演示中，你将演练与启用自助式密码重置相关的各种设置。
 
@@ -40,7 +40,6 @@ ms.locfileid: "137893905"
 
 1. 将此浏览器页面保持在打开状态，进行下一演示。
 
-#### <a name="review"></a>审阅
+### <a name="review"></a>审阅
 
-在本演示中，你演示了与自助式密码重置相关的设置。 
-
+在本演示中，你演示了与自助式密码重置相关的设置。

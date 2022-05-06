@@ -2,28 +2,30 @@
 lab:
   title: 探索 Microsoft 365 Defender 门户
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: c3b666c86b361f7d33c6ae7f3639b7b015d8fa30
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: dafab309af48617209f70b79ad5843d23eecd448
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614406"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557142"
 ---
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>实验室：探索 Microsoft 365 Defender 门户
 
 ## <a name="lab-scenario"></a>实验室场景
-在本实验室中，你将通过演练登陆页面上显示的内容来探索 Microsoft 365 Defender 门户。 你还将探索导航面板上的选项，这些选项提供对 Microsoft 扩展检测和响应 (XDR) 解决方案一部分功能的快速访问：Microsoft Defender for Endpoint 和 Microsoft Defender for Office 365（电子邮件和协作）。  最后，你还将探索 Microsoft 安全功能分数如何帮助组织提高其安全状况。
 
+在本实验室中，你将通过演练登陆页面上显示的内容来探索 Microsoft 365 Defender 门户。 你还将探索导航面板上的选项，这些选项提供对 Microsoft 扩展检测和响应 (XDR) 解决方案一部分功能的快速访问：Microsoft Defender for Endpoint 和 Microsoft Defender for Office 365（电子邮件和协作）。  最后，你还将探索 Microsoft 安全功能分数如何帮助组织提高其安全状况。
 
 预计用时：10-15 分钟
 
-#### <a name="task-1--explore-the-microsoft-365-defender-landing-page"></a>任务 1：探索 Microsoft 365 Defender 登录页。
+### <a name="task-1"></a>任务 1
+
+探索 Microsoft 365 Defender 登录页。
 
 1. 打开 Microsoft Edge。 在地址栏中，输入“admin.microsoft.com”。
 
 1. 使用管理员凭据登录。
     1. 在“登录”窗口中，输入 admin@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供商提供的唯一租户 ID），然后选择“下一步” 。
-   
+
     1. 输入管理员密码，该密码应由实验室托管提供商提供。 选择“登录”。
     1. 在提示保持登录状态时，选择“是”。 这将使你进入 Microsoft 365 管理中心页面。
 
@@ -43,7 +45,9 @@ ms.locfileid: "142614406"
 
 1. 选择卡片标题将显示有关该主题的其他信息。 你将在下一任务中了解此内容。  请将浏览器窗口保持打开状态。
 
-#### <a name="task-2-in-this-task-you-will-explore-how-microsoft-secure-score-can-help-an-organization-improve-its-security-posture"></a>任务 2：在此任务中，你将探索 Microsoft 安全功能分数如何帮助组织提高其安全状况。
+### <a name="task-2"></a>任务 2
+
+在此任务中，你将探索 Microsoft 安全功能分数如何帮助组织提高其安全状况。
 
 1. 在 Microsoft 365 Defender 门户的欢迎页中，从卡片的标题栏中选择“Microsoft 安全功能分数”（文本将变为蓝色）。  或者，可以从左侧导航面板中选择“安全功能分数”。
 
@@ -63,5 +67,6 @@ ms.locfileid: "142614406"
 
 1. 请关闭浏览器页面。
 
-#### <a name="review"></a>审阅
+### <a name="review"></a>审阅
+
 在本实验室中，你通过演练登陆页面上显示的内容了解了 Microsoft 365 Defender 门户，还了解了导航面板中的选项，这些选项提供了对 Microsoft 扩展检测和响应 (XDR) 解决方案一部分功能的快速访问，以及对 Microsoft Defender for Endpoint 和 Microsoft Defender for Office 365（电子邮件和协作）的快速访问。  最后，你探索了 Microsoft 安全功能分数如何帮助组织改善其安全状况。

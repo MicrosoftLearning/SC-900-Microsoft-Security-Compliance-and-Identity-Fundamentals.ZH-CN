@@ -2,12 +2,12 @@
 lab:
   title: 探索 Azure Active Directory
   module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: 075b7123b5d7e17b7e30dfcacf9f90ef97a67f83
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: ca6ea1f2fc67ad1c09a108079eada6c8a9ebd89c
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893841"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557286"
 ---
 # <a name="lab-explore-azure-active-directory"></a>实验室：探索 Azure Active Directory
 
@@ -15,17 +15,17 @@ ms.locfileid: "137893841"
 
 在此实验室中，你将访问 Azure Active Directory。  此外，你还将创建一个用户并配置不同设置，包括添加许可证。  
 
-
-
 预计用时：10-15 分钟
 
-#### <a name="task-1--as-a-subscriber-to-microsoft-365-you-are-already-using-azure-ad--in-this-task-you-will-walk-through-accessing-azure-ad-through-the-microsoft-365-admin-portal-and-through-the-azure-portal"></a>任务 1：作为 Microsoft 365 的订阅者，你已在使用 Azure AD。  在本任务中，你将演练如何通过 Microsoft 365 管理门户和 Azure 门户访问 Azure AD。
+### <a name="task-1"></a>任务 1
+
+作为 Microsoft 365 的订阅者，你已在使用 Azure AD。  在本任务中，你将演练如何通过 Microsoft 365 管理门户和 Azure 门户访问 Azure AD。
 
 1. 打开 Microsoft Edge。
 
 2. 在地址栏中，输入“admin.microsoft.com”以访问 Microsoft 365 管理中心。
 
-3. 使用管理员凭据登录。 
+3. 使用管理员凭据登录。
     1. 在“登录”窗口中，输入 admin@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供商提供的唯一租户 ID），然后选择“下一步” 。
     1. 输入管理员密码，该密码应由实验室托管提供商提供。 选择“登录”。
     1. 在提示保持登录状态时，选择“是”。
@@ -44,8 +44,9 @@ ms.locfileid: "137893841"
 
 10. 将此浏览器页面保持在打开状态，进行下一任务。
 
+### <a name="task-2"></a>任务 2
 
-#### <a name="task-2--in-this-task-youll-learn-how-to-create-a-new-user-in-azure-active-directory-and-explore-some-of-services-that-can-be-managed-at-the-user-level"></a>任务 2：在本任务中，你将了解如何在 Azure Active Directory 中创建新用户，并探索一些可在用户级别进行管理的服务。
+在本任务中，你将了解如何在 Azure Active Directory 中创建新用户，并探索一些可在用户级别进行管理的服务。
 
 1. 转到浏览器中打开的“Contoso - Microsoft Azure”选项卡。 如果之前关闭了该选项卡，请打开浏览器页面，在地址栏中输入 portal.azure.com，然后选择“Azure Active Directory”。  你应在 Azure 门户中以管理员身份登录；如果没有，请重新登录。
 
@@ -109,7 +110,9 @@ ms.locfileid: "137893841"
 
 20. 单击屏幕右上角电子邮件地址旁边的用户图标，从所有浏览器选项卡中注销。 然后关闭所有浏览器窗口。
 
-#### <a name="task-3--in-this-task-you-will-sign-in-as-sara-perez-for-the-first-time"></a>任务 3：在本任务中，你将首次以 Sara Perez 的身份登录。
+### <a name="task-3"></a>任务 3
+
+在本任务中，你将首次以 Sara Perez 的身份登录。
 
 1. 打开 Microsoft Edge。
 
@@ -127,9 +130,6 @@ ms.locfileid: "137893841"
 
 8. 单击屏幕右上角电子邮件地址旁边的用户图标，从所有浏览器选项卡中注销。 然后关闭所有浏览器窗口。
 
+### <a name="review"></a>审阅
 
-
-#### <a name="review"></a>审阅
 在本实验室中，你开始了对 Azure AD 的初步探索。 由于 Microsoft 365 的订阅者自动使用 Azure AD，你发现你可以通过 Microsoft 365 管理门户或 Azure 门户访问 Azure AD 功能和服务。  无论使用哪种方法，都会到达相同的位置。  你还演练了创建新用户以及可以配置的不同设置的过程，包括可以将用户分配到的组、角色的可用性以及用户许可证的分配。
-
-

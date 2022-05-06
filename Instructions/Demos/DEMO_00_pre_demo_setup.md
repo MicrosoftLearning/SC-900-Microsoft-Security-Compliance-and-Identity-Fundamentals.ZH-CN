@@ -1,21 +1,22 @@
 ---
 Pre-Demo Setup:
   title: 演示设置
-ms.openlocfilehash: b44b5fe0c5f01e8cb2364dc426c2ec3a2b1e7029
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 32b79bd8e8beaad0db6363b04084545cc0e1591e
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893799"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557250"
 ---
 # <a name="pre-demo-setup"></a>预演示设置
 
-### <a name="setup-part-1---redeem-azure-pass"></a>设置第 1 部分 - 兑换 Azure Pass
+## <a name="setup-part-1---redeem-azure-pass"></a>设置第 1 部分 - 兑换 Azure Pass
+
 在此设置任务中，你将使用与 Microsoft 365 租户相同的凭据兑换 Azure Pass。  这可以在 Microsoft 365 和 Azure 之间移动时实现更加无缝的体验。
 
 1. 如果有任何打开的浏览器窗口，建议关闭所有浏览器。
 
-1. 右键单击 Microsoft Edge 图标，然后选择“新建 InPrivate 窗口”以打开一个新的 In-Private 浏览器会话。 其他 
+1. 右键单击 Microsoft Edge 图标，然后选择“新建 InPrivate 窗口”以打开一个新的 In-Private 浏览器会话。
 
 1. 在地址栏中，输入 www.microsoftazurepass.com。  
 
@@ -33,6 +34,7 @@ ms.locfileid: "137893799"
 1. 让 Azure 门户主页的浏览器选项卡保持打开状态，你将在下一个演示中返回该位置。
 
 ### <a name="setup-part-2---enable-microsoft-365-audit-log"></a>设置第 2 部分 - 启用 Microsoft 365 审核日志
+
 在此设置任务中，你将在 Microsoft 365 中启用审核日志功能。  虽然文档表明审核日志在默认情况下为打开状态，但大多数实验室租户未启用此功能，并且此功能可能需要几个小时才会生效。  启用此功能很有帮助，因为 Microsoft 365 使用审核日志来获取策略和分析见解中确定的用户见解和活动。
 
 1. 打开 Microsoft Edge。 在地址栏中，输入“admin.microsoft.com”。
@@ -59,5 +61,3 @@ ms.locfileid: "137893799"
 ### <a name="review"></a>审阅
 
 在此设置中，你使用与 Microsoft 365 租户相同的凭据兑换了 Azure Pass。  此外，你还在 Microsoft 365 中启用了审核日志功能。
-
-
