@@ -1,13 +1,13 @@
 ---
 lab:
-  title: 探索 Azure AD 中的条件访问管理
+  title: 使用条件访问探索 Azure AD 中的访问管理
   module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: 14cd1839bb4f8b883592cc000e4bded63b8e1002
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 23b0cfcc4c26a2f8561ae1793a176e94e064f627
+ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893833"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "141489254"
 ---
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional"></a>实验室：探索 Azure AD 中的条件访问管理
 

@@ -1,27 +1,28 @@
 ---
 lab:
   title: 设置
-ms.openlocfilehash: 29b07bfeb08919349ac982c5a8ee5b3cce254704
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: f39a5d0193ff23baa3a9c177a712c0ed9bf54ec6
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893864"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557299"
 ---
 # <a name="lab-setup"></a>实验室：设置
 
-### <a name="lab-scenario"></a>实验室场景
+## <a name="lab-scenario"></a>实验室场景
 
 在此实验室中，你将使用与 Microsoft 365 租户相同的凭据兑换 Azure Pass。  这可以在 Microsoft 365 和 Azure 之间移动时实现无缝体验。 作为设置的一部分，你还将在 Microsoft 365 租户中启用审核日志功能，因为它可能需要一些时间才会生效。 Microsoft 365 使用审核日志来获取策略和分析见解中确定的用户见解和活动。
 
 预计用时：5-10 分钟
 
-#### <a name="setup-part-1---redeem-azure-pass"></a>设置第 1 部分 - 兑换 Azure Pass
+### <a name="setup-part-1---redeem-azure-pass"></a>设置第 1 部分 - 兑换 Azure Pass
+
 在此设置任务中，你将使用与 Microsoft 365 租户相同的凭据兑换 Azure Pass。  这可以在 Microsoft 365 和 Azure 之间移动时实现更加无缝的体验。
 
 1. 如果有任何打开的浏览器窗口，建议关闭所有浏览器。
 
-1. 右键单击 Microsoft Edge 图标，然后选择“新建 InPrivate 窗口”以打开一个新的 In-Private 浏览器会话。 其他 
+1. 右键单击 Microsoft Edge 图标，然后选择“新建 InPrivate 窗口”以打开一个新的 In-Private 浏览器会话。
 
 1. 在地址栏中，输入 www.microsoftazurepass.com。  
 
@@ -38,7 +39,8 @@ ms.locfileid: "137893864"
 
 1. 让 Azure 门户主页的浏览器选项卡保持打开状态，你将在下一个演示中返回该位置。
 
-#### <a name="setup-part-2---enable-microsoft-365-audit-log"></a>设置第 2 部分 - 启用 Microsoft 365 审核日志
+### <a name="setup-part-2---enable-microsoft-365-audit-log"></a>设置第 2 部分 - 启用 Microsoft 365 审核日志
+
 在此设置任务中，你将在 Microsoft 365 中启用审核日志功能。  虽然文档表明审核日志在默认情况下为打开状态，但大多数实验室租户未启用此功能，并且此功能可能需要几个小时才会生效。  启用此功能很有帮助，因为 Microsoft 365 使用审核日志来获取策略和分析见解中确定的用户见解和活动。
 
 1. 打开 Microsoft Edge。 在地址栏中，输入“admin.microsoft.com”。
@@ -56,10 +58,10 @@ ms.locfileid: "137893864"
 
 1. 确认已选中“搜索”选项卡（带下划线）。
 
-1. 登陆“审核”页面后，请等待 2-3 分钟。  如果未启用“审核”，你将在页面顶部看到一个显示“开始记录用户和管理员活动”的蓝条。  选择“开始记录用户和管理员活动”。  启用审核后，蓝条将消失。  如果蓝条不存在，则表示已启用审核，无需采取进一步操作。  检查是否启用了审核的另一种方法是通过 PowerShell 进行检查，但这不在本课程的范围之中。
+1. 登陆“审核”页面后，请等待 2-3 分钟。  如果未启用“审核”，你将在页面顶部看到一个显示“开始记录用户和管理员活动”的蓝条。  选择“开始记录用户和管理员活动”。  如果系统提示你确认需更新组织设置，请选择“是”。 启用审核后，蓝条将消失。  如果蓝条不存在，则表示已启用审核，无需采取进一步操作。  检查是否启用了审核的另一种方法是通过 PowerShell 进行检查，但这不在本课程的范围之中。
 
 1. 通过选择左侧导航面板中的“主页”，返回 Microsoft 365 合规中心的主页。
 
-#### <a name="review"></a>审阅
+### <a name="review"></a>审阅
 
 在此设置中，你使用与 Microsoft 365 租户相同的凭据兑换了 Azure Pass。  此外，你还在 Microsoft 365 中启用了审核日志功能。

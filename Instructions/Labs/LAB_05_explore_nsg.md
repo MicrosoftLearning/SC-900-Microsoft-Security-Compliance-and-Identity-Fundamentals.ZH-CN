@@ -2,23 +2,26 @@
 lab:
   title: 探索 Azure 网络安全组 (NSG)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: b140c437202af133f02d8e615795a97f634aca96
-ms.sourcegitcommit: 89f5fbd1e9c70e30108daa8fbeb65ebd9947bf1a
+ms.openlocfilehash: 71472d6f2cbb946d75ff8e6bc2da2afa87af96aa
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "141605420"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557502"
 ---
-# <a name="lab-explore-azure-network-security-groups-nsgs"></a>实验室：探索 Azure 网络安全组 (NSG)。
+# <a name="lab-explore-azure-network-security-groups-nsgs"></a>实验室：探索 Azure 网络安全组 (NSG)
 
 ## <a name="lab-scenario"></a>实验室方案
+
 在本实验室中，你将探索 Azure 中网络安全组的功能。  你将通过创建不带任何网络安全组 (NSG) 的 VM 来实现此目的。  没有任何 NSG 来筛选流量，VM 中的所有端口都将对公共 Internet 公开。  然后，你将完成创建 NSG 并将 VM 的接口分配给该 NSG 的过程。  配置完成后，需使用默认 NSG 规则以及你将创建的规则测试到 VM 的连接。
   
-
 预计用时：15-20 分钟
 
-#### <a name="task-1--in-this-task-you-will-create-a-windows-10-virtual-machine"></a>任务 1：在此任务中，你将创建一个 Windows 10 虚拟机。    
-1.  打开 Microsoft Edge。  在地址栏中，输入“portal.azure.com”。
+### <a name="task-1"></a>任务 1
+
+在此任务中，你将创建一个 Windows 10 虚拟机。
+
+1. 打开 Microsoft Edge。  在地址栏中，输入“portal.azure.com”。
 
 1. 使用管理员凭据登录。
     1. 在“登录”窗口中，输入 admin@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供商提供的唯一租户 ID），然后选择“下一步” 。
@@ -34,13 +37,13 @@ ms.locfileid: "141605420"
     1. 资源组：选择“新建”，在“名称”字段输入“LabsSC900”，然后选择“确定”  。
     1. 虚拟机名称：输入 SC900-WinVM。
     1. 区域：如果未预先填充区域字段，则选择离你的位置最近的区域。
-    3. 映像：从下拉列表中选择“Windows 10 专业版，版本 20H2 - 第 1 代”。
-    4. 大小：从下拉列表中选择“查看所有大小”，选择“B2s”，然后按页面底部的“选择”  。
-    5. 用户名：输入选择的用户名。  请记下它，因为你将需要它来访问 VM。
-    6. 密码：输入所选的密码。  请记下它，因为你将需要它来访问 VM。
-    7. 公共入站端口：选择“无”。
-    8. 许可：选择“我确认我拥有符合条件的具有多租户托管权限的 Windows 10 许可证”，这样框中就会出现复选标记。
-    9. 在完成时选择“下一步:**磁盘”** 。 
+    1. 映像：从下拉列表中选择“Windows 10 专业版，版本 20H2 - 第 1 代”。
+    1. 大小：从下拉列表中选择“查看所有大小”，选择“B2s”，然后按页面底部的“选择”  。
+    1. 用户名：输入选择的用户名。  请记下它，因为你将需要它来访问 VM。
+    1. 密码：输入所选的密码。  请记下它，因为你将需要它来访问 VM。
+    1. 公共入站端口：选择“无”。
+    1. 许可：选择“我确认我拥有符合条件的具有多租户托管权限的 Windows 10 许可证”，这样框中就会出现复选标记。
+    1. 在完成时选择“下一步:**磁盘”** 。
 1. 你现在位于用于配置 VM 的“磁盘”选项卡。  将所有设置保留为默认值，然后选择“下一步:网络 >”。
 1. 你现在位于用于配置 VM 的“网络”选项卡。  填写以下信息（对于未列出的任何内容，保留默认设置）：
     1. NIC 网络安全组：选择“无”。  备注：在此步骤中选择“无”是因为我们希望从头开始演示设置 NSG 的步骤，这些步骤将在后续任务中介绍。
@@ -52,17 +55,19 @@ ms.locfileid: "141605420"
 1. 查看 VM 的配置。  需要注意的一些事项：此 VM 有一个公共 IP 地址，没有 NIC 网络安全组。  从安全性角度来看，这会使 VM 易受攻击。  我们将在后续任务中解决此问题。 选择“创建”。  完成 VM 部署可能需要几分钟时间。
 1. 记下网络接口的名称“sc900-winvmXXX”（XXX 将特定于 VM 的网络接口）。
 1. VM 部署完成后，选择“转到资源”。
-1. 现在位于“SC900-WinVM”页面。  记录公共 IP 地址。 
+1. 现在位于“SC900-WinVM”页面。  记录公共 IP 地址。
 1. 从页面顶部选择“连接”，然后从下拉列表中选择“RDP” 。
-1. 验证 IP 地址是否已设置为“公共 IP 地址”，保留默认端口号，然后选择“下载 DRP 文件”。 
-1. 打开下载的文件，然后选择“连接”。 
+1. 验证 IP 地址是否已设置为“公共 IP 地址”，保留默认端口号，然后选择“下载 DRP 文件”。
+1. 打开下载的文件，然后选择“连接”。
 1. 系统会提示输入凭据。  输入创建 VM 时使用的用户名和密码。
 1. 此时会打开一个“远程桌面连接”窗口，显示“无法验证远程计算机的身份。  仍要连接吗?”  选择“是”  。
-1. 现已连接到刚创建的 Windows VM。 按照提示完成 Windows 设置。 尽管你已通过 RDP 和常用的 RDP 端口连接到 VM，但此 VM 的所有端口都是打开的，没有筛选流量的项。 
+1. 现已连接到刚创建的 Windows VM。 按照提示完成 Windows 设置。 尽管你已通过 RDP 和常用的 RDP 端口连接到 VM，但此 VM 的所有端口都是打开的，没有筛选流量的项。
 1. 通过选择显示 IP 地址的页面顶部中心的“X”，关闭远程桌面连接。  此时会出现一个弹出窗口，显示“将断开远程会话连接”。 选择“确定”。
 1. 现已返回 Azure 门户的“SC900-WinVM”页面。  将此浏览器选项卡保持在打开状态，便于进行下一个任务。
 
-#### <a name="task-2--create-a-network-security-group-and-assign-the-network-interface-of-the-vm-to-that-nsg"></a>任务 2：创建一个网络安全组，并将 VM 的网络接口分配给该 NSG。
+### <a name="task-2"></a>任务 2
+
+创建一个网络安全组，并将 VM 的网络接口分配给该 NSG。
 
 1. 在浏览器中打开“SC900-WinVM - Microsoft Azure”选项卡。
 
@@ -90,7 +95,9 @@ ms.locfileid: "141605420"
 1. 打开下载的文件，然后选择“连接”。
 1. 尝试连接几秒钟后，你会看到失败消息，显示“远程桌面无法连接到远程计算机”。  选择“确定”。
 
-#### <a name="task-3-in-this-task-you-will-create-a-nsg-rule-to-allow-inbound-traffic-using-rdp-on-port-3389--you-will-then-test-that-rule-by-attempting-to-connect-to-the-vm-using-rdp"></a>任务 3：在此任务中，你将创建一个 NSG 规则，允许端口 3389 上使用 RDP 的入站流量。  然后，你将通过尝试使用 RDP 连接到 VM 来测试该规则。 
+### <a name="task-3"></a>任务 3
+
+在此任务中，你将创建一个 NSG 规则，用于允许端口 3389 上使用 RDP 的入站流量。  然后，你将通过尝试使用 RDP 连接到 VM 来测试该规则。
 
 1. 在浏览器中打开“SC900-WinVM - Microsoft Azure”选项卡。
 
@@ -115,10 +122,12 @@ ms.locfileid: "141605420"
 1. 现在已连接到 VM。 在本例中，你能够连接到 VM，因为创建的入站流量规则允许入站流量通过 RDP 流入 VM。
 1. 请将 VM 保持在打开状态，在下一个任务中将用到它。
 
-#### <a name="task-4--the-default-outbound-rules-for-nsg-allow-outbound-internet-traffic-so-you-will-validate-that-you-can-connect-to-the-internet--you-will-then-go-through-the-process-of-creating-a-custom-outbound-rule-to-block-outgoing-internet-traffic-and-test-that-rule"></a>任务 4：NSG 的默认出站规则允许出站 Internet 流量，因此你将验证是否可以连接到 Internet。  然后，你将完成创建自定义出站规则以阻止出站 Internet 流量并测试该规则的过程。
+### <a name="task-4"></a>任务 4
+
+NSG 的默认出站规则允许出站 Internet 流量，因此你将验证是否可以连接到 Internet。  然后，你将完成创建自定义出站规则以阻止出站 Internet 流量并测试该规则的过程。
 
 1. 从 VM 中选择“Edge”以打开浏览器。  
-1. 在浏览器地址栏中输入 https://www.bing.com ，并确认你是否能够连接到搜索引擎。
+1. 在浏览器地址栏中输入 www.bing.com，并确认你是否能够连接到搜索引擎。
 1. 关闭 VM 上的浏览器，但将 VM 保持在打开状态，因为你将在后续步骤中用到它。
 1. 返回 Azure 门户，在浏览器中打开“SC900-WinVM - Microsoft Azure”选项卡。
 1. 在左侧导航面板的“设置”下，选择“网络”。
@@ -138,11 +147,13 @@ ms.locfileid: "141605420"
 1. 选择“添加”
 1. 预配规则后，它将显示在出站规则列表中。  虽然它显示在列表中，但需要几分钟时间才会生效（请等待几分钟，然后再继续执行后续步骤）。  
 1. 返回到 VM
-1. 在 VM 中打开 Edge 浏览器，然后输入 https://www.bing.com。  该页面应该不会显示。  备注：如果你能够连接到 Internet，并已验证正确设置了出站规则的所有参数，则很可能是因为规则需要几分钟才能生效。  关闭浏览器，等待几分钟，然后重试。
+1. 在 VM 中打开 Microsoft Edge 浏览器并输入 www.bing.com。 该页面应该不会显示。  备注：如果你能够连接到 Internet，并已验证正确设置了出站规则的所有参数，则很可能是因为规则需要几分钟才能生效。  关闭浏览器，等待几分钟，然后重试。
 1. 通过选择显示 IP 地址的页面顶部中心的“X”，关闭远程桌面连接。  此时会出现一个弹出窗口，显示“将断开远程会话连接”。 选择“确定”。
 1. 在此任务中，你在 NSG 中成功配置了阻止出站 Internet 流量的出站规则。
 
-#### <a name="task-5--important-in-this-task-you-will-delete-the-resource-group-and-all-the-resources-it-contains---this-is-important-to-avoid-additional-charges"></a>任务 5：重要提示：在此任务中，你需要删除资源组及其包含的所有资源。   这对于避免产生额外费用至关重要。
+### <a name="task-5"></a>任务 5
+
+**重要说明**：在此任务中，你需要删除资源组及其包含的所有资源。   这对于避免产生额外费用至关重要。
 
 1. 在浏览器中打开“SC900-WinVM - Microsoft Azure”选项卡。
 
@@ -153,6 +164,6 @@ ms.locfileid: "141605420"
 1. 在打开的窗口中，输入资源组名称“LabsSC900”以确认删除该资源组及其所有资源，然后选择页面底部的“删除” 。
 1. 可能需要花费几分钟时间才能删除所有资源和该资源组。
 
-#### <a name="review"></a>审阅
+### <a name="review"></a>审阅
 
 在本实验室中，你完成了设置含/不含网络安全组 (NSG) 的 VM，并查看了默认 NSG 规则产生的影响。  此外，你还完成了创建 NSG 规则的过程。

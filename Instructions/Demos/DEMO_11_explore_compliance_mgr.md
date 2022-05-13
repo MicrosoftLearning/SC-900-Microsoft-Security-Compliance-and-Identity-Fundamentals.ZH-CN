@@ -1,28 +1,29 @@
 ---
 Demo:
-  title: 探索 Microsoft 365 合规中心与合规性管理器
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft 365'
-ms.openlocfilehash: 32c4783d9a909bfd8099750b994ab5a05718c198
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+  title: 探索 Microsoft Purview 合规性门户与合规性管理器
+  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
+ms.openlocfilehash: 7c0b3e5a3153e48ddb3a7e7cca991c9df6a89bdf
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614202"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557238"
 ---
-# <a name="demo-explore-the-microsoft-365-compliance-center--compliance-manager"></a>演示：探索 Microsoft 365 合规中心与合规性管理器
+# <a name="demo-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>演示：探索 Microsoft Purview 合规性门户与合规性管理器
 
 ## <a name="demo-scenario"></a>演示方案
-在本演示中，你将展示 Microsoft 365 合规中心主页，并演示合规性管理器如何帮助组织改善合规性状况。
 
-## <a name="instructions"></a>Instructions
+在此演示中，你将展示 Microsoft Purview 合规性门户主页，以及合规性管理器的功能可帮助组织改善其合规性状况的方法。
 
-#### <a name="demo-part-1-show-the-microsoft-365-compliance-center-home-page-and-how-to-customize-the-card-view-and-the-navigation-panel"></a>演示第 1 部分：展示 Microsoft 365 合规中心主页，并演示如何自定义卡片视图和导航面板。
+### <a name="demo-part-1"></a>演示第 1 部分
+
+展示 Microsoft Purview 合规性门户主页以及如何自定义卡片视图和导航面板。
 
 1. 打开 Microsoft Edge。 在地址栏中，输入“admin.microsoft.com”。 你应当已以管理员身份登录。若没有，请使用管理员凭据登录。
 
 1. 从 Microsoft 365 管理中心的左侧导航窗格中，选择“全部显示”。
 
-1. 在管理中心下，选择“合规性”。  这会打开一个新的浏览器页面，显示 Microsoft 365 合规中心的欢迎页。  
+1. 在管理中心下，选择“合规性”。  这会打开一个新的浏览器页面，显示 Microsoft Purview 合规性门户的欢迎页。  
 
 1. 主页上的卡片部分一目了然地显示组织如何处理合规性状况、组织有哪些解决方案可用等等。
 
@@ -34,7 +35,7 @@ ms.locfileid: "142614202"
 
 1. 可选择“+添加卡片”来添加卡片。  这会打开“将卡片添加到主页”窗口。  将鼠标光标置于此窗口中显示的“解决方案”目录卡片上，然后将其拖到主屏幕上你希望放置卡片的位置。
 
-1. 在 Microsoft 365 合规中心主页的左侧导航面板中，请注意“解决方案”下列出的项目。  如果仅显示“目录”，则从左侧导航面板中选择“...全部显示”。  请注意所有其他解决方案在解决方案部分下的显示方式。  
+1. 在 Microsoft Purview 合规性门户主页的左侧导航面板中，请注意“解决方案”下列出的项。  如果仅显示“目录”，则从左侧导航面板中选择“...全部显示”。  请注意所有其他解决方案在解决方案部分下的显示方式。  
 
 1. 身为合规性管理员，你可能要为我们的组织管理一组解决方案，而且你希望这些解决方案始终列在导航面板上。  若要自定义首选项，请选择“自定义导航”。  
 
@@ -42,9 +43,11 @@ ms.locfileid: "142614202"
 
 1. 将浏览器选项卡保持在打开状态。
 
-#### <a name="demo-part-2-learn-about-your-organizations-compliance-posture-through-compliance-manager"></a>演示第 2 部分：通过合规性管理器了解组织的合规性状况。
+### <a name="demo-part-2"></a>演示第 2 部分
 
-1. 从 Microsoft 365 合规中心的左侧导航面板，选择“合规性管理器”。  或者，可在“合规性管理器”卡片的标题栏上选择“合规性管理器”。
+通过合规性管理器了解组织的合规性状况。
+
+1. 从 Microsoft Purview 合规性门户的左侧导航面板，选择“合规性管理器”。  或者，可在“合规性管理器”卡片的标题栏上选择“合规性管理器”。
 
 1. 从“合规性管理器”页面顶部，确保已选中“概述”（带下划线）。 向下滚动可查看页面上提供的所有信息。  此页面上显示了你的合规性分数，它以百分比形式表示，并且根据你获得的分数和 Microsoft 托管分数得出。   你将看到关键改进操作、影响你的分数的解决方案，以及按类型或评估细分的合规性分数。
 
@@ -66,7 +69,8 @@ ms.locfileid: "142614202"
 
 1. 从包含的模板列表中，选择“ISO/IEC27001:2013”。 在页面右上角选择“+创建评估”。  请注意屏幕左侧，根据模板创建评估只需两个步骤。  选择页面底部的“取消”。
 
-1. 从左侧导航面板，选择“主页”以返回 Microsoft 365 合规中心的主页。  将此浏览器页面保持在打开状态，进行后续演示。
+1. 从左侧导航面板，选择“主页”以返回 Microsoft Purview 合规性门户的主页。  将此浏览器页面保持在打开状态，进行后续演示。
 
-#### <a name="review"></a>审阅
-在本演示中，你展示了 Microsoft 365 合规中心主页，还演示了合规性管理器帮助组织改善合规性状况的方法。
+### <a name="review"></a>审阅
+
+在本实验室中，你展示了 Microsoft Purview 合规性门户主页，以及合规性管理器的功能可帮助组织改善其合规性状况的方法。

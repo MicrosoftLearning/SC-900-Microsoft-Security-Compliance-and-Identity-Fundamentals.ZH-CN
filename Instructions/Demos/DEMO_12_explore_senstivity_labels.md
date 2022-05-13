@@ -1,21 +1,23 @@
 ---
 Demo:
-  title: Microsoft 365 中的敏感度标签
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and governance capabilities of Microsoft 365'
-ms.openlocfilehash: 489021addff2c867ace4460708f5c880c8ae3e4f
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+  title: Microsoft Purview 中的敏感度标签
+  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
+ms.openlocfilehash: 190ba104d08f47bf1bddfbd262b76c9e6aa8581c
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614226"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557190"
 ---
-# <a name="demo-sensitivity-labels-in-microsoft-365"></a>演示：Microsoft 365 中的敏感度标签
+# <a name="demo-sensitivity-labels-in-microsoft-purview"></a>演示：Microsoft Purview 中的敏感度标签
 
-### <a name="demo-scenario"></a>演示方案
+## <a name="demo-scenario"></a>演示方案
+
 在本演示中，你将展示敏感度标签的功能。  你将完成已创建的现有敏感度标签以及发布标签的相应策略的设置。   然后，你将从用户的角度了解如何应用标签以及该标签的影响。
 
+### <a name="demo-part-1"></a>演示第 1 部分
 
-#### <a name="demo-part-1-in-this-demo-you-show-the-settings-for-an-existing-sensitivity-label-and-the-corresponding-policy-to-publish-the-label"></a>演示第 1 部分：在本演示中，你将展示现有敏感度标签以及发布标签的相应策略的设置。
+在本演示中，你将展示现有敏感度标签以及发布标签的相应策略的设置。
 
 1. 打开 Microsoft Edge。 在地址栏中，输入“admin.microsoft.com”。
 
@@ -26,9 +28,9 @@ ms.locfileid: "142614226"
 
 1. 从 Microsoft 365 管理中心的左侧导航窗格中，选择“全部显示”。
 
-1. 在管理中心下，选择“合规性”。  这会打开一个新的浏览器页面，显示 Microsoft 365 合规中心的欢迎页。  
+1. 在管理中心下，选择“合规性”。  这会打开一个新的浏览器页面，显示 Microsoft Purview 合规性门户的欢迎页。  
 
-1. 从 Microsoft 365 合规中心的左侧导航面板中，选择“全部显示”。
+1. 从 Microsoft Purview 合规性门户的左侧导航窗格中，选择“全部显示”。
 
 1. 在左侧导航面板的“解决方案”下，选择“信息保护”。
 
@@ -50,9 +52,9 @@ ms.locfileid: "142614226"
 
     1. 现在位于文件和电子邮件窗口的“自动加标签”。  阅读页面顶部的自动加标签的描述及其下方的信息框。  另请记住，此标签设置为在特定条件下自动加标签。 请勿更改任何设置。  选择页面底部的“下一步”。
 
-    1. 下一窗口定义针对已应用此标签的团队、组和站点的保护设置。 这处于未启用状态，选择页面底部的“下一步”。 
+    1. 下一窗口定义针对已应用此标签的团队、组和站点的保护设置。 这处于未启用状态，选择页面底部的“下一步”。
 
-    1. 下一窗口是一项预览功能，用于自动将此标签应用到包含所选敏感信息类型的 Azure 数据库列（例如 SQL、Synapse 等）。  未启用此功能。 选择页面底部的“取消”以退出标签配置向导，并返回“信息保护”页面。 
+    1. 下一窗口是一项预览功能，用于自动将此标签应用到包含所选敏感信息类型的 Azure 数据库列（例如 SQL、Synapse 等）。  未启用此功能。 选择页面底部的“取消”以退出标签配置向导，并返回“信息保护”页面。
 
 1. 在“信息保护”页面顶部选择“标签策略”。  需通过标签策略发布敏感度标签。  
 
@@ -70,18 +72,19 @@ ms.locfileid: "142614226"
 
 1. 在“信息保护”页面选择“自动加标签”。  请注意，未配置任何自动加标签策略。  请勿更改任何设置。  如果你想知道为什么这里没有任何策略，鉴于针对文件和电子邮件的标签配置已设置为自动加标签，请返回到演练标签配置设置的步骤并查看与针对文件和电子邮件的自动加标签相关联的描述和信息框。  提示：在“敏感度”选项卡的“自动加标签”选项卡中，显示以下内容：  “若要自动将此标签应用到已保存（在 SharePoint 和 OneDrive 中）的文件或 Exchange 已处理的电子邮件，你必须创建自动加标签策略。”
 
-1. 从左侧导航面板，选择“主页”以返回 Microsoft 365 合规中心。
+1. 从左侧导航面板，选择“主页”以返回 Microsoft Purview 合规性门户。
 
 1. 请将此页面保持在打开状态，将在下一个任务中使用它。
 
+### <a name="demo-part-2"></a>演示第 2 部分
 
-#### <a name="demo-part-2--in-this-step-you-will-show-the-process-of-applying-a-label-from-the-perspective-of-the-user-in-this-case-the-user-is-the-admin-and-view-the-content-marking-that-is-generated-by-the-label"></a>演示第 2 部分：在此步骤中，你将演示从用户角度应用标签的过程（在本例中，用户是管理员），并查看该标签生成的内容标记。
+在此步骤中，你将演示从用户角度应用标签的过程（在本例中，用户是管理员），并查看该标签生成的内容标记。
 
-1. 从 Microsoft 365 合规中心主页中，选择“Contoso Electronics”旁边的“应用启动器图标”。 右键单击 Word 图标，然后选择“在新选项卡中打开” 。  
+1. 从 Microsoft Purview 合规性门户主页中，选择“Contoso Electronics”旁边的“应用启动器”图标。 右键单击 Word 图标，然后选择“在新选项卡中打开” 。  
 
 1. 选择“+ 新的空白文档”，然后在页面中输入一些文本。  在页面顶部的蓝色栏中，选择“DocumentXX - 已保存”旁边的向下箭头，然后在“文件名”框中输入“Test-label”。
 
-1. 从顶部菜单栏选择“敏感度”，如果未立即显示此选项，请刷新页面。 从下拉列表选择“机密 - 财务”。 
+1. 从顶部菜单栏选择“敏感度”，如果未立即显示此选项，请刷新页面。 从下拉列表选择“机密 - 财务”。
 
 1. 从顶部菜单栏选项“查看”，然后选择“阅读视图” 。
 
@@ -89,9 +92,11 @@ ms.locfileid: "142614226"
 
 1. 关闭浏览器中打开的 Microsoft Word 选项卡以退出 Word。
 
-#### <a name="demo-part-3-optional-in-addition-to-content-marking-the-label-protection-setting-was-set-for-encryption-per-the-permissions-that-were-configured-with-this-label-members-of-the-finance-group-can-co-author-documents-with-this-label-applied-and-users-in-the-contoso-tenant-can-view-or-any-documentemail-with-the-label-applied--in-this-section-you-will-send-this-document-to-an-email-address-to-which-you-have-access-ie-a-personal-email-address-or-your-microsoft-email-and-that-is-not-part-of-the-wwlxzzzzonmicrosoftcom-domain-and-see-what-happens-when-you-try-to-open-the-attachment"></a>演示第 3 部分（可选）：除了内容标记，还可将标签保护设置设为用于加密。 根据使用此标签配置的权限，财务组成员可共同创作已应用此标签的文档，Contoso 租户中的用户可查看已应用标签的任何文档/电子邮件。  在此部分中，你需将此文档发送至你有权访问的电子邮件地址（例如个人电子邮件地址或 Microsoft 电子邮件），该地址不属于 WWLxZZZZ.OnMicrosoft.com 域的一部分，并且需了解尝试打开附件时会出现什么情况。  
+### <a name="demo-part-3-optional"></a>演示第 3 部分（可选）
 
-1. 从 Microsoft 365 合规中心主页中，选择“Contoso Electronics”旁边的“应用启动器图标”。 右键单击 Outlook 图标，然后选择“在新选项卡中打开” 。
+除了内容标记，还可将标签保护设置设为用于加密。 根据使用此标签配置的权限，财务组成员可共同创作已应用此标签的文档，Contoso 租户中的用户可查看已应用标签的任何文档/电子邮件。  在此部分中，你需将此文档发送至你有权访问的电子邮件地址（例如个人电子邮件地址或 Microsoft 电子邮件），该地址不属于 WWLxZZZZ.OnMicrosoft.com 域的一部分，并且需了解尝试打开附件时会出现什么情况。  
+
+1. 从 Microsoft Purview 合规性门户主页中，选择“Contoso Electronics”旁边的“应用启动器”图标。 右键单击 Outlook 图标，然后选择“在新选项卡中打开” 。
 
 1. 选择屏幕左上角的“新建邮件”。  输入你有权访问，但不属于 WWLxZZZZ.OnMicrosoft.com 域的电子邮件地址，然后在主题行输入“测试”。
 
@@ -105,6 +110,6 @@ ms.locfileid: "142614226"
 
 1. 关闭打开的浏览器选项卡。
 
+### <a name="review"></a>审阅
 
-#### <a name="review"></a>审阅
 在本演示中，你展示了敏感度标签。  你展示了针对已创建的现有敏感度标签的设置以及用于发布标签的相应策略。 然后，你从用户的角度展示了如何应用标签以及该标签的影响。
