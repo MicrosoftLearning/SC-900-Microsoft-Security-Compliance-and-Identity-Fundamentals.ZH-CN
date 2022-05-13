@@ -2,19 +2,22 @@
 Demo:
   title: Microsoft 365 Defender 门户
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: 5c556556a182328414d27ab91de82224845a145c
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 19e4de67b0c63d0afdd318d98fedb4e230675730
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614358"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557304"
 ---
 # <a name="demo-the-microsoft-365-defender-portal"></a>演示：Microsoft 365 Defender 门户
 
-### <a name="demo-scenario"></a>演示方案
+## <a name="demo-scenario"></a>演示方案
+
 在本演示中，你将通过演练登陆页面上显示的内容来了解 Microsoft 365 Defender 门户。 你还将演练导航面板上的选项，这些选项提供对 Microsoft 扩展检测和响应 (XDR) 解决方案一部分功能的快速访问：Microsoft Defender for Endpoint 和 Microsoft Defender for Office 365（电子邮件和协作）。  最后，你还将了解 Microsoft 安全功能分数如何帮助组织改善其安全状况。
 
-#### <a name="demo-part-1--explore-the-microsoft-365-defender-landing-page"></a>演示第 1 部分：探索 Microsoft 365 Defender 登录页。
+### <a name="demo-part-1"></a>演示第 1 部分
+
+探索 Microsoft 365 Defender 登录页。
 
 1. 打开 Microsoft Edge。 在地址栏中，输入“admin.microsoft.com”。  你应当已以管理员身份登录。若没有，请使用管理员凭据登录。
 
@@ -36,7 +39,9 @@ ms.locfileid: "142614358"
 
 1. 选择卡片标题将显示有关该主题的其他信息。 你将在下一任务中了解此内容。  请将浏览器窗口保持打开状态。
 
-#### <a name="demo-part-2-in-this-part-of-the-demo-you-will-show-how-microsoft-secure-score-can-help-an-organization-improve-its-security-posture"></a>演示第 2 部分：在演示的这一部分中，你将了解 Microsoft 安全功能分数如何帮助组织改善其安全状况。
+### <a name="demo-part-2"></a>演示第 2 部分
+
+在演示的这一部分中，你将了解 Microsoft 安全功能分数如何帮助组织改善其安全状况。
 
 1. 在 Microsoft 365 Defender 门户的欢迎页中，从卡片的标题栏中选择“Microsoft 安全功能分数”（文本将变为蓝色）。  或者，可以从左侧导航面板中选择“安全功能分数”。
 
@@ -56,6 +61,6 @@ ms.locfileid: "142614358"
 
 1. 请关闭浏览器页面。
 
-#### <a name="review"></a>审阅
+### <a name="review"></a>审阅
 
 在本演示中，你通过演练登陆页面上显示的内容了解了 Microsoft 365 Defender 门户，还了解了导航面板中的选项，这些选项提供了对 Microsoft 扩展检测和响应 (XDR) 解决方案一部分功能的快速访问，以及对 Microsoft Defender for Endpoint 和 Microsoft Defender for Office 365（电子邮件和协作）的快速访问。  最后，你了解了 Microsoft 安全功能分数如何帮助组织改善其安全状况。

@@ -2,19 +2,22 @@
 Demo:
   title: Azure Policy
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 502bc783d6de1a8c4454df90550aac24d0c16d22
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: d336b34711cbfd458d25cf7692bea27ad34f86ab
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614178"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557130"
 ---
 # <a name="demo-azure-policy"></a>演示：Azure Policy
 
-### <a name="demo-scenario"></a>演示方案
+## <a name="demo-scenario"></a>演示方案
+
 在本演示中，你将演练设置 Azure 策略的过程以及该策略的影响。
 
-#### <a name="demo-part-1-create-a-policy-to-require-a-tag-on-a-resource-group-shows-steps-to-create-a-policy-from-a-template"></a>演示第 1 部分：创建一个“要求资源组上带有标记”策略（显示根据模板创建策略的步骤）
+### <a name="demo-part-1"></a>演示第 1 部分
+
+创建一个“要求资源组上带有标记”策略（显示根据模板创建策略的步骤）
 
 1. 打开 Microsoft Edge。 在地址栏中，输入“portal.microsoft.com”。  你应该已经登录；如果未登录，请使用管理员凭据进行登录。
 
@@ -46,7 +49,9 @@ ms.locfileid: "142614178"
 
 1. 现在位于 Azure 服务主页。  请将此页面保持在打开状态，在下一个任务中将用到它。
 
-#### <a name="demo-part-2--show-the-impact-of-the-policy-by-creating-a-resource-group-without-a-tag-then-fix-it-to-have-a-tag"></a>演示第 2 部分：创建一个不带标记的资源组来演示策略的影响，然后修复资源组，使其带有标记。
+### <a name="demo-part-2"></a>演示第 2 部分
+
+创建一个不带标记的资源组来演示策略的影响，然后修复资源组，使其带有标记。
 
 1. 在页面顶部显示 Azure 服务的位置下方，选择“资源组”。 如果未看到选项列出，请在搜索栏中输入“资源组”，并从中进行选择。
 
@@ -74,6 +79,6 @@ ms.locfileid: "142614178"
 
 1. 你将看到资源组被列出。  由于此标记是在该资源组中提供的，因此满足该 Azure 策略中包含的条件。  该资源组符合此策略。
 
-#### <a name="review"></a>审阅
+### <a name="review"></a>审阅
 
 在本演示中，你演练了设置 Azure 策略的过程以及该策略的影响。

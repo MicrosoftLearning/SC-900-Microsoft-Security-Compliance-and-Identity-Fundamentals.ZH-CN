@@ -2,20 +2,21 @@
 Demo:
   title: Azure 网络安全组 (NSG)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 878316bb32c23e57550dddda1312af270a2fe078
-ms.sourcegitcommit: 3a5280632c212b689353f3b2b0ee7c1f494ff855
+ms.openlocfilehash: dc653f2a9e6ee450b5693ad7bfbfe2208d5a7ea3
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "138019279"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557525"
 ---
 # <a name="demo-azure-network-security-groups-nsgs"></a>演示：Azure 网络安全组 (NSG)
 
-### <a name="demo-scenario"></a>演示方案
+## <a name="demo-scenario"></a>演示方案
+
 在本演示中，你将展示 Azure 中网络安全组 (NSG) 的功能。  为此，你将首先创建不包含任何 NSG 的虚拟机 (VM) 作为预演示设置的一部分。 你还将创建不包含任何关联接口或子网的 NSG。  在演示过程中，你将展示 NSG 的默认入站和出站规则。 然后，你将完成将 VM 的接口分配到 NSG 的过程。  配置完成后，需使用默认 NSG 规则以及你将创建的规则测试到 VM 的连接。
   
+### <a name="pre-demo-setup-part-1"></a>预演示设置第 1 部分
 
-#### <a name="pre-demo-setup-part-1"></a>预演示设置第 1 部分
  建议讲师在上课前完成此操作，因为创建 VM 可能需要几分钟时间。 在此设置中，需创建一个 Windows 10 虚拟机。
 
 1. 在浏览器中打开“主页 - Microsoft Azure”选项卡。  如果之前关闭了该选项卡，请打开浏览器页面，在地址栏中输入 portal.azure.com，然后重新登录。
@@ -62,7 +63,8 @@ ms.locfileid: "138019279"
 
 1. 现已返回 Azure 门户的“SC900-WinVM”页面。  将此浏览器选项卡保持在打开状态，便于进行下一个任务。
 
-#### <a name="pre-demo-setup-part-2"></a>预演示设置第 2 部分
+### <a name="pre-demo-setup-part-2"></a>预演示设置第 2 部分
+
 创建一个网络安全组，但请勿将 VM 的网络接口分配给该 NSG。  
 
 1. 在浏览器中打开“SC900-WinVM - Microsoft Azure”选项卡。
@@ -80,7 +82,8 @@ ms.locfileid: "138019279"
 
 1. 部署完成后，选择“转到资源组”，确保所有内容均正确。  应有 3 个默认入站规则，3 个默认出站规则，不应有任何与 NSG 相关联的子网和接口。  返回到 Azure 门户的“主页”。  
 
-#### <a name="demo"></a>演示
+### <a name="demo"></a>演示
+
 演练 NSG 的设置。  在本例中，你将针对尚未分配到 VM 接口的现有 NSG（在上述设置中创建）进行演练。 然后，你将演示将接口关联到 NSG 的过程以及创建入站和出站规则的过程。
 
 1. 打开浏览器选项卡“主页 - Microsoft Azure”。  如果之前关闭了该选项卡，请打开浏览器页面，在地址栏中输入 portal.azure.com，然后重新登录。
@@ -143,13 +146,14 @@ ms.locfileid: "138019279"
 
 1. 现在测试出站 NSG 规则
     1. 在 VM 中打开 Edge 浏览器。
-    1. 输入 **https://www.bing.com** 。 该页面应该不会显示。 备注：如果你能够连接到 Internet，并已验证正确设置了出站规则的所有参数，则很可能是因为规则需要几分钟才能生效。 请等候几分钟，然后重试。
+    1. 输入 www.bing.com。 该页面应该不会显示。 备注：如果你能够连接到 Internet，并已验证正确设置了出站规则的所有参数，则很可能是因为规则需要几分钟才能生效。 请等候几分钟，然后重试。
 
 1. 通过选择显示 IP 地址的页面顶部中心的“X”，关闭远程桌面连接。 此时会出现一个弹出窗口，显示“将断开远程会话连接”。 选择“确定”。
 
 1. 选择页面顶部的蓝色栏上的“Microsoft Azure”，返回到 Azure 门户的主页。
 
-#### <a name="tear-down"></a>清除
+### <a name="tear-down"></a>清除
+
 **重要说明**：在此任务中，你需要删除资源组及其包含的所有资源。   这对于避免产生额外费用至关重要。
 
 1. 在浏览器中打开“SC900-WinVM - Microsoft Azure”选项卡。

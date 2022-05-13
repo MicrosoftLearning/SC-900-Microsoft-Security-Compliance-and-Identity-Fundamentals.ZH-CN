@@ -1,39 +1,41 @@
 ---
 lab:
-  title: 探索核心电子数据展示工作流
-  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft 365'
-ms.openlocfilehash: 0754237aa892e9fe31ad2eea0811642bce929fe8
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+  title: 探索电子数据展示（标准版）工作流
+  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
+ms.openlocfilehash: 60abb7856a80be94c8f1bd755f313a0d12616671
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614370"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557598"
 ---
-# <a name="lab-explore-the-core-ediscovery-workflow"></a>实验室：探索核心电子数据展示工作流
+# <a name="lab-explore-the-ediscovery-standard-workflow"></a>实验室：探索电子数据展示（标准版）工作流
 
 ## <a name="lab-scenario"></a>实验室方案
-在本实验室中，你将创建电子数据展示保留，创建搜索查询，然后导出搜索结果，以完成设置核心电子数据展示所需的步骤，然后完成核心电子数据展示工作流。  注意：核心电子数据展示的许可需要适当的组织订阅和每用户许可。 如果不确定哪些许可证支持核心电子数据展示，请查看“核心电子数据展示入门”。
 
+在本实验室中，你将创建电子数据展示保留，创建搜索查询，然后导出搜索结果，以完成设置电子数据展示所需的步骤，然后完成电子数据展示（标准版）工作流。  注意：电子数据展示（标准版）的许可需要适当的组织订阅和每用户许可。 如果不确定哪些许可证支持电子数据展示（标准版），请访问[在 Microsoft Purview 中开始使用电子数据展示（标准版）](https://docs.microsoft.com/microsoft-365/compliance/get-started-core-ediscovery?view=o365-worldwide)。
 
 预计用时：20-25 分钟
 
-#### <a name="task-1--to-access-core-ediscovery-or-be-added-as-a-member-of-a-core-ediscovery-case-a-user-must-be-assigned-the-appropriate-permissions-in-this-task-you-as-the-global-admin-will-add-specific-users-as-members-of-the-ediscovery-manager-role-group"></a>任务 1：如果某个用户想要访问核心电子数据展示或者想要成为核心电子数据展示案件的成员，则必须获得相应的权限。 在此任务中，你将以全局管理员的身份添加特定用户作为电子数据展示管理器角色组的成员。
+### <a name="task-1"></a>任务 1
+
+如果某个用户想要访问电子数据展示（标准版）或者想要成为电子数据展示案件的成员，则必须获得相应的权限。 在此任务中，你将以全局管理员的身份添加特定用户作为电子数据展示管理器角色组的成员。
 
  打开 Microsoft Edge。 在地址栏中，输入“admin.microsoft.com”。
 
 1. 使用管理员凭据登录。
     1. 在“登录”窗口中，输入 admin@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供商提供的唯一租户 ID），然后选择“下一步” 。
-    
+
     1. 输入管理员密码，该密码应由实验室托管提供商提供。 选择“登录”。
     1. 在提示保持登录状态时，选择“是”。 这将使你进入 Microsoft 365 管理中心页面。
 
 1. 从 Microsoft 365 管理中心的左侧导航窗格中，选择“全部显示”。
 
-1. 在管理中心下，选择“合规性”。  这会打开一个新的浏览器页面，显示 Microsoft 365 合规中心的欢迎页。  
+1. 在管理中心下，选择“合规性”。  这会打开一个新的浏览器页面，显示 Microsoft Purview 合规性门户的欢迎页。  
 
-1. 从左侧导航窗格中，选择“权限”。 
+1. 从左侧导航窗格中，选择“权限”。
 
-1. 在“权限和角色”页的“合规中心”下选择“角色”。
+1. 从合规性门户的“权限和角色”页选择“角色”。
 
 1. 在搜索字段中，输入“电子数据展示”，然后选择搜索图标（放大镜）。  选择“电子数据展示管理器”。
 
@@ -51,13 +53,15 @@ ms.locfileid: "142614370"
 
 1. 请将此浏览器选项卡保持在打开状态，在下一个任务中将用到它。
 
-#### <a name="task-2--in-this-task-you-as-an-ediscovery-administrator-mod-admin-is-an-ediscovery-administrator-will-create-a-case-to-start-using-core-ediscovery"></a>任务 2：在此任务中，你将以电子数据展示管理员（MOD 管理员是电子数据展示管理员）的身份创建一个案例以开始使用核心电子数据展示。
+### <a name="task-2"></a>任务 2
 
-1. 你仍应位于合规中心的“角色”页面。 如果关闭了上一任务中的浏览器标签页，请打开一个新浏览器标签页并输入 compliance.microsoft.com
+在此任务中，你将以电子数据展示管理员（MOD 管理员是电子数据展示管理员）的身份创建一个案件以开始使用电子数据展示（标准版）。
 
-1. 在左侧导航面板的“解决方案”下，依次选择“电子数据展示”和“核心” 。
+1. 你仍应位于合规性门户的“角色”页面。 如果关闭了上一任务中的浏览器标签页，请打开一个新浏览器标签页并输入 compliance.microsoft.com
 
-1. 在“核心电子数据展示”页面顶部，选择“+ 创建案例”。
+1. 在左侧导航面板的“解决方案”下，依次选择“电子数据展示”和“标准版” 。
+
+1. 从“电子数据展示(标准版)”页面的顶部，选择“+ 创建案件”。
 
 1. 在“新建案例”窗口中，输入案例名称“SC900 测试案例”，然后选择页面底部的“保存” 。
 
@@ -67,11 +71,13 @@ ms.locfileid: "142614370"
 
 1. 请将此浏览器选项卡保持在打开状态，在后续任务中将用到它。
 
-#### <a name="task-3--now-that-you-have-created-a-core-ediscovery-case-you-can-begin-to-work-with-the-case--in-this-task-you-will-create-an-ediscovery-hold-for-the-case-for-you-just-created--specifically-you-will-crate-a-hold-for-the-the-exchange-mailbox-belonging-to-adele-vance"></a>任务 3：现在已创建了核心电子数据展示案例，可以开始使用该案例。  在此任务中，你将为刚刚创建的案例创建电子数据展示保留。  具体来说，你将为属于 Adele Vance 的 Exchange 邮箱创建保留。
+### <a name="task-3"></a>任务 3
 
-1. 在浏览器中打开“核心电子数据展示”选项卡。
+现在已创建了电子数据展示（标准版）案件，可以开始使用该案件。  在此任务中，你将为刚刚创建的案例创建电子数据展示保留。  具体来说，你将为属于 Adele Vance 的 Exchange 邮箱创建保留。
 
-1. 从“核心电子数据展示”页面中，选择在前一个选项卡中创建的案例“SC900 测试案例”。 
+1. 在浏览器中打开“电子数据展示(标准版)”选项卡。
+
+1. 从“电子数据展示(标准版)”页面，选择在前一个选项卡中创建的案件“SC900 测试案件”。
 
 1. 从案例主页，选择“保留”选项卡，然后选择“+ 创建” 。
 
@@ -87,7 +93,9 @@ ms.locfileid: "142614370"
 
 1. 请将此浏览器选项卡保持在打开状态，在后续任务中将用到它。
 
-#### <a name="task-4--with-a-hold-in-place-you-will-create-a-search-query--once-your-search-is-complete-you-will-go-export-and-download-the-results-for-future-investigation---note--searches-associated-with-a-core-ediscovery-case-are-not-listed-on-the-content-search-page-in-the-microsoft-365-compliance-center-these-searches-are-listed-only-on-the-searches-page-of-the-associated-core-ediscovery-case"></a>任务 4：设置好保留后，你将创建一个搜索查询。  搜索完成后，你将导出并下载结果以供将来调查。   注意：与核心电子数据展示案例关联的搜索未列在 Microsoft 365 合规中心的“内容搜索”页上。 这些搜索仅列在相关核心电子数据展示案例的“搜索”页上。
+### <a name="task-4"></a>任务 4
+
+设置好保留后，你将创建一个搜索查询。  搜索完成后，你将导出并下载结果以供将来调查。   注意：与电子数据展示（标准版）案件关联的搜索未列在 Microsoft Purview 合规性门户的“内容搜索”页上。 这些搜索仅列在相关电子数据展示（标准版）案件的“搜索”页上。
 
 1. 在浏览器中打开“SC900 测试案例”选项卡。
 
@@ -106,9 +114,9 @@ ms.locfileid: "142614370"
 1. 从“搜索”窗口中，选择刚刚创建的搜索“测试保留 - 销售搜索”。  打开的窗口，其中已选择“摘要”选项卡。  搜索完成后，状态将指示搜索已完成。  你将看到“搜索统计信息”选项卡（如果没有看到“搜索统计信息”选项卡，则搜索可能仍在运行，并且可能需要几分钟才能完成）。  选择“搜索统计信息”选项卡，然后选择搜索内容旁边的下拉列表。  还可以查看有关条件报告和热门位置的更多信息。  
 
 1. 从页面底部选择“操作”。  注意可用选项，然后选择“导出结果”。
-    
+
     1. 在“导出结果”窗口中，保留默认值并从页面底部选择“导出”。 你将自动返回到“测试保留 - 销售搜索”窗口。 在页面底部选择“关闭”。
-    
+
     1. 在“SC900-测试案例”页的顶部选择“导出”。
     1. 选择“测试保留 - Sales Search_Export”
     1. 在打开的窗口“测试保留 - Sales Search_Export”中，将看到导出密钥，选择“复制到剪贴板”。
@@ -117,9 +125,8 @@ ms.locfileid: "142614370"
     1. 安装完成后，将打开电子数据展示导出工具窗口。  在第一个字段中，粘贴复制到剪贴板的导出密钥，立即粘贴（在键盘上按 Ctrl + V 或单击鼠标右键并选择“粘贴”）。
     1. 在第二个字段中，选择要存储导出文件的位置，然后选择“开始”。  下载过程完成后，选择“关闭”并关闭此浏览器选项卡。
     1. 返回到“测试保留 - Sales Search_Export”窗口。  选择“关闭”。
-    1. 查看下载位置以验证下载是否成功完成。 
+    1. 查看下载位置以验证下载是否成功完成。
 
+### <a name="review"></a>审阅
 
-#### <a name="review"></a>审阅
-
-在本实验室中，你完成了开始使用核心电子数据展示所需的步骤，包括设置电子数据展示的角色权限和创建电子数据展示案例。  对于创建的案例，你通过创建电子数据展示保留，创建搜索查询，然后导出搜索结果以用于进一步调查，完成了核心电子数据展示工作流。
+在本实验室中，你完成了开始使用电子数据展示（标准版）所需的步骤，包括设置电子数据展示的角色权限和创建电子数据展示案件。  对于创建的案件，你通过创建电子数据展示保留，创建搜索查询，然后导出搜索结果以用于进一步调查，完成了电子数据展示（标准版）工作流。

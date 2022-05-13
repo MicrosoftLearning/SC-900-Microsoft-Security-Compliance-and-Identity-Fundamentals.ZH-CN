@@ -2,21 +2,24 @@
 lab:
   title: 探索 Microsoft Sentinel
   module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 28c73a721cd595b41e63a235498b00552acdac82
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: 857d7f5ad5e0a9136d298c32cd47063a83e454e7
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614334"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557154"
 ---
-# <a name="lab-explore-microsoft-sentinel"></a>实验室：探索 Microsoft Sentinel 
+# <a name="lab-explore-microsoft-sentinel"></a>实验室：探索 Microsoft Sentinel
 
 ## <a name="lab-scenario"></a>实验室场景
+
 在本实验中，你将演练创建 Microsoft Sentinel 实例的过程。  你还将设置权限，以确保可访问将为支持 Microsoft Sentinel 而部署的资源。  完成此基本设置后，你将逐步完成将 Microsoft Sentinel 连接到数据源的步骤，设置工作簿，并简要演练 Microsoft Sentinel 中提供的一些关键功能。  
 
 预计用时：45-60 分钟
 
-#### <a name="task-1--create-an-microsoft-sentinel-instance"></a>任务 1：创建 Microsoft Sentinel 实例
+### <a name="task-1"></a>任务 1
+
+创建 Microsoft Sentinel 实例
 
 1. 打开浏览器选项卡“主页 - Microsoft Azure”。  如果之前关闭了该选项卡，请打开浏览器页面，在地址栏中输入 portal.azure.com，然后重新登录。
 
@@ -43,11 +46,13 @@ ms.locfileid: "142614334"
 
 1. 请将此页面保持打开状态，因为在下一个任务中将用到它。
 
-#### <a name="task-2--with-the-microsoft-sentinel-instance-created-you-will-want-to-make-sure-that-you-have-the-necessary-access-to-the-resources-that-get-deployed-to-support-microsoft-sentinel"></a>任务 2：创建 Microsoft Sentinel 实例后，你需要确保具有对为支持 Microsoft Sentinel 而部署的资源的必要访问权限。  
+### <a name="task-2"></a>任务 2
+
+创建 Microsoft Sentinel 实例后，你需要确保具有对为支持 Microsoft Sentinel 而部署的资源的必要访问权限。
 
 1. 在页面顶部显示 Microsoft Azure 旁边蓝色栏的搜索框中，输入“资源组”，然后在搜索结果中选择“资源组” 。 在资源组级别分配角色可确保该角色会应用到为支持 Microsoft Sentinel 而部署的所有资源。
 
-1. 从“资源组”页中选择使用 Microsoft Sentinel 创建的资源组“SC900-Sentinel-RG”。 
+1. 从“资源组”页中选择使用 Microsoft Sentinel 创建的资源组“SC900-Sentinel-RG”。
 
 1. 在 SC900-Sentinel-RG 页面中，从左侧导航面板中选择“访问控制(IAM)”。
 
@@ -55,14 +60,16 @@ ms.locfileid: "142614334"
 
     1. 从“访问控制”页面中选择“+添加”，然后选择“添加角色分配” 。
 
-    1. “添加角色分配”窗口随即打开。  在搜索框中，输入“Microsoft Sentinel”以查看与 Microsoft Sentinel 相关的 4 个角色。 
+    1. “添加角色分配”窗口随即打开。  在搜索框中，输入“Microsoft Sentinel”以查看与 Microsoft Sentinel 相关的 4 个角色。
     1. 从列出的任一角色中，选择“视图”以查看该角色的详细信息。  最佳做法是分配角色所需的最低特权。  
 
     1. 选择窗口右上角的“X”关闭此窗口。
 
 1. 在访问控制页面中，选择窗口右上角的“X”关闭此窗口。
 
-#### <a name="task-3--in-this-task-you-will-walk-through-the-process-of-connecting-microsoft-sentinel-to-your-data-source-to-begin-to-collect-data"></a>任务 3：在本任务中，你将完成将 Microsoft Sentinel 连接到数据源以开始收集数据的过程。
+### <a name="task-3"></a>任务 3
+
+在本任务中，你将完成将 Microsoft Sentinel 连接到数据源以开始收集数据的过程。
 
 1. 在页面顶部显示 Microsoft Azure 旁边蓝色栏的搜索框中，输入“Microsoft Sentinel”，然后在搜索结果中选择“Microsoft Sentinel”。 
 
@@ -84,7 +91,9 @@ ms.locfileid: "142614334"
 
 1. 请将此页面保持打开状态，因为在下一个任务中将用到它。
 
-#### <a name="task-4--in-this-task-you-will-walk-through-the-process-of-setting-up-a-workbook-for-office-365-to-visualize-and-monitor-your-data"></a>任务 4：在此任务中，你将逐步完成为 Office 365 设置工作簿的过程，以可视化和监视数据。
+### <a name="task-4"></a>任务 4
+
+在此任务中，你将逐步完成为 Office 365 设置工作簿的过程，以可视化和监视数据。
 
 1. 从左侧导航面板中，选择“工作簿”。
 
@@ -96,7 +105,9 @@ ms.locfileid: "142614334"
 
 1. 在“工作簿”页的左上角，选择“工作簿”上方的“Microsoft Sentinel”。 这会返回到“概述”页面。
 
-#### <a name="task-5--in-this-task-you-will-walk-through-some-of-the-options-available-in-sentinel"></a>任务 5：在此任务中，你将演练 Sentinel 中可用的一些选项。
+### <a name="task-5"></a>任务 5
+
+在此任务中，你将演练 Sentinel 中可用的一些选项。
 
 1. 从左侧导航面板中，选择“搜寻”。  从已选中（带下划线）的“查询”选项卡中，从列表中选择任何查询。  选择查询后，请注意提供的有关该查询的信息，包括查询的代码，以及运行查询和查看结果的选项。  不要选择任何内容。
 
@@ -114,7 +125,9 @@ ms.locfileid: "142614334"
 
 1. 从窗口左上角的蓝色条下方，选择“主页”以返回到 Azure 门户的主页。
 
-#### <a name="task-6-microsoft-sentinel-is-billed-based-on-the-volume-of-data-ingested-for-analysis-in-microsoft-sentinel-although-the-amount-of-data-ingested-as-a-result-of-this-lab-is-minimal-it-is-recommended-that-you-delete-the-microsoft-sentinel-resource-group-when-you-are-done-exploring-the-capabilities-of-microsoft-sentinel"></a>任务 6：我们将根据 Microsoft Sentinel 中为分析引入的数据量对 Microsoft Sentinel 进行计费。 尽管本实验室中引入的数据量非常少，但也建议在完成探索 Microsoft Sentinel 的功能后删除 Microsoft Sentinel 资源组。
+### <a name="task-6"></a>任务 6
+
+我们将根据 Microsoft Sentinel 中为分析引入的数据量对 Microsoft Sentinel 进行计费。 尽管本实验室中引入的数据量非常少，但也建议在完成探索 Microsoft Sentinel 的功能后删除 Microsoft Sentinel 资源组。
 
 1. 在 Microsoft Sentinel 页的左上角，选择 Microsoft Sentinel 上方的“所有服务”。
 
@@ -124,8 +137,8 @@ ms.locfileid: "142614334"
 
 4. 在页面顶部中心选择“删除资源组”。  查看警告。  输入资源组名称“SC900-ResourceGroup”，然后从页面底部选择“删除” 。  可能需要几分钟时间才可删除资源组。
 
-5. 验证已删除资源组后，关闭浏览器页面。 
+5. 验证已删除资源组后，关闭浏览器页面。
 
-#### <a name="review"></a>审阅
+### <a name="review"></a>审阅
 
 在此演示中，你演练了将 Microsoft Sentinel 连接到数据源的步骤，你设置了工作簿，并演示了 Microsoft Sentinel 中提供的多个选项。

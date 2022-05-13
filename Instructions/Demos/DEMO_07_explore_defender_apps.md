@@ -2,19 +2,20 @@
 Demo:
   title: 'Microsoft Defender for Cloud Apps '
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: f653c14f8383ef3c5823d9c4626e7d6c3a693df8
-ms.sourcegitcommit: a341c2fc38e9b37dafb792d82e3c948f7ba4a099
+ms.openlocfilehash: 5ab8489c487f8eb80354f18cf83b896f8ba4793f
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "137893877"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557166"
 ---
 # <a name="demo-microsoft-defender-for-cloud-apps"></a>演示：Microsoft Defender for Cloud Apps
 
-### <a name="demo-scenario"></a>演示方案
+## <a name="demo-scenario"></a>演示方案
+
 在本演示中，你将了解 Microsoft Defender for Cloud Apps 的功能。  你将引导学员了解 Cloud Discovery 仪表板上提供的信息以及可用于调查结果和通过策略控制对组织的影响的功能。  注意：组织必须拥有许可证才能使用 Microsoft Defender for Cloud Apps，这是一项基于用户的订阅服务。  
 
-#### <a name="demo-part-1-explore-cloud-discovery"></a>演示第 1 部分：探索 Cloud Discovery。
+### <a name="demo-part-1-explore-cloud-discovery"></a>演示第 1 部分：探索 Cloud Discovery
 
 1. 打开 Microsoft Edge。 在地址栏中，输入“admin.microsoft.com”。  你应当已以管理员身份登录。若没有，请使用管理员凭据登录。
 
@@ -54,7 +55,9 @@ ms.locfileid: "137893877"
 
 1. 请将此页面保持打开状态，因为在下一个任务中将用到它。
 
-#### <a name="demo-part-2-explore-ways-in-which-you-can-investigate-the-recorded-activities"></a>演示第 2 部分：了解调查记录的活动的方法。
+### <a name="demo-part-2"></a>演示第 2 部分
+
+了解调查记录的活动的方法。
 
 1. 在左侧导航面板的“调查”下，选择“活动日志” 。  在此处可查看已连接应用的所有活动。   由于你已将 Office 365 连接器连接，因此应能看到一些数据。 使用应用连接器将 Cloud App Security 连接到应用后，Cloud App Security 会扫描发生的所有活动（各应用的追溯扫描时间段不同），然后不断更新新活动。  
 
@@ -66,8 +69,9 @@ ms.locfileid: "137893877"
 
 1. 请将此页面保持打开状态，因为在下一个任务中将用到它。
 
+### <a name="demo-part-3"></a>演示第 3 部分
 
-#### <a name="demo-part-3-in-this-task-you-will-explore-the-policies-and-alerts-pages-in-microsoft-defender-for-cloud-apps"></a>演示第 3 部分：在此任务中，你将探索 Microsoft Defender for Cloud Apps 中的策略和警报页。
+在此任务中，你将探索 Microsoft Defender for Cloud Apps 中的策略和警报页
 
 1. 在左侧导航面板显示“控制”的下方，选择“策略”。  列出的策略提供有关策略生成的警报数量、严重性等的信息。选择任何行项可提供有关该策略的更多详细信息。 从列表中选择一个项，例如“风险登录”。  
 
@@ -75,5 +79,6 @@ ms.locfileid: "137893877"
 
 1. 关闭浏览器窗口。
 
-#### <a name="review"></a>审阅
+### <a name="review"></a>审阅
+
 在本演示中，你了解了 Microsoft Defender for Cloud Apps 的功能。  你了解了 Cloud Discovery 仪表板上提供的信息以及可用于调查结果和通过策略控制对组织的影响的功能。

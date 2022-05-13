@@ -2,12 +2,12 @@
 lab:
   title: 探索服务信任门户
   module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: e26a0d4eaaaabba7027215db53c3ebd0ccb0ad6c
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+ms.openlocfilehash: ed176063b55689d34d9b764dce2ca0a8b33a50ad
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614190"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557202"
 ---
 # <a name="lab-explore-the-service-trust-portal"></a>实验室：探索服务信任门户
 
@@ -17,12 +17,13 @@ ms.locfileid: "142614190"
 
 预计用时：10-15 分钟
 
+### <a name="task-1"></a>任务 1
 
-#### <a name="task-1-in-this-task-you-will-explore-the-service-trust-portal-and-the-different-types-of-content-available-you-will-learn-how-to-access-reports-and-how-to-save-reports-to-your-library"></a>任务 1：在此任务中，你将探索服务信任门户和不同类型的可用内容，你将了解如何访问报告以及如何将报告保存到库中。 
+在此任务中，你将探索服务信任门户和不同类型的可用内容，你将了解如何访问报告以及如何将报告保存到库中。
 
 1. 打开 Microsoft Edge。
 
-1. 在地址栏中输入 **https://aka.ms/STP** 。  这将使你进入服务信任门户的登陆页面。 服务信任门户包含有关 Microsoft 的控制和流程实现的详细信息，这些控制和流程可保护我们的云服务和其中的客户数据。 
+1. 在地址栏中输入 aka.ms/STP。  这将使你进入服务信任门户的登陆页面。 服务信任门户包含有关 Microsoft 的控制和流程实现的详细信息，这些控制和流程可保护我们的云服务和其中的客户数据。
 
 1. 要访问服务信任门户上的某些资源，必须使用 Microsoft 云服务帐户以经过身份验证的用户身份登录，并查看和接受 Microsoft 合规性资料保密协议。 在服务信任门户登陆页面的右上角，你将看到登录选项。  使用管理员凭据登录，如果出现提示，选择“同意”接受 Microsoft 合规性资料保密协议 。
 
@@ -46,7 +47,9 @@ ms.locfileid: "142614190"
 
 1. 可从不同类别中进行选择。  包括“GRC 评估报告”、“合规性指南”等。  与上一任务一样，可以筛选显示的文档列表，并且可以选择要下载的文档或将文档保存到库中。
 
-#### <a name="task-2-in-this-task-you-will-visit-the-trust-center-and-navigate-to-microsofts-six-key-privacy-principles"></a>任务 2：在此任务中，你将访问信任中心并导航到 Microsoft 的六项主要隐私原则。
+### <a name="task-2"></a>任务 2
+
+在此任务中，你将访问信任中心并导航到 Microsoft 的六项主要隐私原则。
 
 1. 从“服务信任门户”页面的顶部，选择“信任中心”，然后选择“主页” 。 这将打开一个新的浏览器选项卡，使你进入信任中心，你可在其中找到有关 Microsoft 云安全性、合规性和隐私的更多信息。
 
@@ -60,6 +63,6 @@ ms.locfileid: "142614190"
 
 1. 关闭浏览器窗口以退出服务信任门户和信任中心。
 
-#### <a name="review"></a>审阅
+### <a name="review"></a>审阅
 
 在本实验室中，你探索了服务信任门户下提供的一些选项，如何访问报告，以及如何使用“我的库”保存文档以供将来查看。  此外，你还访问了信任中心以访问和查看 Microsoft 的隐私原则。

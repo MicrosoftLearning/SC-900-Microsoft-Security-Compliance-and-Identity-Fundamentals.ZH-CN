@@ -1,39 +1,41 @@
 ---
 lab:
-  title: 探索 Microsoft 365 内部风险管理
-  module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft 365'
-ms.openlocfilehash: 2fb0e58f92070ce375d27b44bf298a7748db3f40
-ms.sourcegitcommit: c14538b208890797642cfe5c35abf6bea45364bf
+  title: 探索 Microsoft Purview 内部风险管理
+  module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
+ms.openlocfilehash: 8bd1f517bfbc4f71fec1ab65dca93b7b95458832
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "142614382"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557538"
 ---
-# <a name="lab-explore-insider-risk-management-in-microsoft-365"></a>实验室：探索 Microsoft 365 内部风险管理
+# <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>实验室：探索 Microsoft Purview 内部风险管理
 
 ## <a name="lab-scenario"></a>实验室场景
-在本实验室中，你将完成设置内部风险策略，以及配置和使用内部风险管理策略的基本先决条件。  注意：本实验室将仅展示设置内部风险管理所需的内容以及与创建策略相关的选项。  本实验室不包括触发策略任务，因为触发策略需要发生的事件数量超出了本练习的范围。
 
+在本实验室中，你将完成设置内部风险策略，以及配置和使用内部风险管理策略的基本先决条件。  注意：本实验室将仅展示设置内部风险管理所需的内容以及与创建策略相关的选项。  本实验室不包括触发策略任务，因为触发策略需要发生的事件数量超出了本练习的范围。
 
 预计用时：25-30 分钟
 
-#### <a name="task-1-in-this-task-you-as-the-global-administrator-will-enable-permissions-for-insider-risk-management--specifically-you-will-add-users-to-the-insider-risk-management-role-group-to-ensure-that-designated-users-can-access-and-manage-insider-risk-management-features--it-may-take-up-to-30-minutes-for-the-role-group-permissions-to-apply-to-users-across-the-organization"></a>任务 1：在此任务中，你需要以全局管理员的身份启用内部风险管理权限。  具体而言，你需要向内部风险管理角色组添加用户，以确保指定用户可以访问和管理内部风险管理功能。  角色组权限可能需要长达 30 分钟才能应用于整个组织的用户。 
+### <a name="task-1"></a>任务 1
+
+在此任务中，你需要以全局管理员的身份启用内部风险管理权限。  具体而言，你需要向内部风险管理角色组添加用户，以确保指定用户可以访问和管理内部风险管理功能。  角色组权限可能需要长达 30 分钟才能应用于整个组织的用户。
 
 1. 打开 Microsoft Edge。 在地址栏中，输入“admin.microsoft.com”。
 
 1. 使用管理员凭据登录。
     1. 在“登录”窗口中，输入 admin@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供商提供的唯一租户 ID），然后选择“下一步” 。
-    
+
     1. 输入管理员密码，该密码应由实验室托管提供商提供。 选择“登录”。
     1. 在提示保持登录状态时，选择“是”。 这将使你进入 Microsoft 365 管理中心页面。
 
 1. 从 Microsoft 365 管理中心的左侧导航窗格中，选择“全部显示”。
 
-1. 在管理中心下，选择“合规性”。  这会打开一个新的浏览器页面，显示 Microsoft 365 合规中心的欢迎页。  
+1. 在管理中心下，选择“合规性”。  这会打开一个新的浏览器页面，显示 Microsoft Purview 合规性门户的欢迎页。  
 
-1. 从 Microsoft 365 合规中心的左侧导航窗格中，选择“权限”。
+1. 从 Microsoft Purview 合规性门户的左侧导航窗格中，选择“权限”。
 
-1. 在“权限和角色”页的“合规中心”下选择“角色”。
+1. 从合规性门户的“权限和角色”页选择“角色”。
 
 1. 在搜索字段中，输入“内部风险”，然后选择搜索图标（放大镜）。  请注意显示的众多角色。  每个角色都有不同的访问权限级别。  选择“内部风险管理”。
 
@@ -49,12 +51,13 @@ ms.locfileid: "142614382"
 
 1. 从“内部风险管理”窗口的底部选择“关闭”。
 
-1. 从左侧导航面板中，选择“主页”以返回 Microsoft 365 合规中心页面。
+1. 从左侧导航面板，选择“主页”以返回 Microsoft Purview 合规性门户页面。
 
 1. 将此浏览器选项卡保持在打开状态，因为在后续任务中将回到此页面。
 
+### <a name="task-2-skip-if-you-did-the-setup-lab-task-to-enable-the-audit-log"></a>任务 2（如果已完成设置实验室任务以启用审核日志，请跳过此任务）
 
-#### <a name="task-2-skip-if-you-did-the-setup-lab-task-to-enable-the-audit-log-insider-risk-management-uses-microsoft-365-audit-logs-for-user-insights-and-activities-identified-in-policies-and-analytics-insights-in-this-task-you-will-enable-the-audit-log-search-capability-note--it-may-take-several-hours-after-you-turn-on-audit-log-search-before-you-can-return-results-when-you-search-the-audit-log--although-it-can-take-several-hours-before-you-can-search-the-audit-log-it-will-not-impact-the-ability-to-complete-other-tasks-in-this-lab"></a>任务 2（如果已完成设置实验室任务以启用审核日志，请跳过此任务）：内部风险管理使用 Microsoft 365 审核日志来获取策略和分析见解中确定的用户见解和活动。 在此任务中，你将启用审核日志搜索功能。 注意：启用审核日志搜索后可能需要等待几个小时才能在搜索审核日志时返回结果。  虽然可能需要几个小时才能搜索审核日志，但这不会影响完成本实验室中其他任务的能力。
+内部风险管理使用 Microsoft 365 审核日志来获取策略和分析见解中确定的用户见解和活动。 在此任务中，你将启用审核日志搜索功能。 注意：启用审核日志搜索后可能需要等待几个小时才能在搜索审核日志时返回结果。  虽然可能需要几个小时才能搜索审核日志，但这不会影响完成本实验室中其他任务的能力。
 
 1. 选择“主页 - Microsoft 365 合规性”浏览器选项卡。  如果之前关闭了该浏览器选项卡，请打开 Microsoft Edge，在地址栏中输入“compliance.microsoft.com”，使用管理员凭据进行登录。
 
@@ -64,19 +67,21 @@ ms.locfileid: "142614382"
 
 1. 登陆“审核”页面后，请等待 2-3 分钟。  如果未启用“审核”，你将在页面顶部看到一个显示“开始记录用户和管理员活动”的蓝条。  选择“开始记录用户和管理员活动”。  启用审核后，蓝条将消失。  如果蓝条不存在，则表示已启用审核，无需采取进一步操作。
 
-1. 通过选择左侧导航面板中的“主页”，返回 Microsoft 365 合规中心的主页。
+1. 通过选择左侧导航面板中的“主页”，返回 Microsoft Purview 合规性门户的主页。
 
 1. 请将此浏览器选项卡保持在打开状态，在下一个任务中将用到它。
 
-#### <a name="task-3-in-this-task-you-will-walk-through-the-settings-associated-with-the-insider-risk-management-solution--insider-risk-management-settings-apply-to-all-insider-risk-management-policies-regardless-of-the-template-you-choose-when-creating-a-policy"></a>任务 3：在此任务中，你将完成与内部风险管理解决方案相关的设置。  无论在创建策略时选择何种模板，内部风险管理设置均适用于所有内部风险管理策略。 
+### <a name="task-3"></a>任务 3
 
-1. 你应该位于 Microsoft 365 合规中心主页。 如果没有位于此页面，请打开浏览器选项卡“主页 - Microsoft 365 合规中心”。
+在此任务中，你将完成与内部风险管理解决方案相关的设置。  无论在创建策略时选择何种模板，内部风险管理设置均适用于所有内部风险管理策略。
+
+1. 你应该位于 Microsoft Purview 合规性门户的主页。 如果没有位于此页面，请打开浏览器选项卡“主页 - Microsoft 365 合规中心”。
 
 1. 在左侧导航面板的“解决方案”下，选择“内部风险管理”。
 
 1. 在开始设置策略之前，需要配置一些设置。  从“内部风险管理”页面，选择页面右上角的设置齿轮图标以访问内部风险设置。  
     1. 验证你是否位于“策略”选项卡中：对于执行内部风险政策匹配活动的用户，此设置将决定是显示他们的真实姓名还是使用匿名版本来掩盖他们的身份。  选择“不显示用户名的匿名版本”，然后选择“保存” 。
-    
+
     1. 选择“策略指标”选项卡。策略触发事件发生后，映射到所选指标的活动将用于为用户确定风险评分。 内部风险策略模板中包含了此处选择的策略指标。  滚动查看所有可用指标和任何相关信息。 在“Office 指标”下，选择“全选”，然后选择“保存”  。
     1. 选择“策略时间范围”选项卡。你在此处选择的时间范围在用户触发内部风险策略匹配时会对该用户生效。   “激活时段”确定策略用多长时间主动检测用户活动，并在用户执行第一个策略匹配活动时触发。 “过去的活动检测”确定策略应该回溯多远来检测用户活动，并在用户执行第一个策略匹配活动时触发。  保留默认值。  选择“智能检测”选项卡。
     1. 选择“智能检测”选项卡。查看此处的选项。  请注意域设置以及它们与指标的关系。
@@ -86,28 +91,31 @@ ms.locfileid: "142614382"
 
 1. 请将此浏览器选项卡保持在打开状态，在下一个任务中将用到它。
 
-#### <a name="task-4--in-this-task-you-will-walk-through-the-creation-of-a-policy"></a>任务 4：在此任务中，你将完成策略的创建。
+### <a name="task-4"></a>任务 4
+
+在此任务中，你将完成策略的创建。
 
 1. 你应该位于“内部风险管理”页面。  如果还没有位于此页面，请打开标记为“内部风险管理 - Microsoft 365 合规中心”的浏览器选项卡。
 
 1. 从“内部风险管理概述”页中，选择“策略”选项卡，然后选择“+ 创建策略”。   配置以下每个“策略”选项卡。
 
     1. 策略模板：从类别列表中，依次选择“数据泄漏”和“常规数据泄漏” 。  请注意，类别中的模板可能具有其他先决条件。  阅读与此模板关联的详细信息，然后选择“下一步”。
-    
+
     1. 名称和说明：输入名称“SC900-InsiderRiskPolicy”，然后选择“下一步”。 
     1. 用户和组：查看信息框。  保留默认设置“包括所有用户和组”。  选择“**下一步**”。
     1. 优先考虑的内容：阅读描述。 选择“我想将 SharePoint 站点、敏感度标签和/或敏感信息类型指定为优先内容”，然后选择“下一步” 。
         1. SharePoint 站点：对于此策略示例，将其留空，选择“下一步”
-        1. 敏感信息类型：对于此策略示例，将其留空，然后选择“下一步”。 
+        1. 敏感信息类型：对于此策略示例，将其留空，然后选择“下一步”。
         1. 敏感度标签：选择“+ 添加或编辑敏感度标签”。  选择列出的标签：“机密财务”和“高度机密\项目 - Falcon”，选择“添加”，然后选择“下一步”   。
     1. 触发器：查看详细信息。  该策略由按照规定执行泄漏活动的用户（选择每个项目符号的信息图标以获取更多详细信息）或匹配现有数据丢失防护 (DLP) 策略而触发。  由于你没有在本练习中配置任何 DLP 策略，因此请选择“用户执行泄漏活动”。  请注意，你在上一个任务中启用的策略指标已勾选。   回想一下，这些指标只有在触发策略后才会激活，并且映射到这些指标的任何活动都将用于计算用户的风险评分。 选择“**下一步**”。
     1. 指标阈值：在此处可以指定与指标关联的默认或自定义阈值。  回想一下，指标仅在策略触发发生后才被激活，因此这些阈值不会影响策略何时被触发。 选择“指定自定义阈值”，通过选择此选项，可以看到当前的默认值。 保留默认值，然后选择“下一步”。  
-    1. 指标：请注意，将选择你在上一个任务中选择的所有 Office 指标。  滚动页面以查看其他可用策略指标以及自动选择的其他项。   序列检测已启用。  如果检测到定义的活动序列，则表明存在更大的风险。  将鼠标悬停在信息图标上以了解详细信息。  这些项要求选择某些指标并加入设备。  为简单起见，并且因为我们在此租户中没有加入任何设备，请取消勾选“全选”。 
+    1. 指标：请注意，将选择你在上一个任务中选择的所有 Office 指标。  滚动页面以查看其他可用策略指标以及自动选择的其他项。   序列检测已启用。  如果检测到定义的活动序列，则表明存在更大的风险。  将鼠标悬停在信息图标上以了解详细信息。  这些项要求选择某些指标并加入设备。  为简单起见，并且因为我们在此租户中没有加入任何设备，请取消勾选“全选”。
     1. 完成：查看设置，选择“提交”，然后选择“完成”。 
 
 1. 返回到“内部风险管理”页的“策略”选项卡。  刚刚创建的策略将被列出。  
 
 1. 在刚刚创建的策略中，“范围内的用户”字段表示当前根据策略获得风险评分的用户。  触发策略时会为用户指定风险评分，因此该值显示为 0。  管理员可以将策略配置为根据所选策略检测到的活动开始为特定用户指定风险评分，并且绕过首先检测触发事件的要求。  为此，请选择策略名称旁边的空圆圈以选择策略，然后选择“开始为用户活动评分”，这会显示在策略表上方。  填充每个字段，然后选择“开始为活动评分”。  用户可能需要 24 小时才能出现在“用户”选项卡上。之后，可以从该选项卡中选择用户以查看检测到的活动。  选择窗口底部的“关闭”。
 
-#### <a name="review"></a>审阅
+### <a name="review"></a>审阅
+
 在本实验室中，你完成了设置内部风险策略，以及配置和使用内部风险管理策略的基本先决条件。

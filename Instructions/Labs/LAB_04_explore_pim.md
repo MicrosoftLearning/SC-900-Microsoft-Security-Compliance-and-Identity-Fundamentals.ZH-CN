@@ -2,21 +2,24 @@
 lab:
   title: '探索 Azure AD 中的 Privileged Identity Management 标识治理。 '
   module: 'Module 2 Lesson 4: Describe the identity protection and governance capabilities of Azure AD: Describe Azure Identity Protection.'
-ms.openlocfilehash: a291567279c9ffd6ba9b47154390dc8c418b1527
-ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
+ms.openlocfilehash: bd50a2be33b8a9b6cf23831d9fce1c6761032484
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "141489231"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557262"
 ---
-# <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>实验室：探索 Azure AD 中的 Privileged Identity Management 标识治理。
+# <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>实验室：探索 Azure AD 中的 Privileged Identity Management 标识治理
 
 ## <a name="lab-scenario"></a>实验室场景
+
 在本实验室中，你将探索 Privileged Identity Management (PIM) 的一些基本功能。 PIM 需要 Azure AD Premium P2。  在本实验室中，你将以管理员身份通过 Privileged ID management (PIM) 为其中一位用户 Diego Siciliani 配置 Azure AD 用户管理员角色。   通过用户管理员权限，Diego 将能够创建用户和组来管理许可证等。  管理员和用户 Diego 都必须针对 Azure AD Premium P2 许可进行配置。
 
 预计用时：30-45 分钟
 
-#### <a name="task-1-in-this-task-you-as-the-admin-will-reset-the-password-for-the-user-diego-siciliani-this-step-is-needed-so-you-can-initially-sign-in-as-the-user-in-subsequent-tasks"></a>任务 1：在此任务中，你将以管理员身份重置用户 Diego Siciliani 的密码。 此步骤需要完成，以便首次以后续任务中的用户身份登录。
+### <a name="task-1"></a>任务 1
+
+在此任务中，你将以管理员身份重置用户 Diego Siciliani 的密码。 此步骤需要完成，以便首次以后续任务中的用户身份登录。
 
 1. 打开 Microsoft Edge。  在地址栏中，输入“portal.azure.com”。
 
@@ -43,8 +46,9 @@ ms.locfileid: "141489231"
 
 11. 请将浏览器页面保持在打开状态，因为后续任务中要使用该页面。
 
+### <a name="task-2"></a>任务 2
 
-#### <a name="task-2-in-this-task-you-as-the-admin-will-assign-diego-an-azure-ad-role-in-privileged-identity-management"></a>任务 2：在此任务中，你将以管理员身份在 Privileged Identity Management 中为 Diego 分配 Azure AD 角色。
+在此任务中，你将以管理员身份在 Privileged Identity Management 中为 Diego 分配 Azure AD 角色。
 
 1. 转到打开的浏览器选项卡（标记为“Contoso - Microsoft Azure”）。   如果之前关闭了该浏览器选项卡，请打开 Microsoft Edge，在地址栏中输入“portal.azure.com”，使用管理员凭据进行登录，然后选择“Azure Active Directory”。  
 
@@ -62,7 +66,7 @@ ms.locfileid: "141489231"
 
 8. 将“范围”类型设置为其默认值“目录”。  
 
-9. 在“选择成员”下，选择“未选择任何成员”。 这会打开“选择成员”窗口。 
+9. 在“选择成员”下，选择“未选择任何成员”。 这会打开“选择成员”窗口。
 
 10. 在搜索栏中，输入“Diego”。  从搜索结果中，选择“Diego Siciliani”，然后按页面底部的“选择” 。  
 
@@ -84,8 +88,9 @@ ms.locfileid: "141489231"
 
 19. 通过选择屏幕右上角电子邮件地址旁边的用户图标并选择“注销”进行注销。然后关闭所有浏览器窗口。
 
+### <a name="task-3"></a>任务 3
 
-#### <a name="task-3-in-this-task-you-as-diego-siciliani-will-sign-in-to-the-azure-portal-to-access-the-privileged-identity-management-capability-of-azure-active-directory-to-activate-the-your-assignment-as-user-administrator--once-activated-you-will-make-some-configuration-changes-to-an-existing-user-note-for-this-task-you-will-need-access-to-a-mobile-device-to-which-you-have-immediate-access-and-can-receive-text-messages"></a>任务 3：在此任务中，你将以 Diego Siciliani 的身份登录 Azure 门户，访问 Azure Active Directory 的 Privileged Identity Management 功能，从而激活以用户管理员身份执行的分配。  激活后，将对现有用户进行一些配置更改。 注意：对于此任务，你需要访问可立即使用且可接收短信的移动设备。
+在此任务中，你将以 Diego Siciliani 的身份登录 Azure 门户，访问 Azure Active Directory 的 Privileged Identity Management 功能，从而激活以用户管理员身份执行的分配。  激活后，将对现有用户进行一些配置更改。 注意：对于此任务，你需要访问可立即使用且可接收短信的移动设备。
 
 1. 打开 Microsoft Edge。  在浏览器的地址栏中，输入“portal.azure.com”。
 
@@ -107,24 +112,25 @@ ms.locfileid: "141489231"
 1. 从“Microsoft Authenticator”窗口的左下角，选择“我想设置其他方法”。
 1. 系统会提示你选择“选择其他方法”。  选择 Authenticator 应用旁边的向下键。   依次选择“手机”、“确认” 。
 1. 系统会提示你输入要使用的电话号码。 对于电话号码的国家/地区代码，确保国家/地区正确无误。  输入电话号码，确保选择了“通过短信向我发送验证码”，然后选择“下一步” 。
-1. 输入在手机上收到的 6 位数验证码，然后选择“下一步”。 
+1. 输入在手机上收到的 6 位数验证码，然后选择“下一步”。
 1. 你将看到表示手机已注册成功的通知。 选择“下一步”，然后选择“完成” 。
 1. 系统会询问你是否要保持登录状态。  请选择“是”。
 1. 此时出现“激活用户管理员”窗口。  你需要输入激活原因。  在出现的框中，输入你需要的任何原因（最多 500 个字符），然后选择“激活”。
 1. 处理激活后，将会显示状态（进度为第 3 个阶段）。
-1. 激活完成后，将返回到“我的角色 | Azure AD 角色页面，其中会显示一条通知，表示刚刚激活了一个角色。  选择“单击此处”以查看可用角色。  如果发现结束时间与最初配置时间不同，请按页面顶部的刷新键（刷新可能需要几分钟）。 
+1. 激活完成后，将返回到“我的角色 | Azure AD 角色页面，其中会显示一条通知，表示刚刚激活了一个角色。  选择“单击此处”以查看可用角色。  如果发现结束时间与最初配置时间不同，请按页面顶部的刷新键（刷新可能需要几分钟）。
 1. 选择屏幕右上角的“X”关闭窗口。
 1. 选择屏幕右上角的“X”关闭“Privileged Identity Management | 快速启动”窗口。
 1. 选择屏幕右上角的“X”关闭“标识治理”窗口。
 1. 你现在已返回到“Contoso Azure Active Directory”页面。  你可以 Azure AD 用户管理员身份创建用户和组、管理许可证等。   从左侧导航面板中，选择“用户”。
 1. 从用户列表中，选择“Bianca Pisani”。
 1. 在左侧导航面板中，选择“许可证”。
-1. 请注意 Bianca 尚未非分配到许可证。  从页面顶部选择“+ 分配”。 
+1. 请注意 Bianca 尚未非分配到许可证。  从页面顶部选择“+ 分配”。
 1. 从选择许可证列表中，选择“Office 365 E3”和“Windows 10 企业版 E3” 。
 1. 从页面底部选择“保存”。  页面右上角会出现一个简短的通知，指出已成功分配许可证。
 1. 通过选择页面右上角的“X”，关闭更新的许可证分配页面。
 1. 通过选择屏幕右上角电子邮件地址旁边的用户图标并选择“注销”进行注销。然后关闭所有浏览器窗口。
 1. 用户管理员角色的持续时间仅限于已配置的时间。
 
-#### <a name="review"></a>审阅
+### <a name="review"></a>审阅
+
 在本实验室中，你探索了 PIM。  你以管理员身份在指定的时间内为 Diego 配置了用户管理员权限。  然后，你以 Diego 身份完成了激活用户管理员权限和配置用户设置的过程。  回想一下，PIM 需要 Azure AD Premium P2 许可。
