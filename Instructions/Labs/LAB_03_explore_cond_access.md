@@ -2,21 +2,24 @@
 lab:
   title: 使用条件访问探索 Azure AD 中的访问管理
   module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: 23b0cfcc4c26a2f8561ae1793a176e94e064f627
-ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
+ms.openlocfilehash: 3fa6f805883950e85e28fc591c14664db3083bc4
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "141489254"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557273"
 ---
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional"></a>实验室：探索 Azure AD 中的条件访问管理
 
 ## <a name="lab-scenario"></a>实验室场景
+
 在本实验室中，你将从管理员和用户的角度探索条件访问 MFA。  你将以管理员身份创建一个策略，该策略要求用户在访问基于云的 Microsoft Azure 管理应用程序时进行多重身份验证。  从用户的角度来看，你将看到条件访问策略的影响，包括注册 MFA 的过程。
 
 预计用时：10-15 分钟
 
-#### <a name="task-1-in-this-task-you-as-the-admin-will-reset-the-password-for-the-user-debra-berger--this-step-is-needed-so-you-can-initially-sign-in-as-the-user-in-subsequent-tasks"></a>任务 1：在此任务中，你将以管理员身份重置用户 Debra Berger 的密码。  此步骤需要完成，以便首次以后续任务中的用户身份登录。
+### <a name="task-1"></a>任务 1
+
+在此任务中，你将以管理员身份重置用户 Debra Berger 的密码。  此步骤需要完成，以便首次以后续任务中的用户身份登录。
 
 1. 打开 Microsoft Edge。  在地址栏中，输入“portal.azure.com”。
 
@@ -41,8 +44,9 @@ ms.locfileid: "141489254"
 
 10. 让此窗口保持打开状态。
 
+### <a name="task-2"></a>任务 2
 
-#### <a name="task-2--in-this-task-you-will-go-through-the-process-of-creating-a-conditional-access-policy-in-azure-ad"></a>任务 2：在此任务中，你将完成在 Azure AD 中创建条件访问策略的过程。
+在此任务中，你将完成在 Azure AD 中创建条件访问策略的过程。
 
 1. 打开标记为“Contoso - Microsoft Azure”的浏览器选项卡。   如果之前关闭了该浏览器选项卡，请打开 Microsoft Edge，在地址栏中输入“portal.azure.com”，使用管理员凭据进行登录，然后选择“Azure Active Directory”。  
 
@@ -60,7 +64,7 @@ ms.locfileid: "141489254"
 
 8. 选择“选择用户和组”选项，然后选择“用户和组” 。  此时将打开“选择用户和组”窗口。  
 
-9. 在搜索栏中，输入“Debra”。  从搜索栏下方选择“Debra Berger”，然后按页面底部的“选择”按钮 。  请注意，通常的做法是将策略分配给组中的用户。  为方便完成本实验室，我们将策略分配给特定用户。 
+9. 在搜索栏中，输入“Debra”。  从搜索栏下方选择“Debra Berger”，然后按页面底部的“选择”按钮 。  请注意，通常的做法是将策略分配给组中的用户。  为方便完成本实验室，我们将策略分配给特定用户。
 
 10. 在“云应用或操作”下，选择“未选择云应用或操作”。
 
@@ -80,9 +84,11 @@ ms.locfileid: "141489254"
 
 18. 注销 Azure 并关闭浏览器窗口。
 
-#### <a name="task-3-in-this-task-you-will-see-the-impact-of-the-conditional-access-policy-from-the-perspective-of-the-user-debra-berger-you-will-start-first-by-signing-in-to-an-application-that-is-not-included-in-the-conditional-access-policy--then-you-will-repeat-the-process-for-an-application-that-is-included-in-the-conditional-access-policy--recall-that-the-policy-requires-the-user-to-go-through-mfa-when-accessing-a-microsoft-azure-management-application--to-use-mfa-the-user-must-first-register-the-authentication-method-that-will-be-used-for-mfa-for-example-a-code-sent-to-a-mobile-device-or-an-authenticator-application"></a>任务 3：在此任务中，你将从用户 Debra Berger 的角度了解条件访问策略的影响。 你将先登录一款未包含在条件访问策略中的应用程序。  然后，你将对一款包含在条件访问策略中的应用程序重复该过程。  回想一下，该策略要求用户在访问 Microsoft Azure 管理应用程序时进行 MFA。  要使用 MFA，用户必须先注册将用于 MFA 的身份验证方法，例如将验证码发送到移动设备或身份验证器应用程序。
+### <a name="task-3"></a>任务 3
 
-1. 打开 Microsoft Edge。  在浏览器的地址栏中，输入 **https://login.microsoftonline.com/** 。
+在此任务中，你将从用户 Debra Berger 的角度了解条件访问策略的影响。 你将先登录一款未包含在条件访问策略中的应用程序。  然后，你将对一款包含在条件访问策略中的应用程序重复该过程。  回想一下，该策略要求用户在访问 Microsoft Azure 管理应用程序时进行 MFA。  要使用 MFA，用户必须先注册将用于 MFA 的身份验证方法，例如将验证码发送到移动设备或身份验证器应用程序。
+
+1. 打开 Microsoft Edge。  在浏览器的地址栏中，输入 login.microsoftonline.com/。
 
 1. 以 Debra Burger 的身份登录：
     1. 在“登录”窗口中，输入 DebraB@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供商提供的唯一租户 ID），然后选择“下一步” 。
@@ -92,7 +98,7 @@ ms.locfileid: "141489254"
 
 1. 你应成功登录 Microsoft 365 帐户。  此应用程序不需要进行 MFA，因为它不是策略的一部分。
 
-1. 现在，你将尝试登录符合 MFA 条件的应用程序。  打开 Microsoft Edge，然后在地址栏中输入 https://portal.azure.com 。
+1. 现在，你将尝试登录符合 MFA 条件的应用程序。  打开 Microsoft Edge，然后在地址栏中输入 portal.azure.com。
 
 1. 你将看到一个窗口，指出“需要更多信息”。  选择“**下一步**”。  请注意，这将启动 MFA 注册过程，因为这是你第一次访问在条件访问策略中标识的云应用。  此注册过程只需执行一次。   让用户完成注册过程的替代方法是让管理员配置要使用的身份验证方法。
 
@@ -110,5 +116,6 @@ ms.locfileid: "141489254"
 
 1. 通过选择屏幕右上角电子邮件地址旁边的用户图标并选择“注销”进行注销。然后关闭所有浏览器窗口。
 
-#### <a name="review"></a>审阅
+### <a name="review"></a>审阅
+
 在本实验室中，你完成了设置条件访问策略的过程，该策略要求用户在访问 Microsoft Azure 管理云应用程序时进行 MFA。  然后，你以用户身份完成了 MFA 的注册过程，并了解了条件访问策略要求在访问 Azure 门户时使用 MFA 的影响。

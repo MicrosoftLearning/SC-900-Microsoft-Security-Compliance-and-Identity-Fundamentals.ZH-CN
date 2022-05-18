@@ -2,12 +2,12 @@
 lab:
   title: 探索 Azure AD 自助式密码重置身份验证
   module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: ceaf7c5695abc9b7a7c179f6e5a1580b22af3016
-ms.sourcegitcommit: 59ed885dd424cb6d505bbe0cc0ab2adf52e03aef
+ms.openlocfilehash: 6e9bcabdacc0e7c7f4c821c9a2fe018341055799
+ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "141489267"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "144557466"
 ---
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>实验室：探索 Azure AD 自助式密码重置身份验证
 
@@ -17,8 +17,9 @@ ms.locfileid: "141489267"
 
 预计用时：15-20 分钟
 
+### <a name="task-1"></a>任务 1
 
-#### <a name="task-1--in-this-task-you-as-the-admin-will-add-an-existing-user-adele-vance-into-the-ssprsecurityusers-group--also-you-will-also-need-to-do-a-reset-of-the-users-password-so-that-you-can-do-a-first-time-login-as-the-user-and-register-for-sspr"></a>任务 1：在此任务中，你将以管理员身份将现有用户 Adele Vance 添加到 SSPRSecurityUsers 组中。  此外，你还需重置用户密码，以便能够以用户身份进行首次登录并注册 SSPR。
+在此任务中，你将以管理员身份将现有用户 Adele Vance 添加到 SSPRSecurityUsers 组中。  此外，你还需重置用户密码，以便能够以用户身份进行首次登录并注册 SSPR。
 
 1. 打开 Microsoft Edge。
 
@@ -59,35 +60,38 @@ ms.locfileid: "141489267"
 
 18. 将 Contoso 概述窗口保持打开状态，因为下一个任务中将使用该窗口。
 
-#### <a name="task-2-in-this-task-you-as-the-admin-will-learn-how-to-configure-password-reset-for-users-including-configuration-of-the-types-of-authentication-methods-to-use"></a>任务 2：在此任务中，你将以管理员身份学习如何为用户配置密码重置，包括配置要使用的身份验证方法类型。
+### <a name="task-2"></a>任务 2
+
+在此任务中，你将以管理员身份学习如何为用户配置密码重置，包括配置要使用的身份验证方法类型
 
 1. 转到浏览器中打开的“Contoso - Microsoft Azure”选项卡。 如果之前关闭了该选项卡，请打开浏览器页面，在地址栏中输入 portal.azure.com，然后选择“Azure Active Directory”。  你应在 Azure 门户中以管理员身份登录；如果没有，请重新登录。
 
-2. 从左侧导航窗格中，选择“密码重置”。  
+1. 从左侧导航窗格中，选择“密码重置”。  
 
-3. 此时将显示自助式密码重置的属性。  确保列出的组 SSPRSecurityGroupUsers 的“自助式重置”设置处于“已选中”状态  。  将光标置于“选择组”旁边的信息图标上，并注意说明内容“定义有权重置自己密码的用户组”。 必须将用户包含在组中，不能单独选择用户。  此外，如果更改组，则你选择的组将替换当前列出的组。  因此，建议只将用户添加到 SSPR 组中。  最后，请注意蓝色信息框“这些设置仅适用于组织中的最终用户。 始终为管理员启用自助式密码重置功能，并且要求管理员使用两种身份验证方法重置其密码。
+1. 此时将显示自助式密码重置的属性。  确保列出的组 SSPRSecurityGroupUsers 的“自助式重置”设置处于“已选中”状态  。  将光标置于“选择组”旁边的信息图标上，并注意说明内容“定义有权重置自己密码的用户组”。 必须将用户包含在组中，不能单独选择用户。  此外，如果更改组，则你选择的组将替换当前列出的组。  因此，建议只将用户添加到 SSPR 组中。  最后，请注意蓝色信息框“这些设置仅适用于组织中的最终用户。 始终为管理员启用自助式密码重置功能，并且要求管理员使用两种身份验证方法重置其密码。
 
-5. 从“密码重置”的左侧导航面板中，选择“身份验证方法”。
+1. 从“密码重置”的左侧导航面板中，选择“身份验证方法”。
 
-6. 将“重置所需的方法数”设置为 1。 请注意屏幕上的信息框。
+1. 将“重置所需的方法数”设置为 1。 请注意屏幕上的信息框。
 
-7. 请注意用户可用的各种方法。  “电子邮件”和“移动电话(仅限短信)”应已经选中；如果没有，请将其选中 。
+1. 请注意用户可用的各种方法。  “电子邮件”和“移动电话(仅限短信)”应已经选中；如果没有，请将其选中 。
 
-8. 从“密码重置”的左侧导航面板中，选择“注册”。  
+1. 从“密码重置”的左侧导航面板中，选择“注册”。  
 
-9. 确保将“要求用户在登录时注册”设置设为“是”。  将“要求用户重新确认其身份验证信息的间隔天数”设为默认值“180”。   注意页面上的信息框。
+1. 确保将“要求用户在登录时注册”设置设为“是”。  将“要求用户重新确认其身份验证信息的间隔天数”设为默认值“180”。   注意页面上的信息框。
 
-10. 从“密码重置”的左侧导航面板中，选择“通知”。  
+1. 从“密码重置”的左侧导航面板中，选择“通知”。  
 
-11. 确保将“重置密码时向用户发送通知”设置设为“是”。  将“当其他管理员重置其密码时向所有管理员发送通知”设置设为“否”。
+1. 确保将“重置密码时向用户发送通知”设置设为“是”。  将“当其他管理员重置其密码时向所有管理员发送通知”设置设为“否”。
 
-12. 请注意“密码重置”导航窗格如何另外显示用于查看审核日志和“使用情况和见解”的选项。
+1. 请注意“密码重置”导航窗格如何另外显示用于查看审核日志和“使用情况和见解”的选项。
 
-13. 单击屏幕右上角电子邮件地址旁边的用户图标，从所有浏览器选项卡中注销。 然后关闭所有浏览器窗口。
+1. 单击屏幕右上角电子邮件地址旁边的用户图标，从所有浏览器选项卡中注销。 然后关闭所有浏览器窗口。
 
+### <a name="task-3"></a>任务 3
 
-#### <a name="task-3--in-this-task-you-as-user-adele-vance-will-go-through-the-registration-process-for-self-service-password-reset--this-task-requires-that-you-have-access-to-a-mobile-device-where-you-can-receive-text-messages-or-a-personal-email-account-that-you-can-access"></a>任务 3：在此任务中，你将以用户 Adele Vance 的身份完成自助式密码重置注册过程。  此任务要求你有权访问可接收短信的移动设备或可访问的个人电子邮件帐户。
- 
+在此任务中，你将以用户 Adele Vance 的身份完成自助式密码重置注册过程。  此任务要求你有权访问可接收短信的移动设备或可访问的个人电子邮件帐户
+
 1. 打开 Microsoft Edge。
 
 2. 在地址栏中，输入“login.microsoftonline.com”。
@@ -107,9 +111,11 @@ ms.locfileid: "141489267"
 
 8. 现在已完成登录。  你应该位于 Azure 门户登陆页面。  如果发现登录时间已过期，只需重新输入密码 SC900-Lab 即可。
 
-9. 注销 Azure 门户并关闭浏览器窗口。 
+9. 注销 Azure 门户并关闭浏览器窗口。
 
-#### <a name="task-4-optional-in-this-task-you-as-user-adele-vance-will-go-through-the-process-of-resetting-your-password"></a>任务 4（可选）：在此任务中，你将以用户 Adele Vance 的身份完成重置密码的过程。
+### <a name="task-4-optional"></a>任务 4（可选）
+
+在此任务中，你将以用户 Adele Vance 的身份完成重置密码的过程
 
 1. 打开 Microsoft Edge。
 
@@ -117,13 +123,13 @@ ms.locfileid: "141489267"
 
 3. 通过输入电子邮件“AdeleV@WWLxZZZZ.onmicrosoft.com”（其中 ZZZZZZ 是实验室托管提供商提供的唯一租户 ID）以 Adele Vance 的身份登录，然后按“下一步”按钮 。 你可能会看到“选择帐户”窗口打开，如果是这样，请选择 Adele Vance 的帐户。
 
-4. 在“输入密码”窗口中，选择“忘记密码”。 
+4. 在“输入密码”窗口中，选择“忘记密码”。
 
 5. “返回帐户”窗口随即打开。   验证 AdeleV@WWLxZZZZ.onmicrosoft.com 是否显示在电子邮件或用户名框中。  如果没有显示电子邮件，请输入。  
 
 6. 在空白框中输入图像中显示的字符或音频中的单词。 输入后，选择“下一步”。
 
-7. 屏幕会显示“返回帐户”>“验证步骤 1”，请选择新密码。 保留默认设置“给我的手机发短信”。  系统会提示你输入移动电话号码。  输入后，选择“文本”按钮。  如果在注册期间选择了电子邮件，“返回帐户窗口”将指示“你将通过备用电子邮件地址收到一封包含验证码的电子邮件”。  选择“电子邮件”。 
+7. 屏幕会显示“返回帐户”>“验证步骤 1”，请选择新密码。 保留默认设置“给我的手机发短信”。  系统会提示你输入移动电话号码。  输入后，选择“文本”按钮。  如果在注册期间选择了电子邮件，“返回帐户窗口”将指示“你将通过备用电子邮件地址收到一封包含验证码的电子邮件”。  选择“电子邮件”。
 
 8. 输入验证码，然后按“下一步”。
 
@@ -137,11 +143,13 @@ ms.locfileid: "141489267"
 
 13. 通过选择屏幕右上角电子邮件地址旁边的用户图标并选择“注销”进行注销。然后关闭所有浏览器窗口
 
-#### <a name="task-5-optional--in-this-task-you-as-the-administrator-will-briefly-view-the-audit-logs-and-the-usage--insights-data-associated-with-password-reset"></a>任务 5（可选）：在此任务中，你将以管理员身份简要查看与密码重置相关的审核日志以及使用情况和见解数据。
+### <a name="task-5-optional"></a>任务 5（可选）
+
+在此任务中，你将以管理员身份简要查看与密码重置相关的审核日志以及使用情况和见解数据
 
 1. 打开 Microsoft Edge。
 
-2. 在地址栏中，输入“portal.azure.com” 
+2. 在地址栏中，输入“portal.azure.com”
 
 3. 使用管理员凭据登录。
     1. 在“登录”窗口中，输入 admin@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供商提供的唯一租户 ID），然后选择“下一步” 。
@@ -164,6 +172,6 @@ ms.locfileid: "141489267"
 
 11. 关闭打开的浏览器选项卡。
 
+### <a name="review"></a>审阅
 
-#### <a name="review"></a>审阅
 在本实验室中，你以管理员身份完成了启用自助式密码重置的过程。 启用 SSPR 后，你以用户身份完成了注册 SSPR 和重置密码的过程。  最后，你以管理员身份了解了在何处查看 SSPR 的审核日志以及使用情况数据和见解。
