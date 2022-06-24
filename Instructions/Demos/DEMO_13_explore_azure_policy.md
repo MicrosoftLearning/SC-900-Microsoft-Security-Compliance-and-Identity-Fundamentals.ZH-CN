@@ -2,12 +2,12 @@
 Demo:
   title: Azure Policy
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: d336b34711cbfd458d25cf7692bea27ad34f86ab
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 1916af2407c9f493b0c305828eb75d9810901859
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557130"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542671"
 ---
 # <a name="demo-azure-policy"></a>演示：Azure Policy
 
@@ -19,7 +19,7 @@ ms.locfileid: "144557130"
 
 创建一个“要求资源组上带有标记”策略（显示根据模板创建策略的步骤）
 
-1. 打开 Microsoft Edge。 在地址栏中，输入“portal.microsoft.com”。  你应该已经登录；如果未登录，请使用管理员凭据进行登录。
+1. 打开 Microsoft Edge。 在地址栏中，输入“portal.azure.com”。  你应该已经登录；如果未登录，请使用管理员凭据进行登录。
 
 1. 在页面顶部显示 Microsoft Azure 旁边蓝色栏的搜索框中，输入“策略”，然后在搜索结果中选择“策略” 。
 

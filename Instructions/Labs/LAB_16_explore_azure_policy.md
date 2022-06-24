@@ -2,12 +2,12 @@
 lab:
   title: 了解 Azure Policy
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 23e8f4f8417367a16cbd41496428918ca219fa40
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 0a2ead44f5dc74a7684b8d78ea34c85767f8af92
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557514"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542587"
 ---
 # <a name="lab-explore-azure-policy"></a>实验室：了解 Azure Policy
 
@@ -21,7 +21,7 @@ Azure Policy 可帮助实施组织标准并大规模评估合规性。 Azure Pol
 
 简要探索“Azure 策略”页面。
 
-1. 打开 Microsoft Edge。 在地址栏中，输入“portal.microsoft.com”。
+1. 打开 Microsoft Edge。 在地址栏中，输入“portal.azure.com”。
 
 1. 使用管理员凭据登录。
     1. 在“登录”窗口中，输入 admin@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供商提供的唯一租户 ID），然后选择“下一步” 。
