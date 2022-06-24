@@ -2,18 +2,18 @@
 lab:
   title: 探索服务信任门户
   module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: ed176063b55689d34d9b764dce2ca0a8b33a50ad
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 45086cf1301ce1feb8983f22f05a6cc07e229c4c
+ms.sourcegitcommit: 3fc607e4e989a09272e21c41f83f15757b243a8f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557202"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "146381224"
 ---
 # <a name="lab-explore-the-service-trust-portal"></a>实验室：探索服务信任门户
 
 ## <a name="lab-scenario"></a>实验室场景
 
-在本实验室中，你将探索服务信任门户提供的功能和内容。 你还将访问信任中心并导航到六项主要隐私原则。
+在本实验室中，你将探索服务信任门户提供的功能和内容。 你还将访问信任中心以查看有关 Microsoft 隐私的信息。
 
 预计用时：10-15 分钟
 
@@ -49,20 +49,14 @@ ms.locfileid: "144557202"
 
 ### <a name="task-2"></a>任务 2
 
-在此任务中，你将访问信任中心并导航到 Microsoft 的六项主要隐私原则。
+在此任务中，你将访问信任中心并导航到描述 Microsoft 隐私的信息。
 
-1. 从“服务信任门户”页面的顶部，选择“信任中心”，然后选择“主页” 。 这将打开一个新的浏览器选项卡，使你进入信任中心，你可在其中找到有关 Microsoft 云安全性、合规性和隐私的更多信息。
+1. 从“服务信任门户”页面的顶部，选择“信任中心”，然后选择“主页” 。 这将打开一个新的浏览器选项卡，使你进入信任中心，你可在其中找到更多信息，包括有关隐私等的信息。  
 
-1. 从页面顶部选择“隐私”，然后选择“资源” 。
-
-1. 选择“其他隐私资源”。
-
-1. 选择“Microsoft 隐私”。
-
-1. 查看六项主要隐私原则。
+1. 你将看到我们 (Microsoft) 对你的承诺内容。  在此处选择“了解有关 Microsoft 隐私的详细信息”。  滚动浏览页面并浏览不同的链接，了解有关 Microsoft 隐私的详细信息。
 
 1. 关闭浏览器窗口以退出服务信任门户和信任中心。
 
 ### <a name="review"></a>审阅
 
-在本实验室中，你探索了服务信任门户下提供的一些选项，如何访问报告，以及如何使用“我的库”保存文档以供将来查看。  此外，你还访问了信任中心以访问和查看 Microsoft 的隐私原则。
+在本实验室中，你探索了服务信任门户下提供的一些选项，如何访问报告，以及如何使用“我的库”保存文档以供将来查看。  此外，你还访问了信任中心以访问和查看 Microsoft 隐私的信息。
