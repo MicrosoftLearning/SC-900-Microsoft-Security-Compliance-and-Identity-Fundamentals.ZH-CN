@@ -2,12 +2,12 @@
 lab:
   title: 探索电子数据展示（标准版）工作流
   module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
-ms.openlocfilehash: 60abb7856a80be94c8f1bd755f313a0d12616671
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: da37016799bb1343013c1ace901137646c0c856b
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557598"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542623"
 ---
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>实验室：探索电子数据展示（标准版）工作流
 
@@ -115,7 +115,7 @@ ms.locfileid: "144557598"
 
 1. 从页面底部选择“操作”。  注意可用选项，然后选择“导出结果”。
 
-    1. 在“导出结果”窗口中，保留默认值并从页面底部选择“导出”。 你将自动返回到“测试保留 - 销售搜索”窗口。 在页面底部选择“关闭”。
+    1. 在“导出结果”窗口中，保留默认值并从页面底部选择“导出”。 你将自动返回到“测试保留 - 销售搜索”窗口。 选择页面底部的“关闭”。
 
     1. 在“SC900-测试案例”页的顶部选择“导出”。
     1. 选择“测试保留 - Sales Search_Export”

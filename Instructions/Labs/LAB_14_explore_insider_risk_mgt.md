@@ -2,12 +2,12 @@
 lab:
   title: 探索 Microsoft Purview 内部风险管理
   module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
-ms.openlocfilehash: 8bd1f517bfbc4f71fec1ab65dca93b7b95458832
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c4179f11d7f88f4fe2f85bad379470cacbe2ab8c
+ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557538"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "146542635"
 ---
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>实验室：探索 Microsoft Purview 内部风险管理
 
@@ -35,7 +35,7 @@ ms.locfileid: "144557538"
 
 1. 从 Microsoft Purview 合规性门户的左侧导航窗格中，选择“权限”。
 
-1. 从合规性门户的“权限和角色”页选择“角色”。
+1. 在“权限和角色”页中，显示“查看和管理用于在合规中心执行特定于解决方案的任务的角色。”的下方， 选择“角色”。
 
 1. 在搜索字段中，输入“内部风险”，然后选择搜索图标（放大镜）。  请注意显示的众多角色。  每个角色都有不同的访问权限级别。  选择“内部风险管理”。
 
