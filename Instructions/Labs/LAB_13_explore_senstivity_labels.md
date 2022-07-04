@@ -2,12 +2,12 @@
 lab:
   title: 探索 Microsoft Purview 中的敏感度标签
   module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
-ms.openlocfilehash: 3d69459ebcd4ffa34bd71997ea86a8aeae4d0774
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 65cf71c24e66e5c94fb27a1479693338a3cd7091
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557586"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741839"
 ---
 # <a name="lab-explore-sensitivity-labels-in-microsoft-purview"></a>实验室：探索 Microsoft Purview 中的敏感度标签
 
@@ -88,7 +88,7 @@ ms.locfileid: "144557586"
 
 1. 选择“+ 新的空白文档”，然后在页面中输入一些文本。  在页面顶部的蓝色栏中，选择“DocumentXX - 已保存”旁边的向下箭头，然后在“文件名”框中输入“Test-label”。
 
-1. 从顶部菜单栏选择“敏感度”，如果未立即显示此选项，请刷新页面。 从下拉列表选择“机密 - 财务”。
+1. 从顶部菜单栏选择“敏感度”，如果未立即显示此选项，请刷新页面。 从下拉列表选择“机密 - 财务”。  注意：“敏感度”选项可能需要长达 15 分钟才会显示。
 
 1. 从顶部菜单栏选项“查看”，然后选择“阅读视图” 。
 
@@ -112,7 +112,7 @@ ms.locfileid: "144557586"
 
 1. 使用实验室 VM 上的 Web 浏览器，登录到要向其发送该文档的电子邮件帐户。  请注意，此电子邮件可能会定向到垃圾邮件文件夹。  当你尝试打开附加的 Word 文件时，会看到一条通知，说明你无权打开此文档。
 
-1. 关闭打开的浏览器选项卡。
+1. 关闭所有打开的浏览器选项卡。
 
 ### <a name="review"></a>审阅
 

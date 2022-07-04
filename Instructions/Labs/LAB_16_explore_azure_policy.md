@@ -2,12 +2,12 @@
 lab:
   title: 了解 Azure Policy
   module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 0a2ead44f5dc74a7684b8d78ea34c85767f8af92
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: f314612acb21c226e350ce9f6ab026cee2551378
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542587"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741911"
 ---
 # <a name="lab-explore-azure-policy"></a>实验室：了解 Azure Policy
 
@@ -125,6 +125,8 @@ Azure Policy 可帮助实施组织标准并大规模评估合规性。 Azure Pol
     1. 在显示 Azure 服务的下方，选择“Azure 策略”。
     1. 在页面中间，你将看到 Azure 策略/计划分配的列表。  选择策略分配“要求资源组上带有标记”的省略号，然后选择“删除分配”。
     1. 系统会提示确认删除该分配。  选择“是”。
+
+1. 关闭所有打开的浏览器选项卡。
 
 ### <a name="review"></a>审阅
 

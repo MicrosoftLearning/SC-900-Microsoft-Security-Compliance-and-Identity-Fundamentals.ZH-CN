@@ -2,12 +2,12 @@
 lab:
   title: 探索电子数据展示（标准版）工作流
   module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
-ms.openlocfilehash: da37016799bb1343013c1ace901137646c0c856b
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: 6fd36be7fb7844b59648f8b2470057eccad9b832
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542623"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146649965"
 ---
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>实验室：探索电子数据展示（标准版）工作流
 
@@ -126,6 +126,8 @@ ms.locfileid: "146542623"
     1. 在第二个字段中，选择要存储导出文件的位置，然后选择“开始”。  下载过程完成后，选择“关闭”并关闭此浏览器选项卡。
     1. 返回到“测试保留 - Sales Search_Export”窗口。  选择“关闭”。
     1. 查看下载位置以验证下载是否成功完成。
+
+1. 关闭所有打开的浏览器选项卡。
 
 ### <a name="review"></a>审阅
 

@@ -2,22 +2,31 @@
 Demo:
   title: Azure Active Directory 用户设置
   module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: eb1ffc50ce90922dced58726c39879edfc74fb5b
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 061dfa556f7e4e00d63c938b52097e0b641fed4f
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557177"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741887"
 ---
 # <a name="demo-azure-active-directory-user-settings"></a>演示：Azure Active Directory 用户设置
 
 ## <a name="demo-scenario"></a>演示方案
 
-在本演示中，你将访问 Azure Active Directory，并演练现有用户的各种设置。
+在本演示中，你将访问 Azure Active Directory，并演练现有用户的各种设置。  演示者注意：此演示通过 Microsoft 365 租户访问 Azure AD。 向学员展示的另一种选择是通过 Azure 门户访问 Azure AD。 通过 Microsoft 365 门户的意图是显示 Microsoft 365 包括对 Azure AD 的访问权限。
 
-1. 转到在浏览器中打开的“主页 - Microsoft Azure”选项卡。  如果之前关闭了该选项卡，请打开 Microsoft Edge，在地址栏中输入 portal.azure.com，然后使用与 Microsoft 365 租户相同的管理员凭据进行登录。
+1. 打开 Microsoft Edge。
 
-1. Azure 门户的登陆页面显示 Azure 服务，请选择“Azure Active Directory”。 如果没有立即显示，可在显示 Microsoft Azure 的位置旁的搜索框中，输入“Azure Active Directory”。  你可能还想演练如何通过显示 Microsoft Azure 的位置左侧的“显示门户菜单”图标进行访问（该图标是页面顶部蓝色栏中的三条横线，也称为汉堡图标）。
+1. 在地址栏中，输入“admin.microsoft.com”以访问 Microsoft 365 管理中心。
+
+1. 使用管理员凭据登录。
+    1. 在“登录”窗口中，输入 admin@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供商提供的唯一租户 ID），然后选择“下一步” 。
+    1. 输入管理员密码，该密码应由实验室托管提供商提供。 选择“登录”。
+    1. 在提示保持登录状态时，选择“是”。
+
+1. 从 Microsoft 365 管理中心的左侧导航窗格中，选择“全部显示”。
+
+1. 在“管理中心”下，选择“Azure Active Directory”（可能需要向下滚动）。  这会打开一个新的浏览器页面，显示 Azure Active Directory 管理中心的“我的仪表板”页。 在仪表板的主窗口中，你将看到一些磁贴，包括组织的标识磁贴（Contoso、租户和 Azure AD 版本）、用户和组的磁贴等。
 
 1. 从左侧导航窗格中，选择“用户”。 注意租户已配置了用户。
 

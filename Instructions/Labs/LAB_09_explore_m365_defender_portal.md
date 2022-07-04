@@ -2,12 +2,12 @@
 lab:
   title: 探索 Microsoft 365 Defender 门户
   module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: dafab309af48617209f70b79ad5843d23eecd448
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 5accd8bc5c37450e40dfb73b5f2cf0bb8cb24525
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557142"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146649977"
 ---
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>实验室：探索 Microsoft 365 Defender 门户
 
@@ -65,7 +65,7 @@ ms.locfileid: "144557142"
 
 1. 在页面顶部选择“指标和趋势”。  请注意提供的信息。  在页面右上角选择日历图标。  可将视图缩小到自定义日期范围。  通过选择筛选图标可按标识、设备和/或应用筛选视图。  关闭此窗口，然后在左侧导航面板中选择“主页”以返回到 Microsoft 365 Defender 主页。
 
-1. 请关闭浏览器页面。
+1. 关闭所有打开的浏览器选项卡。
 
 ### <a name="review"></a>审阅
 

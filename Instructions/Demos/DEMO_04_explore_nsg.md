@@ -2,12 +2,12 @@
 Demo:
   title: Azure 网络安全组 (NSG)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: dc653f2a9e6ee450b5693ad7bfbfe2208d5a7ea3
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: a136022cd3458d513011b10c408827d33fbc8caa
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557525"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741851"
 ---
 # <a name="demo-azure-network-security-groups-nsgs"></a>演示：Azure 网络安全组 (NSG)
 
@@ -152,9 +152,9 @@ ms.locfileid: "144557525"
 
 1. 选择页面顶部的蓝色栏上的“Microsoft Azure”，返回到 Azure 门户的主页。
 
-### <a name="tear-down"></a>清除
+### <a name="post-course-delivery-tear-down"></a>授课后拆解
 
-**重要说明**：在此任务中，你需要删除资源组及其包含的所有资源。   这对于避免产生额外费用至关重要。
+VM 是一种计费资源，虽然在此演示中运行 VM 的成本很小，但建议在完成授课后删除包含 VM 和相关资源的资源组。
 
 1. 在浏览器中打开“SC900-WinVM - Microsoft Azure”选项卡。
 

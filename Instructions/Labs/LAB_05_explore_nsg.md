@@ -2,12 +2,12 @@
 lab:
   title: 探索 Azure 网络安全组 (NSG)
   module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 71472d6f2cbb946d75ff8e6bc2da2afa87af96aa
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 2d5add9ca1efd99cf7e5268a1125f97f20910a07
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557502"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146650085"
 ---
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>实验室：探索 Azure 网络安全组 (NSG)
 
@@ -151,9 +151,9 @@ NSG 的默认出站规则允许出站 Internet 流量，因此你将验证是否
 1. 通过选择显示 IP 地址的页面顶部中心的“X”，关闭远程桌面连接。  此时会出现一个弹出窗口，显示“将断开远程会话连接”。 选择“确定”。
 1. 在此任务中，你在 NSG 中成功配置了阻止出站 Internet 流量的出站规则。
 
-### <a name="task-5"></a>任务 5
+### <a name="tear-down"></a>清除
 
-**重要说明**：在此任务中，你需要删除资源组及其包含的所有资源。   这对于避免产生额外费用至关重要。
+VM 是一种计费资源，虽然在此演示中运行 VM 的成本很小，但建议在课程完成后删除包含 VM 和相关资源的资源组。
 
 1. 在浏览器中打开“SC900-WinVM - Microsoft Azure”选项卡。
 
@@ -163,6 +163,7 @@ NSG 的默认出站规则允许出站 Internet 流量，因此你将验证是否
 1. 在“LabsSC900”页面顶部中心选择“删除资源组”。
 1. 在打开的窗口中，输入资源组名称“LabsSC900”以确认删除该资源组及其所有资源，然后选择页面底部的“删除” 。
 1. 可能需要花费几分钟时间才能删除所有资源和该资源组。
+1. 关闭所有打开的浏览器选项卡。
 
 ### <a name="review"></a>审阅
 

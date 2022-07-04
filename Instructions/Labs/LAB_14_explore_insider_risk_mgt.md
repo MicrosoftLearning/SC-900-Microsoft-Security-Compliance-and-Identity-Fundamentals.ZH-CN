@@ -2,12 +2,12 @@
 lab:
   title: 探索 Microsoft Purview 内部风险管理
   module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
-ms.openlocfilehash: c4179f11d7f88f4fe2f85bad379470cacbe2ab8c
-ms.sourcegitcommit: 57e11f5a455d10c8ae3c95bb8a9487b10af3d315
+ms.openlocfilehash: b284151be19a0f9add77ef4c015520c7e4a7f363
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "146542635"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741875"
 ---
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>实验室：探索 Microsoft Purview 内部风险管理
 
@@ -115,6 +115,8 @@ ms.locfileid: "146542635"
 1. 返回到“内部风险管理”页的“策略”选项卡。  刚刚创建的策略将被列出。  
 
 1. 在刚刚创建的策略中，“范围内的用户”字段表示当前根据策略获得风险评分的用户。  触发策略时会为用户指定风险评分，因此该值显示为 0。  管理员可以将策略配置为根据所选策略检测到的活动开始为特定用户指定风险评分，并且绕过首先检测触发事件的要求。  为此，请选择策略名称旁边的空圆圈以选择策略，然后选择“开始为用户活动评分”，这会显示在策略表上方。  填充每个字段，然后选择“开始为活动评分”。  用户可能需要 24 小时才能出现在“用户”选项卡上。之后，可以从该选项卡中选择用户以查看检测到的活动。  选择窗口底部的“关闭”。
+
+1. 关闭所有打开的浏览器选项卡。
 
 ### <a name="review"></a>审阅
 

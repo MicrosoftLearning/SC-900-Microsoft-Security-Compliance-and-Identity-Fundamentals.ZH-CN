@@ -2,12 +2,12 @@
 lab:
   title: 探索 Microsoft Purview 合规性门户与合规性管理器
   module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
-ms.openlocfilehash: 4745dddb860e82ddc05e7c88deb0e0644046e0b5
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 4f0c9c57619e1dc8c44ce86b97e4ac9a5488e189
+ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557481"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146741827"
 ---
 # <a name="lab-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>实验室：探索 Microsoft Purview 合规性门户与合规性管理器
 
@@ -69,7 +69,7 @@ ms.locfileid: "144557481"
 
 1. 从包含的模板列表中，选择“ISO/IEC27001:2013”。 在页面右上角选择“+创建评估”。  请注意屏幕左侧，根据模板创建评估只需两个步骤。  选择页面底部的“取消”。
 
-1. 关闭打开的浏览器选项卡。
+1. 关闭所有打开的浏览器选项卡。
 
 ### <a name="review"></a>审阅
 

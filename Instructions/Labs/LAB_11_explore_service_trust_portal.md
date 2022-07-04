@@ -2,12 +2,12 @@
 lab:
   title: 探索服务信任门户
   module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: 45086cf1301ce1feb8983f22f05a6cc07e229c4c
-ms.sourcegitcommit: 3fc607e4e989a09272e21c41f83f15757b243a8f
+ms.openlocfilehash: e760110f587b385e4e16f6272443a35a65471774
+ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "146381224"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "146649941"
 ---
 # <a name="lab-explore-the-service-trust-portal"></a>实验室：探索服务信任门户
 
@@ -55,7 +55,7 @@ ms.locfileid: "146381224"
 
 1. 你将看到我们 (Microsoft) 对你的承诺内容。  在此处选择“了解有关 Microsoft 隐私的详细信息”。  滚动浏览页面并浏览不同的链接，了解有关 Microsoft 隐私的详细信息。
 
-1. 关闭浏览器窗口以退出服务信任门户和信任中心。
+1. 关闭所有打开的浏览器选项卡。
 
 ### <a name="review"></a>审阅
 
