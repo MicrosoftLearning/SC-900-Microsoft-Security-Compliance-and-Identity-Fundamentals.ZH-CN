@@ -1,15 +1,20 @@
 ---
-Pre-Demo Setup:
-  title: 演示设置
-ms.openlocfilehash: ecb20fc5819b9557f966c924bbb69a32a6b588e2
-ms.sourcegitcommit: 36aae92c28418fa89da73bd283833356bf87bff9
+ms.openlocfilehash: 153cab11947f866aea32e5d718f449c6b4d0f5b5
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "146458320"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892469"
 ---
+<a name="---"></a><!---
+---
+Pre-Demo Setup: Title: '演示设置'
+---
+--->
+
 ## <a name="pre-demo-setup"></a>预演示设置
-此设置包含两个单独的任务。  仅当实验室环境包含对 Azure 通行证的使用时，第一项任务才适用并建议执行该任务。 第二项任务侧重于启用并应用 Microsoft 审核日志，无论环境是否使用 Azure Pass，都建议执行该任务。
+
+此设置包含两个单独的任务。  仅当演示环境包含对 Azure Pass 的使用时，第一项任务才适用并建议执行该任务。 第二项任务侧重于启用并应用 Microsoft 审核日志，无论环境是否使用 Azure Pass，都建议执行该任务。
 
 ### <a name="setup-part-1---redeem-azure-pass"></a>设置第 1 部分 - 兑换 Azure Pass
 

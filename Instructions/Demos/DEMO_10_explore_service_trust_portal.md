@@ -1,15 +1,22 @@
 ---
-Demo:
-  title: 服务信任门户
-  module: 'Module 4 Lesson 1: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft'
-ms.openlocfilehash: 1921bf877f96a8c4a3fae0b3966977bbc38588a5
-ms.sourcegitcommit: 3fc607e4e989a09272e21c41f83f15757b243a8f
+ms.openlocfilehash: 38537f333f690a8526c5a62de40ca86ab9335b48
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "146381236"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892445"
 ---
+<a name="---"></a><!---
+---
+Demo: Title: '服务信任门户' Learning Path/Module/Unit: '学习路径：描述 Microsoft 合规性功能；模块 1：描述 Microsoft 中的合规性管理功能；第 2 单元：探索服务信任门户'
+---
+--->
+
 # <a name="demo-service-trust-portal"></a>演示：服务信任门户
+
+此演示与下列 Learn 内容保持一致：
+
+学习路径：描述 Microsoft 合规性功能  模块：描述 Microsoft 中的合规性管理功能  单元：探索服务信任门户
 
 ## <a name="demo-scenario"></a>演示方案
 

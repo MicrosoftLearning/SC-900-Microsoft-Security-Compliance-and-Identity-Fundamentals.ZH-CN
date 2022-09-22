@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 探索 Microsoft Defender for Cloud
-  module: 'Module 3 Lesson 2: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Azure'
-ms.openlocfilehash: 29933f0f33320aba85a58af7f0cbff4d8b430247
-ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
+ms.openlocfilehash: eeee584ece9bb3ec4edcba5fa2e76a13dd9459c4
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146650073"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892601"
 ---
+<a name="---"></a><!---
+---
+Lab: Title: '探索 Microsoft Defender for Cloud' Learning Path/Module/Unit: '学习路径：描述 Microsoft 安全解决方案的功能；模块 2：描述 Azure 的安全管理功能；第 3 单元：描述 Microsoft Defender for Cloud'
+---
+--->
+
 # <a name="lab-explore-microsoft-defender-for-cloud"></a>实验室：探索 Microsoft Defender for Cloud
+
+此实验室与下列 Learn 内容保持一致：
+
+- 学习路径：描述 Microsoft 安全解决方案的功能
+- 模块：描述 Azure 的安全管理功能
+- 单元：描述 Microsoft Defender for Cloud
 
 ## <a name="lab-scenario"></a>实验室场景
 

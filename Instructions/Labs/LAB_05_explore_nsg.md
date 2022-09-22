@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 探索 Azure 网络安全组 (NSG)
-  module: 'Module 3 Lesson 1: Describe the capabilities of Microsoft security solutions: Describe basic security capabilities in Azure.'
-ms.openlocfilehash: 47f71fdf1587a240803bb508a902ce098253793d
-ms.sourcegitcommit: 07d6d5b9df44c747453e21a65bca524afbaf85ae
+ms.openlocfilehash: d2377516343cb85c279c1a2d6347c59f573d73c7
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 08/27/2022
-ms.locfileid: "147695289"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892193"
 ---
+<a name="---"></a><!---
+---
+Lab: Title: '探索 Azure 网络安全组 (NSG)' Learning Path/Module/Unit: '学习路径：描述 Microsoft 安全解决方案的功能；模块 1：描述 Azure 中的基本安全功能；第 6 单元：描述 Azure 网络安全组'
+---
+--->
+
 # <a name="lab-explore-azure-network-security-groups-nsgs"></a>实验室：探索 Azure 网络安全组 (NSG)
+
+此实验室与下列 Learn 内容保持一致：
+
+- 学习路径：描述 Microsoft 安全解决方案的功能
+- 模块：描述 Azure 中的基本安全功能
+- 单元：描述 Azure 网络安全组
 
 ## <a name="lab-scenario"></a>实验室方案
 

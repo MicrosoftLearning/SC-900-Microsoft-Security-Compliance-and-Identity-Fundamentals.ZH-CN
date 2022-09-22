@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Microsoft Sentinel
-  module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 74c3f339580c0eed60eedfe1f19871fa115951fe
-ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
+ms.openlocfilehash: 8d58cd38338d81136cf0b9b474137354269507e6
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146649989"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892385"
 ---
+<a name="---"></a><!---
+---
+Demo: Title: 'Microsoft Sentinel' Learning Path/Module/Title: '学习路径：描述 Microsoft 安全解决方案的功能；模块 3：描述 Microsoft Sentinel 的安全功能；第 3 单元：描述 Microsoft Sentinel 如何提供集成威胁管理'
+---
+--->
+
 # <a name="demo-microsoft-sentinel"></a>演示：Microsoft Sentinel
+
+此演示与下列 Learn 内容保持一致：
+
+- 学习路径：描述 Microsoft 安全解决方案的功能
+- 模块：描述 Microsoft Sentinel 的安全功能
+- 单元：描述 Microsoft Sentinel 如何提供集成威胁管理
 
 ## <a name="demo-scenario"></a>演示方案
 

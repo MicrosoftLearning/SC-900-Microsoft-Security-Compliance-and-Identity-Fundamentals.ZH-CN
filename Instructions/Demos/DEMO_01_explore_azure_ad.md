@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Azure Active Directory 用户设置
-  module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: 061dfa556f7e4e00d63c938b52097e0b641fed4f
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: c230a54bb7d4d9cd876aacd4e04185ce674a22db
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741887"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892181"
 ---
-# <a name="demo-azure-active-directory-user-settings"></a>演示：Azure Active Directory 用户设置
+<a name="---"></a><!---
+---
+Demo: Title: '探索 Azure AD 用户设置' Learning Path/Module/Unit: '学习路径：描述 Azure Active Directory (Azure AD) 的功能（Microsoft Entra 的一部分）；模块 1：描述 Azure AD 的基本服务和标识类型；第 4 单元：描述 Azure AD 标识类型'
+---
+--->
+
+# <a name="demo-azure-ad-user-settings"></a>演示：Azure AD 用户设置
+
+此演示与下列 Learn 内容保持一致：
+
+- 学习路径：描述 Active Directory (Azure AD) 的功能（Microsoft Entra 的一部分）
+- 模块：描述 Azure AD 的基本服务和标识类型
+- 单元：描述 Azure AD 标识类型
 
 ## <a name="demo-scenario"></a>演示方案
 

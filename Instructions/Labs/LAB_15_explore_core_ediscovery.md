@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 探索电子数据展示（标准版）工作流
-  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
-ms.openlocfilehash: 6fd36be7fb7844b59648f8b2470057eccad9b832
-ms.sourcegitcommit: a69acc26ed3a09cea4a3af95719a6edc7fe2814d
+ms.openlocfilehash: 430bb5ab95d4abaa73eb4aa02372b21fdbb768df
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146649965"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892659"
 ---
+<a name="---"></a><!---
+---
+Lab: Title: '探索电子数据展示（标准版）工作流' Learning Path/Module/Unit: '学习路径：描述 Microsoft 合规性功能；模块 5：描述 Microsoft Purview 的电子数据展示和审核功能；第 2 单元：描述 Microsoft 365 中的电子数据展示解决方案'
+---
+--->
+
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>实验室：探索电子数据展示（标准版）工作流
+
+此实验室与下列 Learn 内容保持一致：
+
+- 学习路径：描述 Microsoft 合规性功能
+- 模块：描述 Microsoft Purview 的电子数据展示和审核功能
+- 单元：描述 Microsoft 365 中的电子数据展示解决方案
 
 ## <a name="lab-scenario"></a>实验室方案
 

@@ -1,15 +1,24 @@
 ---
-lab:
-  title: '探索 Azure AD 中的 Privileged Identity Management 标识治理。 '
-  module: 'Module 2 Lesson 4: Describe the identity protection and governance capabilities of Azure AD: Describe Azure Identity Protection.'
-ms.openlocfilehash: bd50a2be33b8a9b6cf23831d9fce1c6761032484
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: e3ea450ebe43fa107a828166c32cfcac8d26e580
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557262"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892217"
 ---
+<a name="---"></a><!---
+---
+Lab: Title: '使用 Privileged Identity Management 探索 Azure AD 中的标识监管。 ' Learning Path/Module/Unit: '学习路径：描述 Azure Active Directory (Azure AD) 的功能（Microsoft Entra 的一部分）；模块 4：描述 Azure AD 的标识保护和治理功能；第 4 单元：描述 Privileged Identity Management 的功能'
+---
+--->
+
 # <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>实验室：探索 Azure AD 中的 Privileged Identity Management 标识治理
+
+此实验室与下列 Learn 内容保持一致：
+
+- 学习路径：描述 Active Directory (Azure AD) 的功能（Microsoft Entra 的一部分）
+- 模块：描述 Azure AD 的标识保护和治理功能
+- 单元：描述 Privileged Identity Management 的功能
 
 ## <a name="lab-scenario"></a>实验室场景
 

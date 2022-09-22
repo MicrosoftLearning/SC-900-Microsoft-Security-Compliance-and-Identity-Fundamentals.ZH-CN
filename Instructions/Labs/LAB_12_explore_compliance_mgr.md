@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 探索 Microsoft Purview 合规性门户与合规性管理器
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
-ms.openlocfilehash: 4f0c9c57619e1dc8c44ce86b97e4ac9a5488e189
-ms.sourcegitcommit: b8b861a8c884a56f094213e47a59be48ba898ca1
+ms.openlocfilehash: 8d3268c28c1dc2335f0554caf801abe11b6ae0d2
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "146741827"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892373"
 ---
+<a name="---"></a><!---
+---
+Lab: Title: '探索 Microsoft Purview 合规门户和合规性管理器' Learning Path/Module/Unit: '学习路径：描述 Microsoft 合规性功能；模块 2：描述 Microsoft Purview 中的合规性管理功能；第 2 单元：描述 Microsoft Purview 合规门户'
+---
+--->
+
 # <a name="lab-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>实验室：探索 Microsoft Purview 合规性门户与合规性管理器
+
+此实验室与下列 Learn 内容保持一致：
+
+- 学习路径：描述 Microsoft 合规性功能
+- 模块：描述 Microsoft Purview 中的合规性管理功能
+- 单元：描述 Microsoft Purview 合规门户
 
 ## <a name="lab-scenario"></a>实验室方案
 
