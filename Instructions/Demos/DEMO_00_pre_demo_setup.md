@@ -1,18 +1,24 @@
 ---
-Pre-Demo Setup:
-  title: 演示设置
-ms.openlocfilehash: 32b79bd8e8beaad0db6363b04084545cc0e1591e
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 153cab11947f866aea32e5d718f449c6b4d0f5b5
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557250"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892469"
 ---
-# <a name="pre-demo-setup"></a>预演示设置
+<a name="---"></a><!---
+---
+Pre-Demo Setup: Title: '演示设置'
+---
+--->
 
-## <a name="setup-part-1---redeem-azure-pass"></a>设置第 1 部分 - 兑换 Azure Pass
+## <a name="pre-demo-setup"></a>预演示设置
 
-在此设置任务中，你将使用与 Microsoft 365 租户相同的凭据兑换 Azure Pass。  这可以在 Microsoft 365 和 Azure 之间移动时实现更加无缝的体验。
+此设置包含两个单独的任务。  仅当演示环境包含对 Azure Pass 的使用时，第一项任务才适用并建议执行该任务。 第二项任务侧重于启用并应用 Microsoft 审核日志，无论环境是否使用 Azure Pass，都建议执行该任务。
+
+### <a name="setup-part-1---redeem-azure-pass"></a>设置第 1 部分 - 兑换 Azure Pass
+
+仅当使用的演示环境包含 Azure Pass 时，此任务才适用并建议执行此任务。 在此任务中，你将使用与 Microsoft 365 租户相同的凭据兑换 Azure Pass。  这可以在 Microsoft 365 和 Azure 之间移动时实现更加无缝的体验。
 
 1. 如果有任何打开的浏览器窗口，建议关闭所有浏览器。
 

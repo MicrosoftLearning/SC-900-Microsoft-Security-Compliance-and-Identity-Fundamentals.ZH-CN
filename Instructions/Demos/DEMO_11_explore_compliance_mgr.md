@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: 探索 Microsoft Purview 合规性门户与合规性管理器
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
-ms.openlocfilehash: 7c0b3e5a3153e48ddb3a7e7cca991c9df6a89bdf
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 557b2974e32c920172be89f909225d30519b79a0
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557238"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892405"
 ---
+<a name="---"></a><!---
+---
+Demo: Title: '探索 Microsoft Purview 合规门户和合规性管理器' Learning Path/Module/Unit: '学习路径：描述 Microsoft 合规性功能；模块 2：描述 Microsoft Purview 中的合规性管理功能；第 2 单元：描述 Microsoft Purview 合规门户'
+---
+--->
+
 # <a name="demo-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>演示：探索 Microsoft Purview 合规性门户与合规性管理器
+
+此演示与下列 Learn 内容保持一致：
+
+- 学习路径：描述 Microsoft 合规性功能
+- 模块：描述 Microsoft Purview 中的合规性管理功能
+- 单元：描述 Microsoft Purview 合规门户
 
 ## <a name="demo-scenario"></a>演示方案
 

@@ -1,23 +1,41 @@
 ---
-Demo:
-  title: Azure Active Directory 用户设置
-  module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: eb1ffc50ce90922dced58726c39879edfc74fb5b
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: c230a54bb7d4d9cd876aacd4e04185ce674a22db
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557177"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892181"
 ---
-# <a name="demo-azure-active-directory-user-settings"></a>演示：Azure Active Directory 用户设置
+<a name="---"></a><!---
+---
+Demo: Title: '探索 Azure AD 用户设置' Learning Path/Module/Unit: '学习路径：描述 Azure Active Directory (Azure AD) 的功能（Microsoft Entra 的一部分）；模块 1：描述 Azure AD 的基本服务和标识类型；第 4 单元：描述 Azure AD 标识类型'
+---
+--->
+
+# <a name="demo-azure-ad-user-settings"></a>演示：Azure AD 用户设置
+
+此演示与下列 Learn 内容保持一致：
+
+- 学习路径：描述 Active Directory (Azure AD) 的功能（Microsoft Entra 的一部分）
+- 模块：描述 Azure AD 的基本服务和标识类型
+- 单元：描述 Azure AD 标识类型
 
 ## <a name="demo-scenario"></a>演示方案
 
-在本演示中，你将访问 Azure Active Directory，并演练现有用户的各种设置。
+在本演示中，你将访问 Azure Active Directory，并演练现有用户的各种设置。  演示者注意：此演示通过 Microsoft 365 租户访问 Azure AD。 向学员展示的另一种选择是通过 Azure 门户访问 Azure AD。 通过 Microsoft 365 门户的意图是显示 Microsoft 365 包括对 Azure AD 的访问权限。
 
-1. 转到在浏览器中打开的“主页 - Microsoft Azure”选项卡。  如果之前关闭了该选项卡，请打开 Microsoft Edge，在地址栏中输入 portal.azure.com，然后使用与 Microsoft 365 租户相同的管理员凭据进行登录。
+1. 打开 Microsoft Edge。
 
-1. Azure 门户的登陆页面显示 Azure 服务，请选择“Azure Active Directory”。 如果没有立即显示，可在显示 Microsoft Azure 的位置旁的搜索框中，输入“Azure Active Directory”。  你可能还想演练如何通过显示 Microsoft Azure 的位置左侧的“显示门户菜单”图标进行访问（该图标是页面顶部蓝色栏中的三条横线，也称为汉堡图标）。
+1. 在地址栏中，输入“admin.microsoft.com”以访问 Microsoft 365 管理中心。
+
+1. 使用管理员凭据登录。
+    1. 在“登录”窗口中，输入 admin@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供商提供的唯一租户 ID），然后选择“下一步” 。
+    1. 输入管理员密码，该密码应由实验室托管提供商提供。 选择“登录”。
+    1. 在提示保持登录状态时，选择“是”。
+
+1. 从 Microsoft 365 管理中心的左侧导航窗格中，选择“全部显示”。
+
+1. 在“管理中心”下，选择“Azure Active Directory”（可能需要向下滚动）。  这会打开一个新的浏览器页面，显示 Azure Active Directory 管理中心的“我的仪表板”页。 在仪表板的主窗口中，你将看到一些磁贴，包括组织的标识磁贴（Contoso、租户和 Azure AD 版本）、用户和组的磁贴等。
 
 1. 从左侧导航窗格中，选择“用户”。 注意租户已配置了用户。
 

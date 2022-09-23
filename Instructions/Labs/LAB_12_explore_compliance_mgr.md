@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 探索 Microsoft Purview 合规性门户与合规性管理器
-  module: 'Module 4 Lesson 2: Describe the capabilities of Microsoft compliance solutions: Describe the compliance management capabilities of Microsoft Purview'
-ms.openlocfilehash: 4745dddb860e82ddc05e7c88deb0e0644046e0b5
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 8d3268c28c1dc2335f0554caf801abe11b6ae0d2
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557481"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892373"
 ---
+<a name="---"></a><!---
+---
+Lab: Title: '探索 Microsoft Purview 合规门户和合规性管理器' Learning Path/Module/Unit: '学习路径：描述 Microsoft 合规性功能；模块 2：描述 Microsoft Purview 中的合规性管理功能；第 2 单元：描述 Microsoft Purview 合规门户'
+---
+--->
+
 # <a name="lab-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>实验室：探索 Microsoft Purview 合规性门户与合规性管理器
+
+此实验室与下列 Learn 内容保持一致：
+
+- 学习路径：描述 Microsoft 合规性功能
+- 模块：描述 Microsoft Purview 中的合规性管理功能
+- 单元：描述 Microsoft Purview 合规门户
 
 ## <a name="lab-scenario"></a>实验室方案
 
@@ -69,7 +78,7 @@ ms.locfileid: "144557481"
 
 1. 从包含的模板列表中，选择“ISO/IEC27001:2013”。 在页面右上角选择“+创建评估”。  请注意屏幕左侧，根据模板创建评估只需两个步骤。  选择页面底部的“取消”。
 
-1. 关闭打开的浏览器选项卡。
+1. 关闭所有打开的浏览器选项卡。
 
 ### <a name="review"></a>审阅
 

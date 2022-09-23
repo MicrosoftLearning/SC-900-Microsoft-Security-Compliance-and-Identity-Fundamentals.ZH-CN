@@ -1,15 +1,24 @@
 ---
-lab:
-  title: '探索 Microsoft Defender for Cloud Apps '
-  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: cdd0953cafd267114577b53eb7470cd65a4c2bc5
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: ef5c993972dcff57836c8ac045a19903b8c15721
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557565"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892625"
 ---
+<a name="---"></a><!---
+---
+Lab: Title: '探索 Microsoft Defender for Cloud Apps ' Module: '学习路径：描述 Microsoft 安全解决方案的功能；模块 4：描述 Microsoft 365 的威胁防护功能；第 5 单元：描述 Microsoft Defender for Cloud Apps'
+---
+--->
+
 # <a name="lab-explore-microsoft-defender-for-cloud-apps"></a>实验室：探索 Microsoft Defender for Cloud Apps
+
+此实验室与下列 Learn 内容保持一致：
+
+- 学习路径：描述 Microsoft 安全解决方案的功能
+- 模块：描述 Microsoft 365 的威胁防护功能
+- 单元：描述 Microsoft Defender for Cloud Apps
 
 ## <a name="lab-scenario"></a>实验室场景
 
@@ -79,7 +88,7 @@ ms.locfileid: "144557565"
 
 1. 从左侧导航面板中，选择“警报”。  如果有任何警报列出，请从警报列表中选择一项。 查看提供的信息。  在窗口的右上方选择“关闭警报”，以查看用于关闭该警报的选项。  
 
-1. 关闭浏览器窗口。
+1. 关闭所有打开的浏览器选项卡。
 
 ### <a name="review"></a>审阅
 

@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 探索电子数据展示（标准版）工作流
-  module: 'Module 4 Lesson 5: Describe the capabilities of Microsoft compliance solutions: Describe the eDiscovery and audit capabilities of Microsoft Purview'
-ms.openlocfilehash: 60abb7856a80be94c8f1bd755f313a0d12616671
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 430bb5ab95d4abaa73eb4aa02372b21fdbb768df
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557598"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892659"
 ---
+<a name="---"></a><!---
+---
+Lab: Title: '探索电子数据展示（标准版）工作流' Learning Path/Module/Unit: '学习路径：描述 Microsoft 合规性功能；模块 5：描述 Microsoft Purview 的电子数据展示和审核功能；第 2 单元：描述 Microsoft 365 中的电子数据展示解决方案'
+---
+--->
+
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>实验室：探索电子数据展示（标准版）工作流
+
+此实验室与下列 Learn 内容保持一致：
+
+- 学习路径：描述 Microsoft 合规性功能
+- 模块：描述 Microsoft Purview 的电子数据展示和审核功能
+- 单元：描述 Microsoft 365 中的电子数据展示解决方案
 
 ## <a name="lab-scenario"></a>实验室方案
 
@@ -115,7 +124,7 @@ ms.locfileid: "144557598"
 
 1. 从页面底部选择“操作”。  注意可用选项，然后选择“导出结果”。
 
-    1. 在“导出结果”窗口中，保留默认值并从页面底部选择“导出”。 你将自动返回到“测试保留 - 销售搜索”窗口。 在页面底部选择“关闭”。
+    1. 在“导出结果”窗口中，保留默认值并从页面底部选择“导出”。 你将自动返回到“测试保留 - 销售搜索”窗口。 选择页面底部的“关闭”。
 
     1. 在“SC900-测试案例”页的顶部选择“导出”。
     1. 选择“测试保留 - Sales Search_Export”
@@ -126,6 +135,8 @@ ms.locfileid: "144557598"
     1. 在第二个字段中，选择要存储导出文件的位置，然后选择“开始”。  下载过程完成后，选择“关闭”并关闭此浏览器选项卡。
     1. 返回到“测试保留 - Sales Search_Export”窗口。  选择“关闭”。
     1. 查看下载位置以验证下载是否成功完成。
+
+1. 关闭所有打开的浏览器选项卡。
 
 ### <a name="review"></a>审阅
 

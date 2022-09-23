@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 了解 Azure Policy
-  module: 'Module 4 Lesson 6: Describe the capabilities of Microsoft compliance solutions: Describe Azure Policy'
-ms.openlocfilehash: 23e8f4f8417367a16cbd41496428918ca219fa40
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 8e34065623722f1f249c4da363aa862e46e49b0b
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557514"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892145"
 ---
+<a name="---"></a><!---
+---
+Lab: Title: '探索 Azure Policy' Learning Path/Module/Unit: '学习路径：描述 Microsoft 合规性功能；模块 6：描述 Azure 中的资源治理功能；第 2 单元：描述 Azure Policy'
+---
+--->
+
 # <a name="lab-explore-azure-policy"></a>实验室：了解 Azure Policy
+
+此实验室与下列 Learn 内容保持一致：
+
+- 学习路径：描述 Microsoft 合规性功能
+- 模块：描述 Azure 中的资源治理功能
+- 单元：描述 Azure Policy
 
 ## <a name="lab-scenario"></a>实验室场景
 
@@ -21,7 +30,7 @@ Azure Policy 可帮助实施组织标准并大规模评估合规性。 Azure Pol
 
 简要探索“Azure 策略”页面。
 
-1. 打开 Microsoft Edge。 在地址栏中，输入“portal.microsoft.com”。
+1. 打开 Microsoft Edge。 在地址栏中，输入“portal.azure.com”。
 
 1. 使用管理员凭据登录。
     1. 在“登录”窗口中，输入 admin@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供商提供的唯一租户 ID），然后选择“下一步” 。
@@ -125,6 +134,8 @@ Azure Policy 可帮助实施组织标准并大规模评估合规性。 Azure Pol
     1. 在显示 Azure 服务的下方，选择“Azure 策略”。
     1. 在页面中间，你将看到 Azure 策略/计划分配的列表。  选择策略分配“要求资源组上带有标记”的省略号，然后选择“删除分配”。
     1. 系统会提示确认删除该分配。  选择“是”。
+
+1. 关闭所有打开的浏览器选项卡。
 
 ### <a name="review"></a>审阅
 

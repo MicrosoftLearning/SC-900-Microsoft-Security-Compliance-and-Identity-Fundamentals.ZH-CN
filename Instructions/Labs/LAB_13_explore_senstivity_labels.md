@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 探索 Microsoft Purview 中的敏感度标签
-  module: 'Module 4 Lesson 3: Describe the capabilities of Microsoft compliance solutions: Describe information protection and data lifecycle management of Microsoft Purview'
-ms.openlocfilehash: 3d69459ebcd4ffa34bd71997ea86a8aeae4d0774
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 1bae467c426cba5deb30035c3679409b384637e0
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557586"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892648"
 ---
+<a name="---"></a><!---
+---
+Lab: Title: '探索 Microsoft Purview 中的敏感度标签' Learning Path/Module/Unit: '学习路径：描述 Microsoft 合规性功能；模块 3：描述 Microsoft Purview 中的信息保护和数据生命周期管理；第 4 单元：描述敏感度标签'
+---
+--->
+
 # <a name="lab-explore-sensitivity-labels-in-microsoft-purview"></a>实验室：探索 Microsoft Purview 中的敏感度标签
+
+此实验室与下列 Learn 内容保持一致：
+
+- 学习路径：描述 Microsoft 合规性功能
+- 模块：描述 Microsoft Purview 中的信息保护和数据生命周期管理
+- 单元：描述敏感度标签
 
 ## <a name="lab-scenario"></a>实验室场景
 
@@ -88,7 +97,7 @@ ms.locfileid: "144557586"
 
 1. 选择“+ 新的空白文档”，然后在页面中输入一些文本。  在页面顶部的蓝色栏中，选择“DocumentXX - 已保存”旁边的向下箭头，然后在“文件名”框中输入“Test-label”。
 
-1. 从顶部菜单栏选择“敏感度”，如果未立即显示此选项，请刷新页面。 从下拉列表选择“机密 - 财务”。
+1. 从顶部菜单栏选择“敏感度”，如果未立即显示此选项，请刷新页面。 从下拉列表选择“机密 - 财务”。  注意：“敏感度”选项可能需要长达 15 分钟才会显示。
 
 1. 从顶部菜单栏选项“查看”，然后选择“阅读视图” 。
 
@@ -112,7 +121,7 @@ ms.locfileid: "144557586"
 
 1. 使用实验室 VM 上的 Web 浏览器，登录到要向其发送该文档的电子邮件帐户。  请注意，此电子邮件可能会定向到垃圾邮件文件夹。  当你尝试打开附加的 Word 文件时，会看到一条通知，说明你无权打开此文档。
 
-1. 关闭打开的浏览器选项卡。
+1. 关闭所有打开的浏览器选项卡。
 
 ### <a name="review"></a>审阅
 

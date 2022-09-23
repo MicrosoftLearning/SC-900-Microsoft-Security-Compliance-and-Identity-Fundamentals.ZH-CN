@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 探索 Azure Active Directory
-  module: 'Module 2 Lesson 1: Describe the capabilities of Microsoft Identity and access management solutions: Explore the services and identity types of Azure AD'
-ms.openlocfilehash: ca6ea1f2fc67ad1c09a108079eada6c8a9ebd89c
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: e70692d55a6d1ef5d89fde484234bf937cef981d
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557286"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892241"
 ---
+<a name="---"></a><!---
+---
+Lab: Title: '探索 Azure Active Directory' Learning Path/Module/Unit: '学习路径：描述 Azure Active Directory (Azure AD) 的功能（Microsoft Entra 的一部分）；模块 1：描述 Azure AD 的基本服务和标识类型；第 4 单元：描述 Azure AD 标识类型'
+---
+--->
+
 # <a name="lab-explore-azure-active-directory"></a>实验室：探索 Azure Active Directory
+
+此实验室与下列 Learn 内容保持一致：
+
+- 学习路径：描述 Active Directory (Azure AD) 的功能（Microsoft Entra 的一部分）
+- 模块：描述 Azure AD 的基本服务和标识类型
+- 单元：描述 Azure AD 标识类型
 
 ## <a name="lab-scenario"></a>实验室场景
 

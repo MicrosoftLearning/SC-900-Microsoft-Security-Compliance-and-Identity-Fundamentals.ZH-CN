@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 使用条件访问探索 Azure AD 中的访问管理
-  module: 'Module 2 Lesson 3: Describe the capabilities of Microsoft Identity and access management solutions: Explore the access management capabilities of Azure AD'
-ms.openlocfilehash: 3fa6f805883950e85e28fc591c14664db3083bc4
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 5d7767e0187f043004b0c9d17e7cd1d1915613cc
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557273"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892157"
 ---
+<a name="---"></a><!---
+---
+Lab: Learning Path: '描述 Azure Active Directory (Azure AD) 的功能（Microsoft Entra 的一部分）' Module: '描述 Azure AD 的访问管理功能' Unit: '描述 Azure AD 中的条件访问'
+---
+--->
+
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional"></a>实验室：探索 Azure AD 中的条件访问管理
+
+此实验室与下列 Learn 内容保持一致：
+
+- 学习路径：描述 Active Directory (Azure AD) 的功能（Microsoft Entra 的一部分）
+- 模块：描述 Azure AD 的访问管理功能
+- 单元：描述 Azure AD 中的条件访问
 
 ## <a name="lab-scenario"></a>实验室场景
 
@@ -28,7 +37,7 @@ ms.locfileid: "144557273"
     1. 输入管理员密码，该密码应由实验室托管提供商提供。 选择“登录”。
     1. 在提示保持登录状态时，选择“是”。
 
-3. 选择“Azure Active Directory”  。  
+3. 在屏幕左上角的“Microsoft Azure”旁边，选择“显示门户菜单”图标（三条横线，也称为汉堡图标），然后在左侧导航面板的“收藏夹”下选择“Azure Active Directory”。 如果它未在收藏夹下列出，请在搜索框中输入“Azure Active Directory”，然后从结果列表中选择“Azure Active Directory”。
 
 4. 从左侧导航面板中，选择“用户”。
 

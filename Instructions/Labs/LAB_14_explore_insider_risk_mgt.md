@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 探索 Microsoft Purview 内部风险管理
-  module: 'Module 4 Lesson 4: Describe the capabilities of Microsoft compliance solutions: Describe insider risk capabilities in Microsoft Purview'
-ms.openlocfilehash: 8bd1f517bfbc4f71fec1ab65dca93b7b95458832
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 553860b67fc7cc2b181e874e4c57fb4bc972822b
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557538"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892697"
 ---
+<a name="---"></a><!--->
+---
+Lab: Title: '探索 Microsoft Purview 中的内部风险管理' Learning Path/Module/Unit: '学习路径：描述 Microsoft 合规性功能；模块 4：描述 Microsoft Purview 中的内部风险功能；第 2 单元：描述内部风险管理'
+---
+--->
+
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>实验室：探索 Microsoft Purview 内部风险管理
+
+此实验室与下列 Learn 内容保持一致：
+
+- 学习路径：描述 Microsoft 合规性功能
+- 模块：描述 Microsoft Purview 中的内部风险功能
+- 单元：描述内部风险管理
 
 ## <a name="lab-scenario"></a>实验室场景
 
@@ -35,7 +44,7 @@ ms.locfileid: "144557538"
 
 1. 从 Microsoft Purview 合规性门户的左侧导航窗格中，选择“权限”。
 
-1. 从合规性门户的“权限和角色”页选择“角色”。
+1. 在“权限和角色”页中，显示“查看和管理用于在合规中心执行特定于解决方案的任务的角色。”的下方， 选择“角色”。
 
 1. 在搜索字段中，输入“内部风险”，然后选择搜索图标（放大镜）。  请注意显示的众多角色。  每个角色都有不同的访问权限级别。  选择“内部风险管理”。
 
@@ -115,6 +124,8 @@ ms.locfileid: "144557538"
 1. 返回到“内部风险管理”页的“策略”选项卡。  刚刚创建的策略将被列出。  
 
 1. 在刚刚创建的策略中，“范围内的用户”字段表示当前根据策略获得风险评分的用户。  触发策略时会为用户指定风险评分，因此该值显示为 0。  管理员可以将策略配置为根据所选策略检测到的活动开始为特定用户指定风险评分，并且绕过首先检测触发事件的要求。  为此，请选择策略名称旁边的空圆圈以选择策略，然后选择“开始为用户活动评分”，这会显示在策略表上方。  填充每个字段，然后选择“开始为活动评分”。  用户可能需要 24 小时才能出现在“用户”选项卡上。之后，可以从该选项卡中选择用户以查看检测到的活动。  选择窗口底部的“关闭”。
+
+1. 关闭所有打开的浏览器选项卡。
 
 ### <a name="review"></a>审阅
 

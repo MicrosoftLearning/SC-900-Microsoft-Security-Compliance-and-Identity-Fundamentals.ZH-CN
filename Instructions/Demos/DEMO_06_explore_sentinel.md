@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Microsoft Sentinel
-  module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 242d971510a428170a0d531b1ddcdf422ed4f9c9
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 8d58cd38338d81136cf0b9b474137354269507e6
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557322"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892385"
 ---
+<a name="---"></a><!---
+---
+Demo: Title: 'Microsoft Sentinel' Learning Path/Module/Title: '学习路径：描述 Microsoft 安全解决方案的功能；模块 3：描述 Microsoft Sentinel 的安全功能；第 3 单元：描述 Microsoft Sentinel 如何提供集成威胁管理'
+---
+--->
+
 # <a name="demo-microsoft-sentinel"></a>演示：Microsoft Sentinel
+
+此演示与下列 Learn 内容保持一致：
+
+- 学习路径：描述 Microsoft 安全解决方案的功能
+- 模块：描述 Microsoft Sentinel 的安全功能
+- 单元：描述 Microsoft Sentinel 如何提供集成威胁管理
 
 ## <a name="demo-scenario"></a>演示方案
 
@@ -121,9 +130,9 @@ ms.locfileid: "144557322"
 
 1. 从窗口左上角的蓝色条下方，选择“主页”以返回到 Azure 门户的主页。
 
-### <a name="task-6"></a>任务 6
+### <a name="post-course-delivery-tear-down"></a>授课后拆解
 
-授课后拆解。 我们将根据 Microsoft Sentinel 中为分析引入的数据量对 Microsoft Sentinel 进行计费。 尽管本演示中引入的数据量非常少，但也建议在完成探索 Microsoft Sentinel 的功能后删除 Microsoft Sentinel 资源组。
+我们将根据 Microsoft Sentinel 中为分析引入的数据量对 Microsoft Sentinel 进行计费。 尽管本演示中引入的数据量非常少，但也建议在完成授课后删除 Microsoft Sentinel 资源组。
 
 1. 在 Microsoft Sentinel 页的左上角，选择 Microsoft Sentinel 上方的“所有服务”。
 

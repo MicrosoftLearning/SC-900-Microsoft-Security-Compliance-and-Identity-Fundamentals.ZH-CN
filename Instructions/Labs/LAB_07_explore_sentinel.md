@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 探索 Microsoft Sentinel
-  module: 'Module 3 Lesson 3: Describe the capabilities of Microsoft security solutions: Describe security capabilities of Microsoft Sentinel'
-ms.openlocfilehash: 857d7f5ad5e0a9136d298c32cd47063a83e454e7
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 656e8003ac2a835d263b98cc25871f186ff2a0c8
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557154"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892637"
 ---
+<a name="---"></a><!---
+---
+Lab: Title: '探索 Microsoft Sentinel' Learning Path/Module/Title: '学习路径：描述 Microsoft 安全解决方案的功能；模块 3：描述 Microsoft Sentinel 的安全功能；第 3 单元：描述 Microsoft Sentinel 如何提供集成威胁管理'
+---
+--->
+
 # <a name="lab-explore-microsoft-sentinel"></a>实验室：探索 Microsoft Sentinel
+
+此实验室与下列 Learn 内容保持一致：
+
+- 学习路径：描述 Microsoft 安全解决方案的功能
+- 模块：描述 Microsoft Sentinel 的安全功能
+- 单元：描述 Microsoft Sentinel 如何提供集成威胁管理
 
 ## <a name="lab-scenario"></a>实验室场景
 
@@ -137,7 +146,7 @@ ms.locfileid: "144557154"
 
 4. 在页面顶部中心选择“删除资源组”。  查看警告。  输入资源组名称“SC900-ResourceGroup”，然后从页面底部选择“删除” 。  可能需要几分钟时间才可删除资源组。
 
-5. 验证已删除资源组后，关闭浏览器页面。
+5. 关闭所有打开的浏览器选项卡。
 
 ### <a name="review"></a>审阅
 

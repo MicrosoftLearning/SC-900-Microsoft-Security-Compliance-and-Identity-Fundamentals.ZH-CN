@@ -1,15 +1,24 @@
 ---
-Demo:
-  title: Microsoft 365 Defender 门户
-  module: 'Module 3 Lesson 4: Describe the capabilities of Microsoft security solutions: Describe threat protection with Microsoft 365 Defender'
-ms.openlocfilehash: 19e4de67b0c63d0afdd318d98fedb4e230675730
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: 400cf70f7d8d305ad85c1697115e1861a0569a9c
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557304"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892398"
 ---
+<a name="---"></a><!---
+---
+Demo: Title: 'Microsoft 365 Defender 门户' Module: '学习路径：描述 Microsoft 安全解决方案的功能；模块 4：描述 Microsoft 365 的威胁防护功能；第 7 单元：描述 Microsoft 365 Defender 门户'
+---
+--->
+
 # <a name="demo-the-microsoft-365-defender-portal"></a>演示：Microsoft 365 Defender 门户
+
+此演示与下列 Learn 内容保持一致：
+
+- 学习路径：描述 Microsoft 安全解决方案的功能
+- 模块：描述 Microsoft 365 的威胁防护功能
+- 单元：描述 Microsoft 365 Defender 门户
 
 ## <a name="demo-scenario"></a>演示方案
 

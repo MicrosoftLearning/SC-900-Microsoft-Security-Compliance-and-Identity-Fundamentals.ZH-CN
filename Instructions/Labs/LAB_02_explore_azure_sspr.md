@@ -1,15 +1,24 @@
 ---
-lab:
-  title: 探索 Azure AD 自助式密码重置身份验证
-  module: 'Module 2 Lesson 2: Describe the capabilities of Microsoft Identity and access management solutions: Describe the different authentication methods of Azure AD'
-ms.openlocfilehash: 6e9bcabdacc0e7c7f4c821c9a2fe018341055799
-ms.sourcegitcommit: 25998048c2e354ea23d6f497205e8a062d34ac80
+ms.openlocfilehash: b2e4d568e0d3b5d05cf4462183b977ba4e41c599
+ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "144557466"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "147892169"
 ---
+<a name="---"></a><!---
+---
+Lab: Title: '探索 Azure AD 自助式密码重置身份验证' Learning Path/Module/Unit: '学习路径：描述 Azure Active Directory (Azure AD) 的功能（Microsoft Entra 的一部分）；模块 2：描述 Azure AD 的身份验证功能；第 4 单元：描述 Azure AD 中的自助式密码重置'
+---
+--->
+
 # <a name="lab-explore-azure-ad-authentication-with-self-service-password-reset"></a>实验室：探索 Azure AD 自助式密码重置身份验证
+
+此实验室与下列 Learn 内容保持一致：
+
+- 学习路径：描述 Active Directory (Azure AD) 的功能（Microsoft Entra 的一部分）
+- 模块：描述 Azure AD 的身份验证功能
+- 单元：描述 Azure AD 中的自助式密码重置
 
 ## <a name="lab-scenario"></a>实验室场景
 
@@ -97,7 +106,7 @@ ms.locfileid: "144557466"
 2. 在地址栏中，输入“login.microsoftonline.com”。
 
 3. 以 Adele Vance 的身份登录：
-    1. 在“登录”窗口中，输入 AdedleV@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供商提供的唯一租户 ID），然后选择“下一步” 。
+    1. 在“登录”窗口中，输入 AdeleV@WWLxZZZZZZ.onmicrosoft.com（其中 ZZZZZZ 是实验室托管提供商提供的唯一租户 ID），然后选择“下一步” 。
     1. 输入你在之前的任务中记下的密码。 选择“登录”。
     1. 在提示保持登录状态时，选择“是”
 
