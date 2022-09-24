@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 153cab11947f866aea32e5d718f449c6b4d0f5b5
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892469"
----
 <a name="---"></a><!---
 ---
 Pre-Demo Setup: Title: '演示设置'

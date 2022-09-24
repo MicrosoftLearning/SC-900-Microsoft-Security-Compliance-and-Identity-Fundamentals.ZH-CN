@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 1bae467c426cba5deb30035c3679409b384637e0
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892648"
----
 <a name="---"></a><!---
 ---
 Lab: Title: '探索 Microsoft Purview 中的敏感度标签' Learning Path/Module/Unit: '学习路径：描述 Microsoft 合规性功能；模块 3：描述 Microsoft Purview 中的信息保护和数据生命周期管理；第 4 单元：描述敏感度标签'

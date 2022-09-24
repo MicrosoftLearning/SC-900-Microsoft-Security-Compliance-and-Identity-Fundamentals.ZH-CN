@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: e3ea450ebe43fa107a828166c32cfcac8d26e580
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892217"
----
 <a name="---"></a><!---
 ---
 Lab: Title: '使用 Privileged Identity Management 探索 Azure AD 中的标识监管。 ' Learning Path/Module/Unit: '学习路径：描述 Azure Active Directory (Azure AD) 的功能（Microsoft Entra 的一部分）；模块 4：描述 Azure AD 的标识保护和治理功能；第 4 单元：描述 Privileged Identity Management 的功能'

@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 7171b8c2d05da29c64594c5b6437d3106e320cee
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892685"
----
 <a name="---"></a><!---
 ---
 Lab: Title: '探索服务信任门户' Learning Path/Module/Unit: '学习路径：描述 Microsoft 合规性功能；模块 1：描述 Microsoft 中的合规性管理功能；第 2 单元：探索服务信任门户'

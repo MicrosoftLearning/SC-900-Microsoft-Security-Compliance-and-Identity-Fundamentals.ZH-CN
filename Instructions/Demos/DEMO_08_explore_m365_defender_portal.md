@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 400cf70f7d8d305ad85c1697115e1861a0569a9c
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892398"
----
 <a name="---"></a><!---
 ---
 Demo: Title: 'Microsoft 365 Defender 门户' Module: '学习路径：描述 Microsoft 安全解决方案的功能；模块 4：描述 Microsoft 365 的威胁防护功能；第 7 单元：描述 Microsoft 365 Defender 门户'

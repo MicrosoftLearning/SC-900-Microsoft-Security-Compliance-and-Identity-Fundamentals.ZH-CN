@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: ef5c993972dcff57836c8ac045a19903b8c15721
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892625"
----
 <a name="---"></a><!---
 ---
 Lab: Title: '探索 Microsoft Defender for Cloud Apps ' Module: '学习路径：描述 Microsoft 安全解决方案的功能；模块 4：描述 Microsoft 365 的威胁防护功能；第 5 单元：描述 Microsoft Defender for Cloud Apps'

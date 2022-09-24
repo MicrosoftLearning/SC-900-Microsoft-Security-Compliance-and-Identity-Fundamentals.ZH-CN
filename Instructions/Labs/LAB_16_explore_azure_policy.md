@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 8e34065623722f1f249c4da363aa862e46e49b0b
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892145"
----
 <a name="---"></a><!---
 ---
 Lab: Title: '探索 Azure Policy' Learning Path/Module/Unit: '学习路径：描述 Microsoft 合规性功能；模块 6：描述 Azure 中的资源治理功能；第 2 单元：描述 Azure Policy'
