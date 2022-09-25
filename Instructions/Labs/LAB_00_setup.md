@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: cb7b2598e10bff208634a8181ded25b46a0064c2
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892229"
----
 <a name="---"></a><!---
 ---
 Lab: Title: '设置'

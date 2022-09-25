@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: e70692d55a6d1ef5d89fde484234bf937cef981d
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892241"
----
 <a name="---"></a><!---
 ---
 Lab: Title: '探索 Azure Active Directory' Learning Path/Module/Unit: '学习路径：描述 Azure Active Directory (Azure AD) 的功能（Microsoft Entra 的一部分）；模块 1：描述 Azure AD 的基本服务和标识类型；第 4 单元：描述 Azure AD 标识类型'
@@ -89,7 +81,7 @@ Lab: Title: '探索 Azure Active Directory' Learning Path/Module/Unit: '学习�
 
     3. 在“角色”旁边，选择“用户”。 此时将显示目录角色列表。  向下滚动以查看各种内置角色、查看各种角色，但不要更改用户角色。  选择页面右上角的“X”关闭此窗口。
 
-8. 配置 **设置**
+8. 配置**设置**
 
     1. 阻止登录：否（保留默认设置）。
 

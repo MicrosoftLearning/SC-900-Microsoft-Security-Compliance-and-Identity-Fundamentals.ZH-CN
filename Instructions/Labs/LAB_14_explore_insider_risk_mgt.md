@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 553860b67fc7cc2b181e874e4c57fb4bc972822b
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892697"
----
 <a name="---"></a><!--->
 ---
 Lab: Title: '探索 Microsoft Purview 中的内部风险管理' Learning Path/Module/Unit: '学习路径：描述 Microsoft 合规性功能；模块 4：描述 Microsoft Purview 中的内部风险功能；第 2 单元：描述内部风险管理'

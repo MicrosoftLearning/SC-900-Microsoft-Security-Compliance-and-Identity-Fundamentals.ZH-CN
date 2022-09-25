@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 430bb5ab95d4abaa73eb4aa02372b21fdbb768df
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892659"
----
 <a name="---"></a><!---
 ---
 Lab: Title: '探索电子数据展示（标准版）工作流' Learning Path/Module/Unit: '学习路径：描述 Microsoft 合规性功能；模块 5：描述 Microsoft Purview 的电子数据展示和审核功能；第 2 单元：描述 Microsoft 365 中的电子数据展示解决方案'

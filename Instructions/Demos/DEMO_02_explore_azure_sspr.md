@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 56e48510b5cca7dc77cc8b8f658e1ac50e44c7b8
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892133"
----
 <a name="---"></a><!---
 ---
 Demo: Title: 'Azure AD 自助式密码重置 (SSPR)' Learning Path/Module/Unit: '学习路径：描述 Azure Active Directory (Azure AD) 的功能（Microsoft Entra 的一部分）；模块 2：描述 Azure AD 的身份验证功能；第 4 单元：描述 Azure AD 中的自助式密码重置'

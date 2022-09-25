@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 5d7767e0187f043004b0c9d17e7cd1d1915613cc
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892157"
----
 <a name="---"></a><!---
 ---
 Lab: Learning Path: '描述 Azure Active Directory (Azure AD) 的功能（Microsoft Entra 的一部分）' Module: '描述 Azure AD 的访问管理功能' Unit: '描述 Azure AD 中的条件访问'

@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: ecea12b9b90c6dc3917d0ee93edcdba0436ccd0d
-ms.sourcegitcommit: 15658ca1c7bae8a4dbaa33ab6f897070bde521b9
-ms.translationtype: HT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 09/12/2022
-ms.locfileid: "147892457"
----
 <a name="---"></a><!---
 ---
 Demo: Title: 'Microsoft Defender for Cloud' Learning Path/Module/Unit: '学习路径：描述 Microsoft 安全解决方案的功能；模块 2：描述 Azure 的安全管理功能；第 3 单元：描述 Microsoft Defender for Cloud'
