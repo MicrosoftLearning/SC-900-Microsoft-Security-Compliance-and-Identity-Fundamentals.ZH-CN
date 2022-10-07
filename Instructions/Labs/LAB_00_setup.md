@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 2c2c0be64f8f19dcae5ef6066bb7f8518057a6a3
+ms.sourcegitcommit: 7974f6f09e9b092b73c6f7aee26d636aaefe5bfa
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "148010597"
+---
 <a name="---"></a><!---
 ---
 Lab: Title: '设置'
@@ -11,6 +19,8 @@ Lab: Title: '设置'
 此设置实验室包含两个单独的任务。  仅当实验室环境包含对 Azure 通行证的使用时，第一项任务才适用并建议执行该任务。 第二项任务侧重于启用并应用 Microsoft 审核日志，无论环境是否使用 Azure Pass，都建议执行该任务。
 
 预计用时：5-10 分钟
+
+
 
 ### <a name="setup-part-1---redeem-azure-pass"></a>设置第 1 部分 - 兑换 Azure Pass
 
