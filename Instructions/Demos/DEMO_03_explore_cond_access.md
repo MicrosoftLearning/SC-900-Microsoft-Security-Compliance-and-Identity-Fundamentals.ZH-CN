@@ -1,8 +1,17 @@
+---
+ms.openlocfilehash: b9577dbed15e45986a20f4caf0f233c8e6fe4a4a
+ms.sourcegitcommit: e95df9b6b0cd4511c64832583e414ce7745cd29e
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "148022685"
+---
 <a name="---"></a><!---
 ---
 Demo: Title: 'Azure AD 条件访问' Learning Path/Module/Unit: '学习路径：描述 Azure Active Directory (Azure AD) 的功能（Microsoft Entra 的一部分）；模块 3：描述 Azure AD 的访问管理功能；第 2 单元：描述 Azure AD 中的条件访问'
 ---
 --->
+
 
 # <a name="demo-azure-ad-conditional-access"></a>演示：Azure AD 条件访问
 
