@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 24ec2a7dbaaefd938e78bdcb23489a1f5f10c95a
+ms.sourcegitcommit: 2db6494ae1734d32ac8d57874ef9f53e1fc9420c
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "148118956"
+---
 <a name="---"></a><!---
 ---
 Lab: Title: '探索 Azure AD 自助式密码重置身份验证' Learning Path/Module/Unit: '学习路径：描述 Azure Active Directory (Azure AD) 的功能（Microsoft Entra 的一部分）；模块 2：描述 Azure AD 的身份验证功能；第 4 单元：描述 Azure AD 中的自助式密码重置'
