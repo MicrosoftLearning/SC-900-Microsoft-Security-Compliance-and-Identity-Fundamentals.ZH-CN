@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Demo: Title: 'Microsoft 365 Defender 门户' Module: '学习路径：描述 Microsoft 安全解决方案的功能；模块 4：描述 Microsoft 365 的威胁防护功能；第 7 单元：描述 Microsoft 365 Defender 门户'
+demo:
+    title: '演示：Microsoft 365 Defender 门户'    
+    module: '模块 4：描述 Microsoft 365 的威胁防护功能'
 ---
---->
+
 
 # <a name="demo-the-microsoft-365-defender-portal"></a>演示：Microsoft 365 Defender 门户
 
