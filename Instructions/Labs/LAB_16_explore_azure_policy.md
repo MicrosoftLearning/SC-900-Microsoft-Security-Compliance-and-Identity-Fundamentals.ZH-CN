@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Lab: Title: '探索 Azure Policy' Learning Path/Module/Unit: '学习路径：描述 Microsoft 合规性功能；模块 6：描述 Azure 中的资源治理功能；第 2 单元：描述 Azure Policy'
+lab:
+    title: '实验室：了解 Azure Policy'    
+    module: '模块 6：描述 Azure 中的资源治理功能'
 ---
---->
+
 
 # <a name="lab-explore-azure-policy"></a>实验室：了解 Azure Policy
 
