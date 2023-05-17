@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Lab: Title: '探索 Microsoft Defender for Cloud' Learning Path/Module/Unit: '学习路径：描述 Microsoft 安全解决方案的功能；模块 2：描述 Azure 的安全管理功能；第 3 单元：描述 Microsoft Defender for Cloud'
+lab:
+    title: '实验室：探索 Microsoft Defender for Cloud'    
+    module: '模块 2：描述 Azure 的安全管理功能'
 ---
---->
+
 
 # <a name="lab-explore-microsoft-defender-for-cloud"></a>实验室：探索 Microsoft Defender for Cloud
 
