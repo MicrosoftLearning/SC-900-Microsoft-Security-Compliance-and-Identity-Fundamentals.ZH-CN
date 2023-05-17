@@ -1,8 +1,9 @@
-<a name="---"></a><!---
 ---
-Demo: Title: '探索 Azure AD 用户设置' Learning Path/Module/Unit: '学习路径：描述 Azure Active Directory (Azure AD) 的功能（Microsoft Entra 的一部分）；模块 1：描述 Azure AD 的基本服务和标识类型；第 4 单元：描述 Azure AD 标识类型'
+demo:
+    title: '演示：Azure AD 用户设置'    
+    module: '模块 1：描述 Azure AD 的基本服务和标识类型'
 ---
---->
+
 
 # <a name="demo-azure-ad-user-settings"></a>演示：Azure AD 用户设置
 
