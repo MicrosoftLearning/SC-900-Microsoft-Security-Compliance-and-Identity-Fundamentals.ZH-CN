@@ -1,8 +1,8 @@
-<a name="---"></a><!---
 ---
-Demo: Title: '探索 Microsoft Purview 合规门户和合规性管理器' Learning Path/Module/Unit: '学习路径：描述 Microsoft 合规性功能；模块 2：描述 Microsoft Purview 中的合规性管理功能；第 2 单元：描述 Microsoft Purview 合规门户'
+demo:
+    title: '演示：探索 Microsoft Purview 合规性门户与合规性管理器'    
+    module: '模块 2：描述 Microsoft Purview 中的合规性管理功能'
 ---
---->
 
 # <a name="demo-explore-the-microsoft-purview-compliance-portal--compliance-manager"></a>演示：探索 Microsoft Purview 合规性门户与合规性管理器
 
