@@ -1,8 +1,8 @@
-<a name="---"></a><!---
 ---
-Demo: Title: 'Azure Policy' Learning Path/Module/Unit: '学习路径：描述 Microsoft 合规性功能；模块 6：描述 Azure 中的资源治理功能；第 2 单元：描述 Azure Policy'
+demo:
+    title: '演示：Azure Policy'    
+    module: '模块 6：描述 Azure 中的资源治理功能'
 ---
---->
 
 # <a name="demo-azure-policy"></a>演示：Azure Policy
 
