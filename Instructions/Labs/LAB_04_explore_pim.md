@@ -1,8 +1,8 @@
-<a name="---"></a><!---
 ---
-Lab: Title: '使用 Privileged Identity Management 探索 Azure AD 中的标识监管。 ' Learning Path/Module/Unit: '学习路径：描述 Azure Active Directory (Azure AD) 的功能（Microsoft Entra 的一部分）；模块 4：描述 Azure AD 的标识保护和治理功能；第 4 单元：描述 Privileged Identity Management 的功能'
+lab:
+    title: '实验室：探索 Azure AD 中的 Privileged Identity Management 标识治理'    
+    module: '模块 4：描述 Azure AD 的标识保护和治理功能'
 ---
---->
 
 # <a name="lab-explore-identity-governance-in-azure-ad-with-privileged-identity-management"></a>实验室：探索 Azure AD 中的 Privileged Identity Management 标识治理
 
