@@ -1,8 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-    title: '实验室：探索 Azure Active Directory'    
-    module: '模块 1：描述 Azure AD 的基本服务和标识类型'
+Lab: Title: '探索 Azure Active Directory' Learning Path/Module/Unit: '学习路径：描述 Azure Active Directory (Azure AD) 的功能（Microsoft Entra 的一部分）；模块 1：描述 Azure AD 的基本服务和标识类型；第 4 单元：描述 Azure AD 标识类型'
 ---
+--->
 
 # <a name="lab-explore-azure-active-directory"></a>实验室：探索 Azure Active Directory
 

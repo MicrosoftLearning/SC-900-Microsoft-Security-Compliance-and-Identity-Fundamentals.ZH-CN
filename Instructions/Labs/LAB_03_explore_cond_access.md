@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-    title: '实验室：使用条件访问探索 Azure AD 中的访问管理'    
-    module: '描述 Azure AD 的访问管理功能'
+Lab: Learning Path: '描述 Azure Active Directory (Azure AD) 的功能（Microsoft Entra 的一部分）' Module: '描述 Azure AD 的访问管理功能' Unit: '描述 Azure AD 中的条件访问'
 ---
-
+--->
 
 # <a name="lab-explore-access-management-in-azure-ad-with-conditional-access"></a>实验室：使用条件访问探索 Azure AD 中的访问管理
 

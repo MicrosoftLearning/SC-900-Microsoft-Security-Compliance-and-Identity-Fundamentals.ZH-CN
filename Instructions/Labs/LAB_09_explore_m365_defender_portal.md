@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-    title: '实验室：探索 Microsoft 365 Defender 门户'    
-    module: '模块 4：描述 Microsoft 365 的威胁防护功能'
+Lab: Title: '探索 Microsoft 365 Defender 门户' Module: '学习路径：描述 Microsoft 安全解决方案的功能；模块 4：描述 Microsoft 365 的威胁防护功能；第 7 单元：描述 Microsoft 365 Defender 门户'
 ---
-
+--->
 
 # <a name="lab-explore-the-microsoft-365-defender-portal"></a>实验室：探索 Microsoft 365 Defender 门户
 

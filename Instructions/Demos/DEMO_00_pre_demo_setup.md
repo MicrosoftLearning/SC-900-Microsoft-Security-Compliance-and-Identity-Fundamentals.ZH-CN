@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-    title: '演示设置'    
-    module: '预演示设置'
+Pre-Demo Setup: Title: '演示设置'
 ---
-
+--->
 
 ## <a name="pre-demo-setup"></a>预演示设置
 

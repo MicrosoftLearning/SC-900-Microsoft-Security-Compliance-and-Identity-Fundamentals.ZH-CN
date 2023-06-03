@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-    title: '实验室：探索电子数据展示（标准版）工作流'    
-    module: '模块 5：描述 Microsoft Purview 的电子数据展示和审核功能'
+Lab: Title: '探索电子数据展示（标准版）工作流' Learning Path/Module/Unit: '学习路径：描述 Microsoft 合规性功能；模块 5：描述 Microsoft Purview 的电子数据展示和审核功能；第 2 单元：描述 Microsoft 365 中的电子数据展示解决方案'
 ---
-
+--->
 
 # <a name="lab-explore-the-ediscovery-standard-workflow"></a>实验室：探索电子数据展示（标准版）工作流
 

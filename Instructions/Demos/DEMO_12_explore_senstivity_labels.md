@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-    title: '演示：Microsoft Purview 中的敏感度标签'    
-    module: '模块 3：描述 Microsoft Purview 中的信息保护和数据生命周期管理'
+Demo: Title: 'Microsoft Purview 中的敏感度标签' Learning Path/Module/Unit: '学习路径：描述 Microsoft 合规性功能；模块 3：描述 Microsoft Purview 中的信息保护和数据生命周期管理；第 4 单元：描述敏感度标签'
 ---
-
+--->
 
 # <a name="demo-sensitivity-labels-in-microsoft-purview"></a>演示：Microsoft Purview 中的敏感度标签
 

@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-    title: '演示：服务信任门户'    
-    module: '模块 1：描述 Microsoft 中的合规性管理功能'
+Demo: Title: '服务信任门户' Learning Path/Module/Unit: '学习路径：描述 Microsoft 合规性功能；模块 1：描述 Microsoft 中的合规性管理功能；第 2 单元：探索服务信任门户'
 ---
-
+--->
 
 # <a name="demo-service-trust-portal"></a>演示：服务信任门户
 

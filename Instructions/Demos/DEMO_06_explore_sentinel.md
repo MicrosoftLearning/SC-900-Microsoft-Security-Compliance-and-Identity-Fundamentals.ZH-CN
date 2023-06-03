@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-demo:
-    title: '演示：Microsoft Sentinel'    
-    module: '模块 3：描述 Microsoft Sentinel 的安全功能'
+Demo: Title: 'Microsoft Sentinel' Learning Path/Module/Title: '学习路径：描述 Microsoft 安全解决方案的功能；模块 3：描述 Microsoft Sentinel 的安全功能；第 3 单元：描述 Microsoft Sentinel 如何提供集成威胁管理'
 ---
-
+--->
 
 # <a name="demo-microsoft-sentinel"></a>演示：Microsoft Sentinel
 

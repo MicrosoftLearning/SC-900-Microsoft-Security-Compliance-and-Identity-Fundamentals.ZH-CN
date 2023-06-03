@@ -1,9 +1,8 @@
+<a name="---"></a><!---
 ---
-lab:
-    title: '实验室：探索 Microsoft Purview 内部风险管理'    
-    module: '模块 4：描述 Microsoft Purview 中的内部风险功能'
+Lab: Title: '探索 Microsoft Purview 中的内部风险管理' Learning Path/Module/Unit: '学习路径：描述 Microsoft 合规性功能；模块 4：描述 Microsoft Purview 中的内部风险功能；第 2 单元：描述内部风险管理'
 ---
-
+--->
 
 # <a name="lab-explore-insider-risk-management-in-microsoft-purview"></a>实验室：探索 Microsoft Purview 内部风险管理
 
