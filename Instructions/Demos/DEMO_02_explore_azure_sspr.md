@@ -1,24 +1,24 @@
-<a name="---"></a><!---
+<!---
 ---
-Demo: Title: 'Azure AD 自助式密码重置 (SSPR)' Learning Path/Module/Unit: '学习路径：描述 Azure Active Directory (Azure AD) 的功能（Microsoft Entra 的一部分）；模块 2：描述 Azure AD 的身份验证功能；第 4 单元：描述 Azure AD 中的自助式密码重置'
+Demo: Title: 'Microsoft Entra 自助式密码重置 (SSPR)' Learning Path/Module/Unit: '学习路径：描述 Microsoft Entra 的功能；模块 2：描述 Microsoft Entra ID 的身份验证功能；第 4 单元：描述自助式密码重置'
 ---
 --->
 
-# <a name="demo-azure-ad-self-service-password-reset-sspr"></a>演示：Azure AD 自助式密码重置 (SSPR)
+# Demo: Microsoft Entra 自助式密码重置 (SSPR)
 
 此演示与下列 Learn 内容保持一致：
 
-- 学习路径：描述 Active Directory (Azure AD) 的功能（Microsoft Entra 的一部分）
-- 模块：描述 Azure AD 的身份验证功能
-- 单元：描述 Azure AD 中的自助式密码重置
+- 学习路径：描述 Microsoft Entra 的功能
+- 模块：描述 Microsoft Entra ID 的身份验证功能
+- 单元：描述自助式密码重置
 
-## <a name="demo-scenario"></a>演示方案
+## 演示方案
 
 在本演示中，你将演练与启用自助式密码重置相关的各种设置。
 
-1. 转到浏览器中打开的“Contoso - Microsoft Azure”选项卡。 如果之前关闭了该选项卡，请打开浏览器页面，在地址栏中输入 portal.azure.com，然后选择“Azure Active Directory”。 你应在 Azure 门户中以管理员身份登录；如果没有，请重新登录。
+1. 返回到打开的名为“主页 - Microsoft Entra 管理中心”的浏览器标签页。  如果之前关闭了该浏览器标签页，请打开 Microsoft Edge，并使用 Microsoft 365 管理员凭据登录到 [entra.microsoft.com](https://entra.microsoft.com)。
 
-1. 从左侧导航窗格中，选择“密码重置”。
+1. 从左侧导航窗格中，选择“保护”，然后选择“密码重置”。 
 
 1. “属性”选项卡突出显示。  请注意，在“属性”窗口中，SSPR 可以为“无”、“选定”或“全部”。
     1. 将光标置于显示“自助式密码重置已启用”旁边的信息图标上，指出你可选中“选定”，仅允许一组有限的用户重置密码，而不是选择“无”或“全部”。
@@ -41,6 +41,6 @@ Demo: Title: 'Azure AD 自助式密码重置 (SSPR)' Learning Path/Module/Unit: 
 
 1. 将此浏览器页面保持在打开状态，进行下一演示。
 
-### <a name="review"></a>审阅
+### 审阅
 
 在本演示中，你演示了与自助式密码重置相关的设置。
