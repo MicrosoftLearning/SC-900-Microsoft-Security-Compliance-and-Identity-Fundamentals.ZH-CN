@@ -1,32 +1,28 @@
-<a name="---"></a><!---
+<!---
 ---
-Lab: Title: '探索 Microsoft Sentinel' Learning Path/Module/Title: '学习路径：描述 Microsoft 安全解决方案的功能；模块 3：描述 Microsoft Sentinel 的安全功能；第 3 单元：描述 Microsoft Sentinel 如何提供集成威胁管理'
+Lab: Title: 'Explore Microsoft Sentinel' Learning Path/Module/Title: '学习路径：描述 Microsoft 安全性解决方案的功能；模块 3：描述 Microsoft Sentinel 的安全性功能；第 3 单元：描述 Microsoft Sentinel 中的威胁检测和缓解功能'
 ---
 --->
 
-# <a name="lab-explore-microsoft-sentinel"></a>实验室：探索 Microsoft Sentinel
+# 实验室：探索 Microsoft Sentinel
 
 此实验室与下列 Learn 内容保持一致：
 
 - 学习路径：描述 Microsoft 安全解决方案的功能
 - 模块：描述 Microsoft Sentinel 的安全功能
-- 单元：描述 Microsoft Sentinel 如何提供集成威胁管理
+- 单元：描述 Microsoft Sentinel 中的威胁检测和缓解功能
 
-## <a name="lab-scenario"></a>实验室场景
+## 实验室场景
 
-，你将演练创建 Microsoft Sentinel 实例的过程。  你还将设置权限，以确保可访问将为支持 Microsoft Sentinel 而部署的资源。  完成此基本设置后，你将逐步完成将 Microsoft Sentinel 连接到数据源的步骤，设置工作簿，并简要演练 Microsoft Sentinel 中提供的一些关键功能。 
+，你将演练创建 Microsoft Sentinel 实例的过程。  你还将设置权限，以确保可访问将为支持 Microsoft Sentinel 而部署的资源。  完成此基本设置后，你将逐步完成将 Microsoft Sentinel 连接到数据源的步骤，设置工作簿，并简要演练 Microsoft Sentinel 中提供的一些关键功能。
 
 预计用时：45-60 分钟
 
-### <a name="task-1"></a>任务 1
+### 任务 1
 
 创建 Microsoft Sentinel 实例
 
-1. 打开 Microsoft Edge。 在地址栏中，输入“portal.azure.com”。
-1. 使用管理员凭据登录。
-    1. 在“登录”窗口中，输入实验室托管提供商提供的用户名，然后选择“下一步”。
-    1. 输入管理员密码，该密码应由实验室托管提供商提供。 选择“登录”。
-    1. 在提示保持登录状态时，选择“是”。
+1. 你应位于 Azure 服务的主页。  如果之前关闭了浏览器，请打开 Microsoft Edge。 在地址栏中输入“portal.azure.com”，然后使用管理员凭据登录。
 
 1. 在页面顶部的蓝色搜索框中，输入“Microsoft Sentinel”，然后在搜索结果中选择“Microsoft Sentinel”。 
 
@@ -36,7 +32,7 @@ Lab: Title: '探索 Microsoft Sentinel' Learning Path/Module/Title: '学习路�
 
 1. 在“创建 Log Analytics”工作区的“基本”选项卡中，输入以下内容：
     1. 订阅：保留默认值，这是授权实验室主机托管服务提供商 (ALH) 提供的 Azure 订阅。
-    1. 资源组：选择“新建”，输入名称“SC900-Sentinel-RG”，然后选择“确定”  。
+    1. 资源组：选择“SC900-Sentinel-RG”。 如果未列出此资源组，请选择“新建”，输入“SC900-Sentinel-RG”，然后选择“确定”。  
     1. 名称：SC900-LogAnalytics-workspace。
     1. 区域：美国东部（可能会根据你的位置选择不同的默认区域）
     1. 选择“查看 + 创建”（不会配置任何标记）。
@@ -47,7 +43,7 @@ Lab: Title: '探索 Microsoft Sentinel' Learning Path/Module/Title: '学习路�
 
 1. 请将此页面保持打开状态，因为在下一个任务中将用到它。
 
-### <a name="task-2"></a>任务 2
+### 任务 2
 
 创建 Microsoft Sentinel 实例后，请务必要让负责支持 Microsoft Sentinel 的用户拥有必要的权限。  这可以通过为指定用户分配所需的角色权限来实现。  在此任务中，你将查看可用的内置 Microsoft Sentinel 角色。
 
@@ -66,56 +62,57 @@ Lab: Title: '探索 Microsoft Sentinel' Learning Path/Module/Title: '学习路�
 
 1. 在访问控制页面中，选择窗口右上角的“X”关闭此窗口。
 
-### <a name="task-3"></a>任务 3
+1. 在窗口左上角显示“Microsoft Azure”的蓝色条下方，选择“主页”以返回到 Azure 服务主页。
 
-此任务旨在引导你完成设置 Microsoft Sentinel 实例的数据连接器以及选择内置工作簿模板所涉及的步骤，以便在连接数据源后快速深入了解数据。 注意：Azure 实验室订阅在连接到数据源和/或可视化数据时可能会出现比正常情况更高的延迟。
+1. 使浏览器中的 Azure 选项卡保持打开状态。
 
-1. 在页面顶部显示 Microsoft Azure 旁边蓝色栏的搜索框中，输入“Microsoft Sentinel”，然后在搜索结果中选择“Microsoft Sentinel”。 
+### 任务 3
 
-1. 在“Microsoft Sentinel”页中，选择使用 Microsoft Sentinel 实例创建的工作区：SC900-LogAnalytics-workspace。
+此任务的目的是引导你完成连接到数据源所涉及的步骤。 许多数据连接器连同相关的内容（如分析规则、工作簿和 playbook）部署为 Microsoft Sentinel 解决方案的一部分。 Microsoft Sentinel 内容中心是用于发现和管理现成（内置）内容的集中位置。 在此步骤中，你将使用内容中心为 Microsoft Sentinel 部署 Microsoft Defender for Cloud 解决方案。  此解决方案允许引入 Microsoft Defender for Cloud 中报告的安全警报。
 
-1. 可使用 Microsoft Sentinel 完成的第一步是收集数据。 在左侧导航面板中选择配置下方列出的“数据连接器”。
+1. 在 Azure 服务主页中，选择“Microsoft Sentinel”，然后选择创建的实例“SC900-LogAnalytics-workspace”。
 
-1. 在“数据连接器”页面中，向下滚动主窗口，以查看可用连接器的详细列表。 在“数据连接器”页的“搜索”框中，输入“Microsoft Defender for Cloud”，然后从列表中选择“Microsoft Defender for Cloud” 。
+1. 从左侧导航面板中，选择“内容中心”。
 
-1. “Microsoft Defender for Cloud 连接器”窗口随即打开。 查看说明，然后选择“打开连接器”页。
+1. 请花点时间向下滚动，查看可用解决方案的长列表以及筛选列表的选项。  在本任务中，你要寻找 Microsoft Defender for Cloud。  从列表中选择该服务。  在打开的侧窗口中，阅读说明，然后选择“安装”。  此解决方案包括一个数据连接器和一个分析规则。 它可能需要一分钟来安装。  选择“管理”。
 
-1. 在“Microsoft Defender for Cloud 连接器”页面中，查看窗口左侧的“说明”。
+1. 选中“Microsoft Defender for Cloud”旁边的框。  一个窗口在页面的右侧打开。  选择“打开连接器页”。
 
-1. 主窗口中的“说明”选项卡给出了先决条件。  查看说明和配置信息。
-    1. 从配置部分中勾选列出的订阅“MOC 订阅--lodXXXXXXXX”旁边的空框，这样蓝色框中就会出现一个复选标记，然后选择“连接”（连接选项显示在搜索框上方） 。  此时会显示“连接”窗口，选择“确定”。  在订阅旁边的状态列中，应会看到状态更新为“已连接”。  如果在页面左侧的窗口中看不到连接状态，请不要担心，不要刷新浏览器。
-    1. 向下滚动页面并选择“启用”，从连接服务中生成的所有警报自动创建事件。
-    1. 现在，选择页面顶部的“后续步骤”选项卡，查看为此数据连接器推荐的工作簿。  Microsoft Sentinel 附带内置的工作簿模板，支持在连接到数据源后快速了解数据。
-    1. 选择“ASC 合规性和保护”（注意：ASC 或 Azure 安全中心现在名为 Microsoft Defender for Cloud）。  此操作将打开工作簿页面。  在屏幕右侧查看说明，然后从屏幕底部选择“保存”，然后选择“确定”将工作簿保存到默认位置。  现在选择“查看保存的工作簿”。
-    1. 在工作区字段中，选择“SC900-LogAnalytics-workspace”。
-    1. 在工作簿页面顶部，选择“自动刷新: 关闭”，然后选择“5 分钟”并选择“应用”  。
-    1. 在工作簿页面顶部，选择“保存”图标。
-    1. 在“工作簿”页的左上角，选择“工作簿”上方的“Microsoft Sentinel”。 这会返回到“概述”页面。 现在，“已连接”上方应显示数字 1，表示有一个活动连接器（可能需要选择刷新才能看到此数字）。
+1. 请注意配置说明。  选择订阅名称旁边的框，然后选择“连接”。  可能会显示一个弹出窗口，指示只有你拥有安全读者权限的订阅才会开始流式处理 Microsoft Defender for Cloud 警报。  选择“确定”。  状态将变为“已连接”。  连接器现已启用，但它可能需要一些时间才能显示在数据连接器页中。  
+
+1. 现在查看有关分析规则的信息。  从页面顶部（在痕迹导航中）选择“Microsoft Defender for Cloud”。 取消选中“Microsoft Defender for Cloud”旁边的框，因为你已配置连接器（警告图标可能需要一些时间才能消失）。 选中“检测来自相关安全警报的 CoreBackUp 删除活动”旁边的框。 在打开的窗口中，你将看到有关规则及其用途的信息。  
+    1. 尽管规则逻辑的详细信息超出了基础知识的范围，但请完成配置规则的步骤，以查看可作为规则的一部分配置的信息类型。 选择“配置”。
+    1. 选择规则“检测来自相关安全警报的 CoreBackUp 删除活动”。
+    1. 在页面右侧打开的窗口中，选择“创建规则”。
+    1. 浏览每个配置页面，然后选择“查看并创建”，然后选择“保存”。 
+
+1. 通过在页面顶部的痕迹导航（Analytics 规则的上方）中选择“Microsoft Sentinel | 内容中心”返回到 Sentinel 页面。
 
 1. 请将此页面保持打开状态，因为在下一个任务中将用到它。
 
-### <a name="task-4"></a>任务 4
+
+### 任务 4
 
 在此任务中，你将演练 Sentinel 中可用的一些选项。
 
-1. 从左侧导航面板中，选择“搜寻”。  从已选中（带下划线）的“查询”选项卡中，从列表中选择任何查询。  选择查询后，请注意提供的有关该查询的信息，包括查询的代码，以及运行查询和查看结果的选项。  不要选择任何内容。
+1. 从左侧导航面板中，选择“搜寻”。  在页面顶部，选择“查询”选项卡。阅读关于什么是搜寻查询的说明。 可以通过内容中心添加搜寻查询。 以前安装的任何查询都将在此处列出。 选择“**转到内容中心**”。  内容中心列出了包含属于某个解决方案或独立的查询的内容。  向下滚动查看可用选项。 选择窗口右上角的“X”关闭内容中心。
 
-1. 从左侧导航面板中，选择“MITRE ATT&CK”。  MITRE ATT&CK 是攻击者常用的策略和技术的公开访问知识库。 通过 Microsoft Sentinel，可以根据 MITRE ATT&CK® 框架中的策略和技术，来查看工作区中已经处于活动状态的检测，以及可供配置的检测，从而了解组织的安全覆盖范围。  从矩阵中选择任何单元格，并记下屏幕右侧可用的信息。  
+1. 从左侧导航面板中，选择“MITRE ATT&CK”。  MITRE ATT&CK 是攻击者常用的策略和技术的公开访问知识库。 通过 Microsoft Sentinel，可以根据 MITRE ATT&CK® 框架中的策略和技术，来查看工作区中已经处于活动状态的检测，以及可供配置的检测，从而了解组织的安全覆盖范围。  从矩阵中选择任何单元格，并记下屏幕右侧可用的信息。 注意：可能需要选择窗口最右侧的“<<”才能查看信息面板。 
 
 1. 从左侧导航面板中，选择“社区”。 Microsoft 安全分析师会不断创建和添加新的工作簿、playbook、搜寻式查询及其他资源，并将其发布到社区，供你在环境中使用。 在屏幕右侧，选择“加入社区内容”。  此时会打开 GitHub 存储库的新选项卡，可在其中下载内容以启用方案。 向下滚动到“README.md”部分并查看说明。 在浏览器中，返回到 Azure 选项卡。
 
-1. 从左侧导航面板中，选择“分析”。  从“高级多阶段攻击检测”列表中选择第一项。  请注意详细信息。  Microsoft Sentinel 使用 Fusion（基于可缩放的机器学习算法的关联引擎）通过识别在不同杀伤链阶段观测到的异常行为与可疑活动的组合来自动检测多阶段攻击（也称为高级持久威胁）。 Microsoft Sentinel 根据这些发现结果生成事件，否则很难捕获这些事件。
+1. 从左侧导航面板中，选择“分析”。  应该有两个活动规则，一个默认可用，一个是在上一个任务中创建的规则。 选择默认规则“高级多阶段攻击检测”。  请注意详细信息。  Microsoft Sentinel 使用 Fusion（基于可缩放的机器学习算法的关联引擎）通过识别在不同杀伤链阶段观测到的异常行为与可疑活动的组合来自动检测多阶段攻击（也称为高级持久威胁）。 Microsoft Sentinel 根据这些发现结果生成事件，否则很难捕获这些事件。 注意：可能需要选择窗口最右侧的“<<”才能查看信息面板。 
 
 1. 从左侧导航面板中，选择“自动化”。  在这里，可以创建简单的自动化规则、与现有 playbook 集成或创建新的 playbook。  选择“+ 创建”，然后选择“自动化规则”。  请注意在屏幕右侧打开的窗口以及可用于创建条件和操作的选项。  选择屏幕底部的“取消”。
 
-1. 从左侧导航面板中，选择“工作簿”。 从“工作簿”页面中选择“我的工作簿”选项卡，其位于搜索框上方。  已列出先前保存的工作簿，并且该工作簿可用于查看和监视数据。   注意：Azure 订阅中没有任何实际活动要反映在工作簿中，Azure 实验室订阅在收集可在工作簿中可视化的数据时可能会遇到比正常情况更高的延迟。
+1. 从左侧导航面板中，选择“工作簿”。 阅读关于什么是 Microsoft Sentinel 工作簿的说明。  可以通过内容中心添加工作簿。 之前安装的任何工作簿都将在此处列出。 选择“转到内容中心”。  内容中心列出了包含属于某个解决方案或独立的工作簿的内容。 向下滚动查看可用选项。
 
 1. 选择窗口右上角的“X”关闭窗口。
 
 1. 从窗口左上角的蓝色条下方，选择“主页”以返回到 Azure 门户的主页。
 
-1. 关闭所有打开的浏览器选项卡。
+1. 退出登录并关闭所有打开的浏览器选项卡。
 
-### <a name="review"></a>审阅
+### 审阅
 
-在此演示中，你逐步完成了将 Microsoft Sentinel 连接到数据源的步骤，设置了工作簿，并演练了 Microsoft Sentinel 中提供的多个选项。
+在此 lV 中，你逐步完成了将 Microsoft Sentinel 连接到数据源的步骤，设置了工作簿，并演练了 Microsoft Sentinel 中提供的多个选项。
