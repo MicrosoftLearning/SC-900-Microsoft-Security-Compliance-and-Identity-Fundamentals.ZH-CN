@@ -1,39 +1,46 @@
-<a name="---"></a><!---
+<!---
 ---
-Demo: Title: 'Microsoft Defender for Cloud' Learning Path/Module/Unit: '学习路径：描述 Microsoft 安全解决方案的功能；模块 2：描述 Azure 的安全管理功能；第 3 单元：描述 Microsoft Defender for Cloud'
+演示：标题：“Microsoft Defender for Cloud”Learning Path/Module/Unit：“学习路径：描述 Microsoft 安全解决方案的功能；模块 2：描述 Azure 的安全管理功能；第 3 单元：描述云安全态势管理”
 ---
 --->
 
-# <a name="demo-microsoft-defender-for-cloud"></a>演示：Microsoft Defender for Cloud
+# 演示：Microsoft Defender for Cloud
 
 此演示与下列 Learn 内容保持一致：
 
 - 学习路径：描述 Microsoft 安全解决方案的功能
 - 模块：描述 Azure 的安全管理功能
-- 单元：描述 Microsoft Defender for Cloud
+- 单元：描述云安全态势管理
 
-## <a name="demo-scenario"></a>演示方案
+## 演示方案
 
 在本演示中，你将演练 Microsoft Defender for Cloud，并介绍如何利用该功能来改善组织的安全态势。  注意：由授权实验室托管商 (AH) 管理的 Azure 订阅可能会限制某些访问，并且会遇到比正常情况更长的延迟。
 
-### <a name="demo-task-1"></a>演示任务 1
+### 演示第 1 部分
 
 在此演示任务中，你将大致演练 Microsoft Defender for Cloud 的一些功能。
 
-1. 打开 Microsoft Edge。 在地址栏中，输入“portal.azure.com”。
-1. 使用管理员凭据登录。
-    1. 在“登录”窗口中，输入实验室托管提供商提供的用户名，然后选择“下一步”。
-    1. 输入管理员密码，该密码应由实验室托管提供商提供。 选择“登录”。
-    1. 在提示保持登录状态时，选择“是”。
+1. 打开浏览器选项卡“主页 - Microsoft Azure”。  如果之前关闭了该标签页，请打开浏览器页面，在地址栏中输入 https://portal.azure.com 。 使用授权实验室托管者 (ALH) 提供的 Azure 凭据登录。  这会将你转到 Azure 服务主页。
 
 1. 在蓝色搜索栏中输入“Microsoft Defender for Cloud”，然后从结果列表中选择“Microsoft Defender for Cloud” 。
 
-1. 如果这是你首次使用订阅进入 Microsoft Defender for Cloud，可能会登陆到“入门”页面，系统还可能提示进行升级。  滚动到页面底部，然后选择“跳过”。  此时会转到“概述”页。
+1. 如果这是你首次使用订阅进入 Microsoft Defender for Cloud，可能会登陆到“入门”页面，系统还可能提示进行升级。  滚动到页面底部，然后选择“跳过”。  此时会转到“概述”页。 在 Microsoft Defender for Cloud 的“概述”页中，请注意页面上提供的信息。  页面顶部的信息包括 Azure 订阅数、评估资源数、可用建议数和任何安全警报。  在页面的正文中，有表示安全态势、法规合规性、见解等内容的卡片。  默认情况下，所有订阅都启用了基础 CSPM，从而提供安全分数。  
+    1. 如果安全分数值将显示为 0%，则原因是 Azure 最长可能会延迟 24 小时才能反映初始分数。  
+    1. 还要注意的是，Defender for Cloud 是一种多云解决方案，不仅可通过 Azure，还可通过 AWS 和 Google Cloud Platform 来帮助改善安全态势。
 
-1. 在 Microsoft Defender for Cloud 的“概述”页中，请注意页面上提供的信息。  页面顶部的信息包括 Azure 订阅数、评估资源数、可用建议数和任何安全警报。  在页面的正文中，有表示安全态势、法规合规性、见解等内容的卡片。  注意：Microsoft Defender for Cloud 默认策略计划（通常必须由管理员分配）已作为 Azure 订阅设置的一部分进行分配。 但是，安全功能分数将显示为 0%，因为 Azure 可能会延迟 24 小时才能反映初始分数。
+1. 首先要展示的是，Microsoft Defender for Cloud 使用 Microsoft 云安全基准作为默认策略计划。  从左侧导航窗格中，选择“环境设置”。 在主窗口中，选择“展开”。  展开的视图将以蓝色文本显示你的订阅。  选择订阅 MOC Subscription--lodXXXXXX。
+
+1. 在左侧导航面板中，选择策略设置下列出的“安全策略”。 如果未分配默认计划，请选择“分配策略”。
+    1. 请注意，“基本信息”选项卡显示计划定义是 Microsoft 云安全基准。  该计划灰显，因为它是默认计划，我们在这里只需分配它即可。
+    1. 选择“查看 + 创建”，然后选择“创建” 。 如果需要，可在选择用于查看和创建的选项之前，滚动浏览不同选项卡的可配置参数。
+    1. 这是确保可查看基于 Microsoft 云安全基准的安全建议的重要步骤。  
+
+1. 另请注意，可添加的行业和法规标准是现成的。 如果列出的标准显示为已弃用，请选择“添加更多标准”以查看完整列表。  从列表中选择一个，然后依次选择“查看 + 创建”和“创建”来手动添加它。   你将看到已添加到行业标准和标准法规列表中。
+
+1. 选择“概述”。  在页面的正文中，有表示安全态势、法规合规性、见解等内容的卡片。  所有订阅都启用了基础 CSPM，从而提供安全分数。 该值显示为 0%，因为 Azure 最长可能会延迟 24 小时才能反映初始分数。  虽然安全分数当前显示为 0%，但请注意，Defender for Cloud 是一种多云解决方案，不仅可通过 Azure，还可通过 AWS 和 Google Cloud Platform 来帮助改善安全态势。
 
 1. 在页面顶部选择“已评估的资源”。  （请注意，这相当于在 Microsoft Defender for Cloud 主页的左侧导航面板中选择“清单”）。
-    1. 随后会转到“清单”页，其中列出了当前资源。 选择虚拟机资源“sc900-winwm”。 此资源与在上一实验室中使用的虚拟机相关联。
+    1. 随后会转到“清单”页，其中列出了当前资源。 选择虚拟机资源“sc900-winwm”。 此资源与在上一实验室/演示中使用的虚拟机相关联。
     1. VM 的“资源运行状况”页面提供有建议列表。  从可用列表中，选择显示“运行不正常”状态的任何项。
     1. 请注意详细说明。  选择“修正”步骤旁的向下箭头。 请注意如何提供修正说明（或指向说明的链接）以及执行操作的选项。  退出窗口，不执行任何操作。
     1. 返回到 Microsoft Defender for Cloud 概述页面，方法是从页面顶部显示“资源运行状况”的位置上方选择“Microsoft Defender for Cloud | 概述”。
@@ -43,14 +50,15 @@ Demo: Title: 'Microsoft Defender for Cloud' Learning Path/Module/Unit: '学习�
     1. 请注意，某些项显示为运行不正常的资源，如行项右侧的红色条所示。  从列表中选择任何运行不正常的资源。  在打开的页面中，你将看到一段描述、修正步骤和受影响的资源。 选择屏幕右上角的“X”退出此页面。
     1. 选择屏幕右上角的“X”退出“建议”页面，返回到概述页面。
 
-1. 在左侧主导航面板中，选择“法规合规性”。 法规合规性页面提供基于 Microsoft 云安全基准的合规性控制列表（验证是否已选中 Microsoft 云安全基准选项卡 [带下划线]）。 每个控制域下是控制的一个子集，每个控制都有一个或多个评估。 每个评估都提供信息，包括说明、修正和受影响的资源。
+1. 在左侧主导航面板中，选择“法规合规性”。  注意：如果发现没有要计算其合规性的订阅，则原因是信息显示最多可能延迟 24 小时才会显示。 转到任务 2。  如果确实看到信息，请继续执行后续步骤。
+    1. 法规合规性页面提供基于 Microsoft 云安全基准的合规性控制列表（验证是否已选中 Microsoft 云安全基准选项卡 [带下划线]）。 每个控制域下是控制的一个子集，每个控制都有一个或多个评估。 每个评估都提供信息，包括说明、修正和受影响的资源。
     1. 让我们来探索一个控制域区域。 选择（展开）“NS. 网络安全性”。 将显示与网络安全相关的控制列表。
     1. 选择“应启用 NS-10. Microsoft Defender for DNS”。 请注意自动评估列表（包括 AWS 的自动评估）以及每个评估行项如何提供信息，包括资源类型、失败的资源和合规性工作站。 选择列出的评估。  此处显示的信息包括说明、修正步骤和受影响的资源。
     1. 选择屏幕右上角的“X”关闭页面。
     1. 从左侧导航面板中选择“概述”，返回到 Microsoft Defender for Cloud 概述页。
     1. 使 Microsoft Defender for Cloud 概述页面保持打开状态，你在下一个任务中会用到它。
 
-### <a name="demo-task-2"></a>演示任务 2
+### 演示第 2 部分
 
 还记得吗，Microsoft Defender for Cloud 有两种模式：没有增强的安全功能（免费）以及具有通过 Microsoft Defender for Cloud 计划提供的增强安全功能。 在此任务中，你将了解如何启用/禁用各种 Microsoft Defender for Cloud 计划。
 
@@ -59,8 +67,8 @@ Demo: Title: 'Microsoft Defender for Cloud' Learning Path/Module/Unit: '学习�
 1. 在“Defender 计划”页上，注意如何选择“全部启用”或选择单个 Defender 计划。 
     1. 验证 CSPM 状态是否设置为“开”，如果没有，请立即设置。  
     1. 为服务器启用计划。  对于“服务器”行项，选择“开”，然后从页面顶部选择“保存” 。
-1. 关闭所有打开的浏览器选项卡。
+1. 在浏览器中保持 Azure 选项卡打开，以便进行下一个 Azure 演示。
 
-## <a name="review"></a>审阅
+## 审阅
 
-在本演示中，你演练了 Microsoft Defender for Cloud，并介绍了如何利用 Azure 安全功能分数来改善组织的安全态势。
+在本演示中，你大致演练了 Microsoft Defender for Cloud，并介绍了如何利用 Azure 安全功能分数来改善组织的安全态势。
