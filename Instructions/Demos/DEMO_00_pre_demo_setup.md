@@ -33,7 +33,7 @@ Pre-Demo Setup: Title: '演示设置'
 
 1. 进入审核页面后，请等待 2-3 分钟。  如果未启用“审核”，你将在页面顶部看到一个显示“开始记录用户和管理员活动”的蓝条。  选择**开始记录用户和管理员活动**。  启用审计后，蓝色条将消失。  如果蓝条不存在，则表示已启用审核，无需采取进一步操作。
 
-1. 通过选择左侧导航面板中的“主页”，返回 Microsoft Purview 合规性门户的主页****。
+1. 通过选择左侧导航面板中的“**主页**”，返回 Microsoft Purview 合规性门户的主页。
 
 ### Microsoft Defender for Cloud Apps 文件监视
 
@@ -57,7 +57,7 @@ Pre-Demo Setup: Title: '演示设置'
 
 检查是否已创建 VM。 如果没有，请立即设置。 你会将该 VM 用作 NSG 演示的一部分。
 
-1. 打开 Microsoft Edge。  在地址栏中，输入 **https://portal.azure.com**，然后使用授权实验室托管者 (ALH) 提供的 Azure 凭据登录。  这会带你转到 Azure 服务主页。
+1. 打开 Microsoft Edge。  在地址栏中，输入 **https://portal.azure.com** ，然后使用授权实验室托管者 (ALH) 提供的 Azure 凭据登录。  这会带你转到 Azure 服务主页。
 
 1. 在页面顶部的蓝色搜索框中输入“**虚拟机**”，然后从搜索结果中选择“**虚拟机**”。
 
