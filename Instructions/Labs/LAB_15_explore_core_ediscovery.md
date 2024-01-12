@@ -66,7 +66,7 @@ Lab: Title: 'Explore the eDiscovery (Standard) workflow' Learning Path/Module/Un
 
 1. 在案例的主页上，选择**保持**选项卡，然后选择 **+创建**。
 
-1. 在“名称”字段中，输入“测试保留”，然后选择“下一步”********。
+1. 在“名称”字段中，输入“**测试保留**”，然后选择“**下一步**”。
 
 1. 在“选择位置”页面中，选择“**Exchange 邮箱**”旁边的切换开关以将状态设置为“**开启**”。  
 
@@ -86,7 +86,7 @@ Lab: Title: 'Explore the eDiscovery (Standard) workflow' Learning Path/Module/Un
 
 1. 在浏览器中打开“SC900 测试案例”选项卡。
 
-1. 在“SC900 测试案例”页中，选择“搜索”****。
+1. 在“SC900 测试案例”页中，选择“**搜索**”。
 
 1. 从搜索页面，选择 **+ 新建搜索**。
 
