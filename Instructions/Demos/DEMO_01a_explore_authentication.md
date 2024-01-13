@@ -1,6 +1,6 @@
 <!---
 ---
-演示：标题：“浏览 Microsoft Entra ID 用户设置”学习路径/模块/单元：“学习路径：描述 Microsoft Entra 的功能；模块 2：描述 Microsoft Entra ID 的身份验证功能；第 3 单元：描述身份验证方法，第 4 单元：描述多重身份验证”
+Demo: Title: 'Explore Microsoft Entra ID User Settings' Learning Path/Module/Unit: ‘学习路径：描述 Microsoft Entra 的功能；模块 2：描述 Microsoft Entra ID 的身份验证功能；第 3 单元：描述身份验证方法，第 4 单元：描述多重身份验证”
 ---
 --->
 
@@ -16,7 +16,7 @@
 
 在此演示中，你将浏览 Microsoft Entra 中可用于身份验证的各种设置。
 
-1. 返回到打开的标题为“主页 - Microsoft Entra 管理中心”的浏览器选项卡。  如果之前关闭了该浏览器选项卡，请打开 Microsoft Edge，并使用 Microsoft 365 管理员凭据登录到 **[entra.microsoft.com](https://entra.microsoft.com)** 。
+1. 返回到打开的标题为“主页 - Microsoft Entra 管理中心”的浏览器选项卡。  如果之前关闭了该浏览器选项卡，请打开 Microsoft Edge，并使用 Microsoft 365 管理员凭据登录到 **[entra.microsoft.com](https://entra.microsoft.com)**。
 
 1. 从左侧导航窗格展开“**保护**”，然后选择“**身份验证方法**”。
 
@@ -33,7 +33,7 @@
  
 1. 现在，我们来看一下密码保护。 选择“**密码保护**”。  请注意可用的不同配置参数。  
     1. 选择“**锁定阈值**”旁边的信息图标，以查看此参数的含义。  目前，它设置为 10，这意味着在帐户被锁定之前，最多可以有 10 次失败的登录。这似乎有点高，因此可以设置为不同的值。
-    1. 选择每个不同参数的信息图标，并简短地与它交谈。  你会特别需要调出自定义禁用密码列表。
+    1. 选择每个不同参数的信息图标，并简短地与它交谈。  你会特别需要调出自定义受禁密码列表。
 
 1. 身份验证强度是一种条件访问控制，它支持管理员指定可以使用哪种身份验证方法组合来访问资源。 “条件访问”中会显示此项设置。
 
