@@ -22,12 +22,12 @@ Microsoft Sentinel 的实例应已在预演示设置中创建。 验证是否已
 
 1. 打开浏览器选项卡“**主页 - Microsoft Azure**”。  如果之前关闭了该选项卡，请打开浏览器页面，在地址栏中输入**https://portal.azure.com**。 使用授权实验室托管者 (ALH) 提供的 Azure 凭据登录。  这会带你转到 Azure 服务主页。
 
-1. 在页面顶部显示 Microsoft Azure 旁边蓝色栏的搜索框中，输入“Microsoft Sentinel”，然后在搜索结果中选择“Microsoft Sentinel”。********  
+1. 在页面顶部显示 Microsoft Azure 旁边蓝色栏的搜索框中，输入“**Microsoft Sentinel**”，然后在搜索结果中选择“**Microsoft Sentinel**”。  
 
 1. 在 Microsoft Sentinel 页面上，你应会看到你的 Sentinel 实例已列出，请选中它。  如果未列出，请立即创建它。
-    1. 在“Microsoft Sentinel”页中，选择“创建 Microsoft Sentinel”****。
+    1. 在“Microsoft Sentinel”页中，选择“**创建 Microsoft Sentinel**”。
 
-    1. 在“将 Microsoft Sentinel 添加到工作区”页中，选择“创建新工作区”。**** 在“创建 Log Analytics 工作区”的“基本信息”选项卡中，输入以下内容：
+    1. 在“将 Microsoft Sentinel 添加到工作区”页中，选择“**创建新工作区**”。 在“创建 Log Analytics 工作区”的“基本信息”选项卡中，输入以下内容：
         1. 订阅：保留默认值。
         1. 资源组：选择**新建**，然后输入名称 **SC900-Sentinel-RG**，然后选择**确定**。
         1. 名称：**SC900-LogAnalytics-workspace**。
@@ -94,7 +94,7 @@ Microsoft Sentinel 的实例应已在预演示设置中创建。 验证是否已
 
 1. 从左侧导航面板中，选择“MITRE ATT&CK”****。  MITRE ATT&CK 是攻击者常用的策略和技术的公开访问知识库。 通过 Microsoft Sentinel，可以根据 MITRE ATT&CK® 框架中的策略和技术，来查看工作区中已经处于活动状态的检测，以及可供配置的检测，从而了解组织的安全覆盖范围。  从矩阵中选择任何单元格，并记下屏幕右侧可用的信息。  
 
-1. 从左侧导航面板中，选择“社区”****。 Microsoft 安全分析师会不断创建和添加新的工作簿、playbook、搜寻式查询及其他资源，并将其发布到社区，供你在环境中使用。 可以从个人社区 GitHub 存储库下载示例内容，以创建适用于 Microsoft Sentinel 的自定义工作簿、搜寻式查询、Notebook 和 Playbook。  选择“加入社区内容”****。  此时会打开 GitHub 存储库的新选项卡，可在其中下载内容以启用方案。  在浏览器中，返回到 Azure 选项卡。
+1. 从左侧导航面板中，选择“**社区**”。 Microsoft 安全分析师会不断创建和添加新的工作簿、playbook、搜寻式查询及其他资源，并将其发布到社区，供你在环境中使用。 可以从个人社区 GitHub 存储库下载示例内容，以创建适用于 Microsoft Sentinel 的自定义工作簿、搜寻式查询、Notebook 和 Playbook。  选择“加入社区内容”****。  此时会打开 GitHub 存储库的新选项卡，可在其中下载内容以启用方案。  在浏览器中，返回到 Azure 选项卡。
 
 1. 从左侧导航面板中，选择**分析**。  应该有两个活动规则，一个默认可用，一个是在上一个任务中创建的规则。 选择默认规则“**高级多阶段攻击检测**”。  请注意详细信息。  Microsoft Sentinel 使用 Fusion（基于可缩放的机器学习算法的关联引擎）通过识别在不同杀伤链阶段观测到的异常行为与可疑活动的组合来自动检测多阶段攻击（也称为高级持久威胁）。 Microsoft Sentinel 根据这些发现结果生成事件，否则很难捕获这些事件。
 
