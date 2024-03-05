@@ -1,10 +1,10 @@
-<!---
 ---
-Lab: Title: 'Explore Microsoft Entra ID User Settings' Learning Path/Module/Unit: ‘学习路径：介绍 Microsoft Entra 的功能；模块 1：介绍 Microsoft Entra ID 的函数和标识类型；第 3 单元：介绍 Microsoft Entra 标识类型’
+lab:
+  title: 了解 Microsoft Entra ID 用户设置
+  module: Describe the function and identity types of Microsoft Entra ID
 ---
---->
 
-# 实验室：探索 Microsoft Entra ID
+# 实验室：了解 Microsoft Entra ID 用户设置
 
 此实验室与下列 Learn 内容保持一致：
 
