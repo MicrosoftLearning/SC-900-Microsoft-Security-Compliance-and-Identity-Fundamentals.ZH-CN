@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Title: 'Explore sensitivity labels in Microsoft Purview' Learning Path/Module/Unit: '学习路径：描述 Microsoft 合规性功能；模块 3：描述 Microsoft Purview 中的信息保护和数据生命周期管理；第 4 单元：描述敏感度标签'
+lab:
+  title: 探索 Microsoft Purview 中的敏感度标签
+  module: Describe information protection and data lifecycle management in Microsoft Purview
 ---
---->
 
 # 实验室：探索 Microsoft Purview 中的敏感度标签
 
