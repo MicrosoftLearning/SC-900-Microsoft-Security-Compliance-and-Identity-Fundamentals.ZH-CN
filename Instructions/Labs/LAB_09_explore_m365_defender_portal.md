@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Title: 'Explore the Microsoft 365 Defender portal' Module:'学习路径：描述 Microsoft 安全解决方案的功能；模块 4：描述 Microsoft 365 的威胁防护功能；第 7 单元：描述 Microsoft 365 Defender 门户'
+lab:
+  title: 探索 Microsoft 365 Defender 门户
+  module: Describe the threat protection capabilities of Microsoft 365
 ---
---->
 
 # 实验室：探索 Microsoft 365 Defender 门户
 

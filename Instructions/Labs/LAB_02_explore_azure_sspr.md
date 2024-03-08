@@ -1,3 +1,9 @@
+---
+lab:
+  title: Microsoft Entra 自助式密码重置
+  module: Describe the authentication capabilities of Microsoft Entra ID
+---
+
 <!---
 ---
 Lab: Title: 'Explore Azure AD Authentication with self-service password reset' Learning Path/Module/Unit: '学习路径：描述 Azure Active Directory (Azure AD) 的功能（Microsoft Entra 的一部分）；模块 2：描述 Azure AD 的身份验证功能；第 4 单元：描述自助式密码重置'

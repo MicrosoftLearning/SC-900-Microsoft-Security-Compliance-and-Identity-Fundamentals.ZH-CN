@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Title: 'Explore Microsoft Defender for Cloud' Learning Path/Module/Unit:'学习路径：描述 Microsoft 安全解决方案的功能；模块 2：描述 Azure 的安全管理功能；第 3 单元：描述云安全态势管理'
+lab:
+  title: 了解 Microsoft Defender for Cloud
+  module: Describe the security management capabilities of Azure
 ---
---->
 
 # 实验室：探索 Microsoft Defender for Cloud
 

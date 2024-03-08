@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Title: '设置'
+lab:
+  title: 实验室设置
+  module: Setup your Microsoft 365 lab tenant (not associated with a Learn module)
 ---
---->
 
 # 实验室：设置
 
