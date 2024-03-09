@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Title: 'Explore Azure Network Security Groups (NSGs)' Learning Path/Module/Unit:'学习路径：描述 Microsoft 安全解决方案的功能；模块 1：描述 Azure 中的基本安全功能；第 6 单元：描述 Azure 网络安全组'
+lab:
+  title: 探索 Azure 网络安全组 (NSG)
+  module: Describe the basic security capabilities in Azure
 ---
---->
 
 # 实验室：探索 Azure 网络安全组 (NSG)
 

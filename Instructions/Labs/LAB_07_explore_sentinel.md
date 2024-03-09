@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Title: 'Explore Microsoft Sentinel' Learning Path/Module/Title: '学习路径：描述 Microsoft 安全性解决方案的功能；模块 3：描述 Microsoft Sentinel 的安全性功能；第 3 单元：描述 Microsoft Sentinel 中的威胁检测和缓解功能'
+lab:
+  title: 探索 Microsoft Sentinel
+  module: Describe the security capabilities of Microsoft Sentinel
 ---
---->
 
 # 实验室：探索 Microsoft Sentinel
 
@@ -12,9 +12,9 @@ Lab: Title: 'Explore Microsoft Sentinel' Learning Path/Module/Title: '学习路�
 - 模块：描述 Microsoft Sentinel 的安全功能
 - 单元：描述 Microsoft Sentinel 中的威胁检测和缓解功能
 
-## 实验室场景
+## 实验室方案
 
-，你将演练创建 Microsoft Sentinel 实例的过程。  你还将设置权限，以确保可访问将为支持 Microsoft Sentinel 而部署的资源。  完成此基本设置后，你将逐步完成将 Microsoft Sentinel 连接到数据源的步骤，设置工作簿，并简要演练 Microsoft Sentinel 中提供的一些关键功能。
+在此实验室中，你将演练创建 Microsoft Sentinel 实例的过程。  你还将设置权限，以确保可访问将为支持 Microsoft Sentinel 而部署的资源。  完成此基本设置后，你将逐步完成将 Microsoft Sentinel 连接到数据源的步骤，设置工作簿，并简要演练 Microsoft Sentinel 中提供的一些关键功能。
 
 **预计用时**：45-60 分钟
 

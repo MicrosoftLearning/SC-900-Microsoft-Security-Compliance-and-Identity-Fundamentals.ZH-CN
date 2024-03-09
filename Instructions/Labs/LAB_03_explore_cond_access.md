@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Learning Path: '描述 Microsoft Entra 的功能' Module: '描述 Microsoft Entra ID 的访问管理功能' Unit: '描述条件访问'
+lab:
+  title: Microsoft Entra 条件访问
+  module: Describe the access management capabilities of Microsoft Entra ID
 ---
---->
 
 # 实验室：Microsoft Entra 条件访问
 

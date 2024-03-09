@@ -1,8 +1,8 @@
-<!---
 ---
-实验室：标题：'探索特权身份管理。 ' Learning Path/Module/Unit:'学习路径：描述 Microsoft Entra 的功能；单元 4：单元：描述 Microsoft Entra 的身份保护和治理功能；第 4 单元：描述特权身份管理功能
+lab:
+  title: 探索 Privileged Identity management
+  module: Describe the identity protection and governance capabilities of Microsoft Entra
 ---
---->
 
 # 实验室：探索特权身份管理
 

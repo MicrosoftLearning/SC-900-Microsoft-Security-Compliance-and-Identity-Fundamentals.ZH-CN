@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Title: 'Explore insider risk management in Microsoft Purview' Learning Path/Module/Unit:'学习路径：描述 Microsoft 合规性功能；模块 4：描述 Microsoft Purview 中的内部风险功能；第 2 单元：描述内部风险管理'
+lab:
+  title: 探索 Microsoft Purview 内部风险管理
+  module: Describe the insider risk capabilities in Microsoft Purview
 ---
---->
 
 # 实验室：探讨 Microsoft Purview 内部风险管理
 

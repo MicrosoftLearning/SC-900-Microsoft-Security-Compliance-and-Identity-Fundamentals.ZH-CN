@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Title: 'Explore the Service Trust Portal' Learning Path/Module/Unit:f'学习路径：描述 Microsoft 合规性功能；模块 1：描述 Microsoft 中的合规性管理功能；第 2 单元：探索服务信任门户'
+lab:
+  title: 探索服务信任门户
+  module: Describe the compliance management capabilities at Microsoft
 ---
---->
 
 # 实验室：探索服务信任门户
 

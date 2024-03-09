@@ -1,8 +1,8 @@
-<!---
 ---
-Lab: Title: 'Explore Microsoft Defender for Cloud Apps' Module: '学习路径：描述 Microsoft 安全解决方案的功能；模块 4：描述 Microsoft 365 的威胁防护功能；第 5 单元：描述 Microsoft Defender for Cloud Apps'
+lab:
+  title: 浏览 Microsoft Defender for Cloud Apps
+  module: Describe the threat protection capabilities of Microsoft 365
 ---
---->
 
 # 实验室：探索 Microsoft Defender for Cloud Apps
 
