@@ -43,7 +43,7 @@ lab:
 
 ### 任务 2
 
-在此任务中，你将完成在 Azure AD 中创建条件访问策略的过程。
+在此任务中，你将完成在 Microsoft Entra ID 中创建条件访问策略的过程。
 
 1. 打开浏览器选项卡，转到 Microsoft Entra 管理中心的主页。   如果之前关闭了该浏览器选项卡，请打开 Microsoft Edge，在地址栏中输入 **https://entra.microsoft.com**，使用 ALH 提供的 Microsoft 365 管理员凭据进行登录。
 
