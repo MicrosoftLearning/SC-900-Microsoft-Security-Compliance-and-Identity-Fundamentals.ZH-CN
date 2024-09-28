@@ -1,6 +1,6 @@
 <!---
 ---
-Demo: Title: 'Sensitivity labels in Microsoft Purview' Learning Path/Module/Unit: '学习路径：描述 Microsoft 合规性功能；模块 3：描述 Microsoft Purview 中的信息保护、数据生命周期管理和数据治理功能；第 4 单元：描述敏感度标签'
+演示：标题：“Microsoft Purview 中的敏感度标签”学习路径/模块/单元：“学习路径：介绍 Microsoft Priva 和 Microsoft Purview 的功能；模块 2：介绍 Microsoft Purview 的数据安全解决方案；单元 4：介绍 Microsoft Purview 信息保护中的敏感度标签和策略”
 ---
 --->
 
@@ -8,9 +8,9 @@ Demo: Title: 'Sensitivity labels in Microsoft Purview' Learning Path/Module/Unit
 
 此演示与下列 Learn 内容保持一致：
 
-- 学习路径：描述 Microsoft 合规性功能
-- 模块：介绍 Microsoft Purview 中的信息保护、数据生命周期管理和数据治理功能
-- 单元：描述敏感度标签
+- 学习路径：介绍 Microsoft Priva 和 Microsoft Purview 的功能
+- 模块：介绍 Microsoft Purview 的数据安全解决方案
+- 单元：介绍 Microsoft Purview 信息保护中的敏感度标签和策略
 
 ## 演示方案
 
@@ -20,12 +20,11 @@ Demo: Title: 'Sensitivity labels in Microsoft Purview' Learning Path/Module/Unit
 
 在本演示中，你将展示现有敏感度标签以及发布标签的相应策略的设置。
 
-1. 打开 Microsoft Purview 主页的浏览器选项卡。  如果你之前关闭了它，请打开一个浏览器选项卡，然后输入**https://admin.microsoft.com**。 使用授权实验室托管者 (ALH) 提供的 Microsoft 365 租户的管理员凭据登录。 从 Microsoft 365 管理中心的左侧导航窗格，选择“**全部显示**”，然后选择“**合规性**”。  这会打开一个新的浏览器页面，显示 Microsoft Purview 合规性门户的欢迎页。  
+1. 打开一个新的 Microsoft Edge 浏览器标签页，在地址栏中输入 **https://purview.microsoft.com**。 若要访问新的 Microsoft Purview 门户，请选择“**我同意数据流披露条款和隐私声明的**”旁边的框，然后选择“**开始**”。  
 
-1. 在左侧导航面板的“解决方案”下，展开“**信息保护**”，然后选择“**概述**”。  在概述页面中，可查看应用于内容的热门敏感度标签、检测到的热门活动、应用敏感度标签的位置等信息。  
-    1. 在概述页面中，你会看到黄色的信息框，它表示你的组织尚未开启处理 Office 在线文件（已应用加密的敏感度标签且存储在 OneDrive 和 SharePoint 中）中的内容的功能。  选择“**立即开启**”。  执行此操作后，设置在系统中传播可能存在延迟。
+1. 在新 Microsoft Purview 门户的登陆页上，选择“**查看所有解决方案**”磁贴，然后选择“**信息管理器**”磁贴。 或者，从左侧导航面板中选择“**解决方案**”，然后选择“**信息保护**”。
 
-1. 在左侧导航面板中，选择“**标签**”。
+1. 你将进入“概述页面”。 在左侧导航面板中，选择“**敏感度标签**”。
 
 1. 为了方便起见，某些标签已在你的 Microsoft 365 实验室租户中预配置。 选择名为**机密-财务**的标签。  此时会打开一个窗口，其中提供关于此标签的信息。  注意该标签的设置。  选择页面顶部的“编辑”标签（也可能显示为铅笔图标）以查看一些基本配置设置。**** 如果未看到此选项，请选择省略号。
     1. 配置的第一步是为标签提供一个名称和描述。  请勿更改任何内容。  选择页面底部的“**下一步**”。
@@ -36,7 +35,7 @@ Demo: Title: 'Sensitivity labels in Microsoft Purview' Learning Path/Module/Unit
     1. 此窗口为应用此标签的团队、组和站点定义保护设置。 这处于未启用状态，选择页面底部的“**下一步**”。
     1. 此窗口是一项预览功能，它能够自动将此标签应用到 Microsoft Purview 数据映射中包含你所选敏感信息类型的架构化数据资产（例如 SQL、Synapse 等）。  此功能未启用。 选择页面底部的“**取消**”以退出标签配置向导，并返回“信息保护”页面。
 
-1. 在左侧导航面板中，选择“**标签策略**”。  需通过标签策略发布敏感度标签。  为方便起见，Microsoft 365 租户已配置了一些标签策略。
+1. 在左侧导航面板中，选择“**策略**”，然后选择“**发布策略**”。  需通过标签策略发布敏感度标签。  为方便起见，Microsoft 365 租户已配置了一些标签策略。
 
 1. 选择**机密-财务**策略。  此时会打开一个窗口，其中提供关于此策略的信息。 选择窗口顶部的“**编辑策略**”。  在此，您无需更改任何设置。
     1. 查看“选择要发布的敏感度标签”的说明。  请注意已列出的标签。  请勿更改任何设置。  选择页面底部的“**下一步**”。
@@ -52,7 +51,7 @@ Demo: Title: 'Sensitivity labels in Microsoft Purview' Learning Path/Module/Unit
 
 1. 在左侧导航面板中的信息保护下，选择“自动标记”。 查看说明。 请注意，你要创建自动标记策略以自动将敏感度标签应用于包含敏感信息的电子邮件或 OneDrive 和 SharePoint 文件。 如果配置了自动标记策略，请选择一个策略，并在详细信息窗格中查看策略信息。  如果未列出任何策略，可以选择演练创建策略的步骤（如果时间允许）。
 
-1. 从左侧导航面板选择“主页”以返回 Microsoft Purview 合规性门户。
+1. 在左侧导航面板中，选择“主页”以返回 Microsoft Purview 门户。
 
 1. 将此浏览器选项卡保持打开状态。
 
@@ -60,7 +59,7 @@ Demo: Title: 'Sensitivity labels in Microsoft Purview' Learning Path/Module/Unit
 
 在此步骤中，你将演示从用户角度应用标签的过程（在本例中，用户是管理员）。  为了查看应用标签的影响，你将选择“机密 - 财务”标签，因为此标签应用了水印。
 
-1. 从 Microsoft Purview 合规性门户主页中，选择“Contoso Electronics”旁边的“**应用启动器**”图标。 选择 **Word 图标**。  
+1. 在 Microsoft Purview 合规性门户主页上，选择 Microsoft Purview（在主页图标上方）旁边的“**应用启动器**”图标。 选择 **Word 图标**。  
 
 1. 选择“**空白文档**”，然后在页面中输入一些文本。  在页面顶部的蓝色栏上，选择“文档 - 已保存”旁边的向下箭头，然后用键盘在“文件名”框中输入“**Test-label**”、按下“**Enter**”键。
 
