@@ -22,7 +22,7 @@ Lab: Title: 'Explore Azure AD Authentication with self-service password reset' L
 
 在本实验室中，作为管理员，您将完成将用户添加到 SSPR 安全组的过程，该安全组已在 Microsoft 365 租户中设置。 启用 SSPR 后，你将以用户身份完成注册 SSPR 和重置密码的过程。  最后，作为管理员，您将能够查看 SSPR 的审计日志、使用数据和见解。
 
-**预计用时**：15-20 分钟
+**预计用时**：30 分钟
 
 ### 任务 1
 
@@ -77,7 +77,7 @@ Lab: Title: 'Explore Azure AD Authentication with self-service password reset' L
 
 ### 任务 3
 
-在此任务中，您将以用户 Sara Perez 的身份完成自助服务密码重置的注册流程。  此任务要求你有权访问可以接收文本消息的移动设备。
+在此任务中，您将以用户 Sara Perez 的身份完成自助服务密码重置的注册流程。
 
 1. 打开 Microsoft Edge，在地址栏中输入**https://login.microsoft.com**。
 
@@ -85,10 +85,13 @@ Lab: Title: 'Explore Azure AD Authentication with self-service password reset' L
 
 1. 弹出窗口显示需要更多信息。  这是因为作为 SSPRSecurityGroupUsers 组的成员，配置要求其成员在登录时进行注册。  选择“**下一步**”按钮。  注意：除了让用户自己注册外，管理员还可以在添加用户时直接配置身份验证方法。 这要求管理员知道并设置用户用于执行自助式密码重置的电话号码和电子邮件地址，然后重置用户密码。
 
-1. 打开确保账户安全页面。  显示的窗口适用于 Phone 方法。
-    1. 系统会提示你输入电话号码。 确保已启用“接收代码”**** 选项。   输入可以接收代码的电话号码，然后选择“下一步”****。  
-    1. 这将打开一个新窗口，指示验证码已发送到你输入的手机。  输入您收到的代码，然后选择**下一步**。 此时会打开一个窗口，指示手机已注册。 选择“下一步”****，然后选择“完成”****。  
-    1. 如果想要改用电子邮件，请选择“我想设置其他方法”**** 并按照步骤操作。 
+1. 打开确保账户安全页面。  显示的窗口和后续步骤适用于 Microsoft Authenticator 应用方法。 如果想要改用电子邮件，请选择“我想设置其他方法”**** 并按照步骤操作。
+    1. 在移动设备上安装 Microsoft Authenticator 应用以后，请选择“**下一步**”。 否则，请选择“**立即下载”** 并按照步骤操作。
+    1. 你将开始设置帐户。  选择**下一步**。
+    1. 在移动设备上使用 Microsoft Authenticator 应用，选择**+** 添加帐户，并选择“**工作或学校帐户**”。
+    1. 选择“**扫描 QR 码**”选项，然后使用移动设备扫描电脑屏幕上的 QR 码。
+    1. 按照电脑和移动设备上的步骤操作，然后选择“**下一步**”。
+    1. 设置安全信息后，会看到“成功”窗口。  选择“完成”  。
 
 1. 现在已完成登录。 如果登录时间已过，只需重新输入密码即可。
 
@@ -100,7 +103,7 @@ Lab: Title: 'Explore Azure AD Authentication with self-service password reset' L
 
 1. 打开 Microsoft Edge。
 
-1. 在地址栏中输入**https://login.microsoftonline.com**。
+1. 在地址栏中输入**https://login.microsoft.com**。
 
 1. 以 Sara Perez 的身份登录，输入您的电子邮件**sara@WWLxZZZZ.onmicrosoft.com** （其中 ZZZZZZZ 是实验室托管服务提供商提供的唯一租户 ID），然后选择**下一步**按钮。 如果是这样，请选择 Sara Perez 的账户。
 
@@ -110,9 +113,9 @@ Lab: Title: 'Explore Azure AD Authentication with self-service password reset' L
 
 1. 在空框中输入图片中显示的字符或音频中的单词。 输入后，选择“下一步”****。
 
-1. 屏幕会显示返回到您的帐户，并显示验证步骤 1 > 选择新密码。 保留默认设置**给我的手机发短信**。  系统会提示你输入移动电话号码。  输入后，请选择发送短信的按钮****。 
+1. 屏幕会显示返回到您的帐户，并显示验证步骤 1 > 选择新密码。 选择“**在验证器应用上批准通知**”选项，然后选择“**发送通知**”。
 
-1. 输入验证码，然后按**下一步**。
+1. 记下电脑上的数字，并按照说明使用移动设备上的 Microsoft Authenticator 应用批准登录。
 
 1. 在下一个屏幕中，系统会提示你输入新密码并确认新密码。  现在输入验证码，然后选择**完成**按钮。
 

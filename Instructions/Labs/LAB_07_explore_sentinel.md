@@ -16,7 +16,7 @@ lab:
 
 在此实验室中，你将演练创建 Microsoft Sentinel 实例的过程。  你还将设置权限，以确保可访问将为支持 Microsoft Sentinel 而部署的资源。  完成此基本设置后，你将逐步完成将 Microsoft Sentinel 连接到数据源的步骤，设置工作簿，并简要演练 Microsoft Sentinel 中提供的一些关键功能。
 
-**预计用时**：45-60 分钟
+**估计时间**：60 分钟
 
 ### 任务 1
 
