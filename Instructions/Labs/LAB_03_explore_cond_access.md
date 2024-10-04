@@ -1,7 +1,7 @@
 ---
 lab:
   title: Microsoft Entra 条件访问
-  module: Describe the access management capabilities of Microsoft Entra ID
+  module: Describe the access management capabilities of Microsoft Entra
 ---
 
 # 实验室：Microsoft Entra 条件访问
@@ -9,7 +9,7 @@ lab:
 此实验室与下列 Learn 内容保持一致：
 
 - 学习路径：描述 Microsoft Entra 的功能
-- 模块：介绍 Microsoft Entra ID 的访问管理功能
+- 模块：介绍 Microsoft Entra 的访问管理功能
 - 单元：描述条件访问
 
 ## 实验室场景
@@ -102,7 +102,7 @@ lab:
 1. 显示的窗口和后续步骤适用于 Microsoft Authenticator 应用方法。 。
     1. 在移动设备上安装 Microsoft Authenticator 应用以后，请选择“**下一步**”。 否则，请选择“**立即下载”** 并按照步骤操作。
     1. 你将开始设置帐户。  选择**下一步**。
-    1. 在移动设备上使用 Microsoft Authenticator 应用，选择**+** 添加帐户，并选择“**工作或学校帐户**”。
+    1. 在移动设备上使用 Microsoft Authenticator 应用，选择 **+** 添加帐户，并选择“**工作或学校帐户**”。
     1. 选择“**扫描 QR 码**”选项，然后使用移动设备扫描电脑屏幕上的 QR 码。
     1. 使用移动设备上的 Microsoft Authenticator 应用扫描 QR 码。
     1. 按照电脑和移动设备上的步骤操作，然后选择“**下一步**”。
@@ -110,7 +110,7 @@ lab:
 
 1. 你现在应能够访问 Azure 门户。  Azure 门户是一种 Microsoft 门户，因此需要根据创建的条件访问策略进行多重身份验证。  
     1. 如果收到表示登录已超时的消息，请输入密码并选择“**登录**”。
-    1. 你将看到一个窗口，要求你批准登录请求。  记下电脑上的数字，并按照 Microsoft Authenticator 应用上的说明进行操作。
+    1. 将看到一个窗口，要求你批准登录请求。  记下电脑上的数字，并按照 Microsoft Authenticator 应用上的说明进行操作。
     1. 如果系统询问你是否要保持登录状态，请选择“**否**”。
 
 1. 选择屏幕右上角电子邮件地址旁边的用户图标，并选择“退出”以退出。然后关闭所有浏览器窗口。

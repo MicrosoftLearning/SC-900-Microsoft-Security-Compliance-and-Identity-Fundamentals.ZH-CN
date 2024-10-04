@@ -4,7 +4,7 @@
 ---
 --->
 
-# 演示：探讨 Microsoft Purview 合规性门户与合规&性管理器
+# 演示：探索 Microsoft Purview 门户与合规性管理器
 
 此演示与下列 Learn 内容保持一致：
 

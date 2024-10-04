@@ -1,6 +1,6 @@
 <!---
 ---
-演示：标题：“Microsoft Defender 门户”模块：“学习路径：介绍 Microsoft 安全解决方案的功能；模块 4：介绍 Microsoft 365 的威胁防护功能；单元 7：介绍 Microsoft Defender 门户”
+演示：标题：“Microsoft Defender 门户”模块：“学习路径：介绍 Microsoft 安全解决方案的功能；模块 4：介绍 Microsoft Defender XDR 的威胁防护功能；单元 7：介绍 Microsoft Defender 门户”
 ---
 --->
 
@@ -9,7 +9,7 @@
 此演示与下列 Learn 内容保持一致：
 
 - 学习路径：描述 Microsoft 安全解决方案的功能
-- 模块：描述 Microsoft 365 的威胁防护功能
+- 模块：介绍 Microsoft Defender XDR 的威胁防护功能
 - 单元：介绍 Microsoft Defender 门户
 
 ## 演示方案
@@ -20,7 +20,7 @@
 
 浏览 Microsoft Defender 登陆页面。
 
-1. 打开 Microsoft 365 安全性主页的浏览器选项卡。  如果之前关闭了浏览器，请打开 Microsoft Edge。 在地址栏中，输入 **https://admin.microsoft.com** 并使用授权实验室主机托管服务提供商 (ALH) 提供的 Microsoft 365 租户管理员凭据登录并访问 Microsoft 365 管理中心。 从 Microsoft 365 管理中心的左侧导航窗格，选择“**全部显示**”，然后选择“**安全性**”。  打开一个新的浏览器页，进入 Microsoft Defender 门户的欢迎页。  
+1. 打开 Microsoft Defender 主页的浏览器选项卡。  如果之前关闭了浏览器，请打开 Microsoft Edge。 在地址栏中，输入 **https://admin.microsoft.com** 并使用授权实验室主机托管服务提供商 (ALH) 提供的 Microsoft 365 租户管理员凭据登录并访问 Microsoft 365 管理中心。 从 Microsoft 365 管理中心的左侧导航窗格，选择“**全部显示**”，然后选择“**安全性**”。  打开一个新的浏览器页，进入 Microsoft Defender 门户的欢迎页。  
 
 1. Microsoft Defender 门户的主页显示安全团队所需的许多常见卡片。 卡片和数据的组成取决于用户的角色。 滚动页面，查看您作为全局管理员角色的默认卡片集。
 
@@ -50,7 +50,7 @@
     1. **搜寻** - 可在此处生成自定义检测规则，并搜寻环境中的特定威胁。
     1. **操作和提交** - 统一操作中心汇集了整个 Microsoft Defender for Endpoint 和 Microsoft Defender for Office 365 中的修正操作。 它在一个位置列出了针对设备、电子邮件和协作内容以及标识的待处理和已完成修正操作。 在拥有 Exchange Online 邮箱的 Microsoft 365 组织中，管理员可以使用 Microsoft Defender 门户中的“提交”页，将电子邮件、URL 和附件提交到 Microsoft 进行分析。
     1. **合作伙伴目录** - 合作伙伴目录列出了支持的技术合作伙伴和专业服务，可以帮助组织增强平台的检测、调查和威胁智能功能。
-1. **威胁智能** - 在“威胁智能”选项卡中，用户可访问 Microsoft Defender 威胁智能和功能支持，包括威胁分析、Intel 配置文件、Intel 资源管理器和 Intel 项目。
+1. **威胁智能** - 在“威胁智能”选项卡中，用户可访问 Microsoft Defender 威胁智能和解决方案支持的功能，包括威胁分析、Intel 配置文件、Intel 资源管理器和 Intel 项目。
 1. **资产** - 在“资产”选项卡中，可以查看和管理组织的受保护和已发现资产（设备和标识）的清单。
 1. **Microsoft Sentinel** - Defender 门户的 Microsoft Sentinel 部分中提供了一些 Microsoft Sentinel 功能。  这需要通过“设置”页面设置集成。
 1. **标识** - 标识节点映射到与 Microsoft Defender for Identity 关联的功能。 仪表板提供有关标识威胁检测和响应 (ITDR) 的关键见解和实时数据。 “运行状况问题”页列出 Defender for Identity 部署和传感器的任何当前运行状况问题，提醒你在 Defender for Identity 部署中出现的任何问题。 “工具”页列出有助于管理 Microsoft Defender for Identity 环境的其他信息。
@@ -68,17 +68,15 @@
     1. 设置 - 此处为 Defender 门户、Defender XDR、属于 Microsoft Defender XDR 的解决方案和 Microsoft Sentinel 配置设置。  可以随时浏览此页面。
 1. **自定义导航** - 此处可以选择显示或隐藏导航窗格中的项目。 其他管理员不会看到你的更改。
 
-1. 左侧导航面板提供了指向 Microsoft 的扩展检测和响应（XDR 解决方案）一部分信息的链接以及对其的访问，其中包括事件和警报、搜寻、操作中心、威胁分析、安全分数等等。  它还提供了对 Microsoft Defender for Endpoint（在“终结点”下列出的链接）、Defender for Office 365（在“电子邮件和协作”下列出的链接）和 Microsoft Defender for Cloud Apps（云应用下的链接）等的快速访问。  选择其中一些链接，探索这些选项。   要返回 Microsoft Defender 门户的主页，请选择左侧导航面板上的“**主页**”。
-
 ### 演示第 3 部分
 
 在这一部分的演示中，你将了解 Microsoft 安全功能分数如何帮助组织改善其安全状况。
 
-1. 在左侧导航面板中，选择“**Microsoft 安全功能分数**”。
+1. 从左侧导航面板中展开“**曝光管理**”，然后选择“**安全功能分数**”。
 
 1. 这会打开“Microsoft 安全功能分数”页面，显示“概述”选项卡。Microsoft 安全功能分数是针对组织安全状况的一种衡量标准。 组织的安全功能分数以百分比形式显示，同时显示在可能的总分中已取得的分数，并按类别进行细分。 选择“你的安全功能分数”旁边的“**包含**”。 可以选择在你的分数视图中包含可达到分数、计划分数和当前许可证分数。
 
-1. “概述”页还包括建议的操作、对比分数、历史记录和其他资源。
+1. 概述页还包括主要建议的操作、比较分数、历史记录和资源。
 
 1. 选择页面顶部的“**改进操作**”。  注意表格中每个项目的可用信息。  
 
@@ -94,4 +92,4 @@
 
 ### 审阅
 
-在此演示中，你通过演示登陆页面上显示的内容浏览了 Microsoft Defender 门户，也浏览了导航面板上的选项，这些选项可快速访问 Microsoft 的扩展检测和响应 (XDR) 解决方案、Microsoft Defender for Endpoints 和 Microsoft Defender for Office 365（电子邮件和协作）中的部分功能。  最后，您展示了 Microsoft Secure Score 如何帮助组织改善其安全态势。
+在此演示中，你通过浏览登陆页面上显示的内容探索了 Microsoft Defender 门户，也探索了导航面板上的选项，这些选项可快速访问 Microsoft Defender XDR 的一部分功能。  最后，您展示了 Microsoft Secure Score 如何帮助组织改善其安全态势。
