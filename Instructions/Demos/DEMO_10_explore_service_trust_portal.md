@@ -1,6 +1,6 @@
 <!---
 ---
-Demo: Title: 'Service Trust Portal' Learning Path/Module/Unit:'学习路径：描述 Microsoft 合规功能；模块 1：描述 Microsoft 的服务信任门户和隐私功能；第 2 单元：探索服务信任门户'
+演示：标题：“服务信任门户”学习路径/模块/单元：“描述 Microsoft Priva 和 Microsoft Purview 的功能；模块 1：描述 Microsoft 的服务信任门户和隐私功能；第 2 单元：探索服务信任门户'
 ---
 --->
 

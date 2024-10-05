@@ -1,15 +1,15 @@
 ---
 lab:
   title: 探索服务信任门户
-  module: Describe the compliance management capabilities at Microsoft
+  module: Describe Microsoft’s Service Trust portal and privacy capabilities
 ---
 
 # 实验室：探索服务信任门户
 
 此实验室与下列 Learn 内容保持一致：
 
-- 学习路径：描述 Microsoft 合规性功能
-- 模块：介绍 Microsoft 的合规性管理功能
+- 学习路径：介绍 Microsoft Priva 和 Microsoft Purview 的功能
+- 模块：描述 Microsoft 的服务信任门户和隐私功能
 - 单元：探索服务信任门户
 
 ## 实验室场景
