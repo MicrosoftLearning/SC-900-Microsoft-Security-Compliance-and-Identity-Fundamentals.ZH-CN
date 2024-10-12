@@ -22,7 +22,7 @@ lab:
 
 在此任务中，你将大致演练 Microsoft Defender for Cloud 的一些功能
 
-1. 你应该是在 Azure 服务的主页上。  如果之前关闭了浏览器，请打开 Microsoft Edge。 在地址栏中输入“**portal.azure.com**”，然后使用管理员凭据登录。
+1. 你应该是在 Azure 服务的主页上。  如果之前关闭了浏览器，请打开 Microsoft Edge。 在地址栏中输入“**portal.azure.com**”，然后使用管理员凭据登录。 如果之前已记录，系统可能会提示你输入辅助形式的身份验证，作为 MFA 的一部分。  如果以前未登录，系统可能会提示设置 MFA。  按照屏幕上的提示设置 MFA。
 
 1. 在蓝色搜索栏中输入“**Microsoft Defender for Cloud**”，然后从结果列表中选择“**Microsoft Defender for Cloud**”。
 

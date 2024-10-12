@@ -22,7 +22,7 @@ lab:
 
 创建 Microsoft Sentinel 实例
 
-1. 你应位于 Azure 服务的主页。  如果之前关闭了浏览器，请打开 Microsoft Edge。 在地址栏中输入“**portal.azure.com**”，然后使用管理员凭据登录。
+1. 你应位于 Azure 服务的主页。  如果之前关闭了浏览器，请打开 Microsoft Edge。 在地址栏中输入“**portal.azure.com**”，然后使用管理员凭据登录。 如果之前已记录，系统可能会提示你输入辅助形式的身份验证，作为 MFA 的一部分。  如果以前未登录，系统可能会提示设置 MFA。  按照屏幕上的提示设置 MFA。
 
 1. 在页面顶部的蓝色搜索框中，输入“Microsoft Sentinel”，然后在搜索结果中选择“Microsoft Sentinel”。********
 

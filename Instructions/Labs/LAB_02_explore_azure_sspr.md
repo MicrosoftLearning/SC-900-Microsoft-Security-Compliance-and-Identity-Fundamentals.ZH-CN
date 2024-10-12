@@ -31,6 +31,7 @@ Lab: Title: 'Explore Azure AD Authentication with self-service password reset' L
 1. 打开 Microsoft Edge 浏览器。 在地址栏中，输入 **https://entra.microsoft.com** 并使用授权实验室托管人 (ALH) 提供的 Microsoft 365 管理员凭据登录。
     1. 在“登录”窗口中，输入 **admin@WWLxZZZZZZ.onmicrosoft.com**（其中 ZZZZZZ 是 ALH 提供的唯一租户 ID），然后选择**下一步**。
     1. 输入管理员密码，该密码应由实验室托管提供商提供。 选择“**登录**”。
+    1. 如果以前以管理员身份登录过，系统会提示你完成辅助身份验证，作为 MFA 的一部分。 如果之前未以管理员身份登录过，系统会提示你完成 MFA 注册过程。按照屏幕上的提示设置 MFA。
     1. 在提示保持登录状态时，选择“**是**”。
 
 1. 在左侧导航窗格中，展开**保护**选项，然后选择**密码重置**。  
@@ -81,7 +82,7 @@ Lab: Title: 'Explore Azure AD Authentication with self-service password reset' L
 
 1. 打开 Microsoft Edge，在地址栏中输入**https://login.microsoft.com**。
 
-1. 以 Sara Perez 的身份登录。
+1. 以 Sara Perez 的身份登录。 登录过程可能需要 MFA。
 
 1. 弹出窗口显示需要更多信息。  这是因为作为 SSPRSecurityGroupUsers 组的成员，配置要求其成员在登录时进行注册。  选择“**下一步**”按钮。  注意：除了让用户自己注册外，管理员还可以在添加用户时直接配置身份验证方法。 这要求管理员知道并设置用户用于执行自助式密码重置的电话号码和电子邮件地址，然后重置用户密码。
 
