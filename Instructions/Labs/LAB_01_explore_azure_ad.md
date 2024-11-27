@@ -20,13 +20,13 @@ lab:
 
 ### 任务 1
 
-作为 Microsoft 365 的订阅者，你已在使用 Microsoft Entra ID（旧称为 Azure AD）。  在本任务中，你将了解如何在 Microsoft Entra ID 中创建新用户，并探索一些可在用户级别进行管理的服务。
+作为 Microsoft 365 的订阅者，你已在使用 Microsoft Entra ID。  在本任务中，你将了解如何在 Microsoft Entra ID 中创建新用户，并探索一些可在用户级别进行管理的服务。
 
-1. 打开 Microsoft Edge 浏览器。 在地址栏中输入“**[admin.microsoft.com](https://admin.microsoft.com)**”，然后使用授权实验室主机托管者 (ALH) 提供的 Microsoft 365 凭据登录。
-    1. 在登录窗口中输入**admin@WWLxZZZZZZ.onmicrosoft.com**（其中 ZZZZZZ 是 ALH 提供的唯一租户 ID），然后选择 "**下一步**"。
+1. 打开 Microsoft Edge 浏览器。 在地址栏中，输入 **`https://admin.microsoft.com`** 并使用授权实验室主机托管服务提供商 (ALH) 提供的 Microsoft 365 凭据登录。
+    1. 在“登录”窗口中，输入 **admin@WWLxZZZZZZ.onmicrosoft.com**（其中 ZZZZZZ 是 ALH 提供的唯一租户 ID），然后选择**下一步**。
     1. 输入管理员密码，该密码应由实验室托管提供商提供。 选择“**登录**”。
-    1. 由于这是你第一次登录，系统可能会提示你设置 MFA。 按照屏幕上的提示设置 MFA。
-    1. 如果系统提示保持登录状态，请选择“**是**”。
+    1. 如果你是首次登录到租户，系统可能会提示你完成 MFA 注册流程，具体取决于实验室主机托管服务提供商。 如果出现提示，则按照屏幕上的提示设置 MFA。
+    1. 登录后，你将进入 Microsoft 365 管理中心页。
 
 1. 在“管理员中心”下，选择“**标识**”（可能需要选择“**全部显示**”，然后向下滚动）。  一个新的浏览器页面将打开 Microsoft Entra 管理中心的概述页面。
 
