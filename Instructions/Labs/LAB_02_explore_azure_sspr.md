@@ -31,8 +31,8 @@ Lab: Title: 'Explore Azure AD Authentication with self-service password reset' L
 1. 打开 Microsoft Edge 浏览器。 在地址栏中，输入 **https://entra.microsoft.com** 并使用授权实验室托管人 (ALH) 提供的 Microsoft 365 管理员凭据登录。
     1. 在“登录”窗口中，输入 **admin@WWLxZZZZZZ.onmicrosoft.com**（其中 ZZZZZZ 是 ALH 提供的唯一租户 ID），然后选择**下一步**。
     1. 输入管理员密码，该密码应由实验室托管提供商提供。 选择“**登录**”。
-    1. 如果以前以管理员身份登录过，系统会提示你完成辅助身份验证，作为 MFA 的一部分。 如果之前未以管理员身份登录过，系统会提示你完成 MFA 注册过程。按照屏幕上的提示设置 MFA。
-    1. 在提示保持登录状态时，选择“**是**”。
+    1. 如果你是首次登录到租户，系统可能会提示你完成 MFA 注册流程，具体取决于实验室主机托管服务提供商。 如果出现提示，则按照屏幕上的提示设置 MFA。
+    1. 登录后，你将进入 Microsoft 365 管理中心页。
 
 1. 在左侧导航窗格中，展开**保护**选项，然后选择**密码重置**。  
 
@@ -89,7 +89,7 @@ Lab: Title: 'Explore Azure AD Authentication with self-service password reset' L
 1. 打开确保账户安全页面。  显示的窗口和后续步骤适用于 Microsoft Authenticator 应用方法。 如果想要改用电子邮件，请选择“我想设置其他方法”**** 并按照步骤操作。
     1. 在移动设备上安装 Microsoft Authenticator 应用以后，请选择“**下一步**”。 否则，请选择“**立即下载”** 并按照步骤操作。
     1. 你将开始设置帐户。  选择**下一步**。
-    1. 在移动设备上使用 Microsoft Authenticator 应用，选择**+** 添加帐户，并选择“**工作或学校帐户**”。
+    1. 在移动设备上使用 Microsoft Authenticator 应用，选择 **+** 添加帐户，并选择“**工作或学校帐户**”。
     1. 选择“**扫描 QR 码**”选项，然后使用移动设备扫描电脑屏幕上的 QR 码。
     1. 按照电脑和移动设备上的步骤操作，然后选择“**下一步**”。
     1. 设置安全信息后，会看到“成功”窗口。  选择“完成”  。
