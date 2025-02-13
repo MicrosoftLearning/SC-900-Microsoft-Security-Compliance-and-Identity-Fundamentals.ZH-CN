@@ -1,3 +1,11 @@
+#README
+
+We've turned off the ability to report issues directly on this repo and do not monitor PRs.
+
+Provide feedback here: https://aka.ms/provide-feedback
+
+Or, if you are a trainer with a microsoft.com email address, please create a ticket in AzDO.
+
 # SC-900：Microsoft 安全性、合规性和标识基础知识
 
 本资源库包含 **SC-900T00：Microsoft 安全、合规和身份基础的演示脚本和实验指导**。  演示脚本和实验都假定可以访问预配置的 WWL M365 Enterprise 2019 SPE_E5 租户，该租户可通过授权实验室托管人 (ALH) 获得，并使用 ALH 提供的 Azure 订阅。 可在用户自己的 Microsoft 365 租户和 Azure 订阅上运行演示脚本和实验室说明，但不能保证能实现，因为某些功能可能无法通过用户的个人订阅启用。
