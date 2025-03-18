@@ -30,7 +30,14 @@ Pre-Demo Setup: Title: '演示设置'
 
 1. 在左侧导航面板中，向下滚动并展开“**系统**”。  从展开的列表中，选择“**审核**”。  备注：还可通过 Microsoft Purview 门户访问审核功能。
 
-1. 进入审核页面后，请等待 1-2 分钟。  如果未启用“审核”，你将在页面顶部看到一个显示“开始记录用户和管理员活动”的蓝条。  选择**开始记录用户和管理员活动**。  启用审计后，蓝色条将消失。  如果蓝条不存在，则表示已启用审核，无需采取进一步操作。
+1. 进入审核页面后，请等待 1-2 分钟。  如果未启用“审核”，你将在页面顶部看到一个显示“开始记录用户和管理员活动”的蓝条。  选择**开始记录用户和管理员活动**。  启用审计后，蓝色条将消失。  如果蓝条不存在，则表示已启用审核，无需采取进一步操作。  如果看到一条消息，“很抱歉，我们很难确定是否正在记录活动。 尝试刷新页面，刷新页面后没有更改，需要通过 PowerShell 启用审核。
+    1. 右键选择任务栏上的蓝色“Windows PowerShell”图标，然后选择“**以管理员身份运行**”。
+    1. 要确认计算机上安装了 Exchange Online PowerShell 模块，请输入 **`Get-InstalledModule ExchangeOnlineManagement | Format-List Name,Version,InstalledLocation`**。  你将看到 Exchange OnlineManagement 的名称、版本和安装位置。
+    1. 现在，通过输入 **`Import-Module ExchangeOnlineManagement`** 来加载模块。
+    1. 要连接，请输入 **`Connect-ExchangeOnline -UserPrincipalName admin@WWLxZZZZZZ.onmicrosoft.com`**。  对于 UPN，请输入在实验室的资源选项卡中找到的管理员用户名。
+    1. 将提示您登录。  输入在实验室的资源选项卡中找到的管理用户名和密码。
+    1. 要打开审核功能，请输入 **`Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true`**。 将显示一条消息，指出更改可能需要长达 60 分钟才能生效。
+    1. 尽管可能需要长达 60 分钟才能生效，但可以通过输入 **`Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled`** 来验证命令是否已收到。  如果启用了审核，则属性 UnifiedAuditLogIngestionEnabled 将显示 true 值。
 
 1. 从左侧导航面板的“系统”下，选择“**设置**”。
 
@@ -52,9 +59,9 @@ Pre-Demo Setup: Title: '演示设置'
     1. 选择“**下一步**”，然后选择“**保存**”，最后选择“**完成**”。
 1. Microsoft 365 租户的设置到此结束，可以关闭浏览器选项卡。
 
-## Azure Cloud Slice 订阅的预演示设置
+## Azure 订阅的预演示设置
 
-对于此设置，你使用的是 Azure Cloud Slice 环境，它独立于提供的 Microsoft 365 租户。 退出登录 Microsoft 365 租户并使用 Azure Cloud Slice 凭据登录。
+对于此设置，你使用的是 Azure 环境，它独立于提供的 Microsoft 365 租户。 退出登录 Microsoft 365 租户并使用 Azure 凭据登录。
 
 ### Azure 虚拟机
 
@@ -141,4 +148,4 @@ Pre-Demo Setup: Title: '演示设置'
 
 ### 审阅
 
-在此设置中，你在 Microsoft 365 租户中启用了审核日志功能，并且还验证了 VM 是否已在 Azure Cloud Slice 环境中预配置。 你还准备了 Defender for Cloud 和 Microsoft Sentinel 环境。
+在此设置中，你在 Microsoft 365 租户中启用了审核日志功能，并且还验证了 VM 是否已在 Azure 环境中预配置。 你还准备了 Defender for Cloud 和 Microsoft Sentinel 环境。

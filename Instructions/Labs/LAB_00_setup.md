@@ -33,7 +33,14 @@ lab:
 
 1. 在左侧导航面板中，向下滚动并展开“**系统**”。  从展开的列表中，选择“**审核**”。  备注：还可通过 Microsoft Purview 门户访问审核功能。
 
-1. 进入审核页面后，请等待 1-2 分钟。  如果未启用“审核”，你将在页面顶部看到一个显示“开始记录用户和管理员活动”的蓝条。  选择**开始记录用户和管理员活动**。  启用审计后，蓝色条将消失。  如果蓝条不存在，则表示已启用审核，无需采取进一步操作。
+1. 进入审核页面后，请等待 1-2 分钟。  如果未启用“审核”，你将在页面顶部看到一个显示“开始记录用户和管理员活动”的蓝条。  选择**开始记录用户和管理员活动**。  启用审计后，蓝色条将消失。  如果蓝条不存在，则表示已启用审核，无需采取进一步操作。  如果看到一条消息，“很抱歉，我们很难确定是否正在记录活动。 尝试刷新页面，“刷新页面后没有更改，需要通过 PowerShell 启用审核。
+    1. 右键选择任务栏上的蓝色“Windows PowerShell”图标，然后选择“**以管理员身份运行**”。
+    1. 要确认计算机上安装了 Exchange Online PowerShell 模块，请输入 **`Get-InstalledModule ExchangeOnlineManagement | Format-List Name,Version,InstalledLocation`**。  你将看到 Exchange OnlineManagement 的名称、版本和安装位置。
+    1. 现在，通过输入 **`Import-Module ExchangeOnlineManagement`** 来加载模块。
+    1. 要连接，请输入 **`Connect-ExchangeOnline -UserPrincipalName admin@WWLxZZZZZZ.onmicrosoft.com`**。  对于 UPN，请输入在实验室的资源选项卡中找到的管理员用户名。
+    1. 将提示您登录。  输入在实验室的资源选项卡中找到的管理用户名和密码。
+    1. 要打开审核功能，请输入 **`Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true`**。 将显示一条消息，指出更改可能需要长达 60 分钟才能生效。
+    1. 尽管可能需要长达 60 分钟才能生效，但可以通过输入 **`Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled`** 来验证命令是否已收到。  如果启用了审核，则属性 UnifiedAuditLogIngestionEnabled 将显示 true 值。
 
 1. 从左侧导航面板的“系统”下，选择“**设置**”。
 
