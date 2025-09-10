@@ -48,7 +48,7 @@ lab:
 
 1. 打开 Microsoft Entra 管理中心主页的浏览器选项卡。
 
-1. 在左侧导航面板中，展开“IF 治理”，然后选择“Privileged Identity Management”********。
+1. 在左侧导航面板中，展开“ID 治理”，然后选择“Privileged Identity Management”********。
 
 1. 现在您已进入特权身份管理快速启动页面。 查看入门页面上的信息。 在主窗口中，在显示“管理访问权限”位置的下方，选择“**管理**”。
 
