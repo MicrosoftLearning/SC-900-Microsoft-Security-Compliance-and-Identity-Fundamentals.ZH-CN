@@ -24,18 +24,23 @@ Microsoft Sentinel 的实例应已在预演示设置中创建。 验证是否已
 
 1. 在页面顶部显示 Microsoft Azure 旁边蓝色栏的搜索框中，输入“**Microsoft Sentinel**”，然后在搜索结果中选择“**Microsoft Sentinel**”。  
 
-1. 在 Microsoft Sentinel 页面上，你应会看到你的 Sentinel 实例已列出，请选中它。  如果未列出，请立即创建它。
-    1. 在“Microsoft Sentinel”页中，选择“**创建 Microsoft Sentinel**”。
+1. 在 Microsoft Sentinel 页面上，你应该会看到列出了一个 Log Analytics 工作区。  这表示已创建 Microsoft Sentinel 的实例，并向其中添加了 Log Analytics 工作区。 否则，请按照以下步骤操作。
+    1. 在页面顶部的蓝色搜索框中，输入“Log Analytics”并从搜索结果中将其选中。****
+1. 选择“+ 新建”。
+1. 在“创建 Log Analytics 工作区”的“基本信息”选项卡中，输入以下内容：
+    1. 订阅：保留默认值，这是授权实验室主机托管服务提供商 (ALH) 提供的 Azure 订阅。
+    1. 资源组：选择“**SC900-Sentinel-RG**”。 如果未列出此资源组，请选择“**新建**”，输入“**SC900-Sentinel-RG**”，然后选择“**确定**”。
+    1. 名称:SC900-Sentinel-workspace****。
+    1. 区域：**美国东部**（可能会根据你的位置选择不同的默认区域）。
+    1. 选择“查看 + 创建”（不会配置任何标记）****。
+    1. 验证输入的信息，然后选择**创建**。
+    1. 创建新工作区可能需要一两分钟的时间。
+    1. 创建后，选择“转到资源”以查看该工作区的相关信息。****
+1. 此时，尚未创建 Microsoft Sentinel 的实例。 若要创建 Sentinel 的实例，需要转到 Microsoft Sentinel 页面。 使用页面顶部的蓝色搜索栏搜索“Microsoft Sentinel”，并从搜索结果中将其选中。****
+1. 若要将工作区添加到 Microsoft Sentinel，需要转到 Microsoft Sentinel 页面。 使用页面顶部的蓝色搜索栏搜索“Microsoft Sentinel”****
+    1. 在 Microsoft Sentinel 页面中，选择“+ 创建”。****
+    1. 现在可以添加刚刚创建的工作区。 选择“SC900-Sentinel-workspace”，然后选择“添加”。********  由于 Microsoft Sentinel 的免费试用版正在激活，这可能需要几分钟时间。  激活后，选择“确定”。****
 
-    1. 在“将 Microsoft Sentinel 添加到工作区”页中，选择“**创建新工作区**”。 在“创建 Log Analytics 工作区”的“基本信息”选项卡中，输入以下内容：
-        1. 订阅：保留默认值。
-        1. 资源组：选择**新建**，然后输入名称 **SC900-Sentinel-RG**，然后选择**确定**。
-        1. 名称：**SC900-LogAnalytics-workspace**。
-        1. 区域：**美国东部**（可能会根据你的位置选择不同的默认区域）。
-        1. 选择“查看 + 创建”（不会配置任何标记）****。
-        1. 验证输入的信息，然后选择**创建**。
-        1. 可能需要一两分钟才能列出 ne 工作区，如果仍未看到，请选择**刷新**，然后选择**添加**。
-        1. 添加新工作区后，将显示“Microsoft Sentinel | 资讯与指南”页面，表示已激活 Microsoft Sentinel 免费试用版。  选择“确定”****。
 
 1. 使此页面保持打开状态，因为你将在后续任务中使用它。
 
@@ -60,13 +65,17 @@ Microsoft Sentinel 的实例应已在预演示设置中创建。 验证是否已
 
 1. 在访问控制页面中，选择窗口右上角的“X”关闭此窗口****。
 
+1. 在窗口左上角显示“Microsoft Azure”的蓝色条下方，选择“**主页**”以返回到 Azure 服务主页。
+
+1. 在浏览器中将 Azure 选项卡保持在打开状态。
+
 ### 演示第 3 部分
 
 在演示的这一部分中，你将展示连接到数据源的步骤。 许多数据连接器连同相关的内容（如分析规则、工作簿和 playbook）部署为 Microsoft Sentinel 解决方案的一部分。 Microsoft Sentinel 内容中心是用于发现和管理现成（内置）内容的集中位置。 在此步骤中，你将使用内容中心为 Microsoft Sentinel 部署 Microsoft Defender for Cloud 解决方案。  此解决方案允许引入 Microsoft Defender for Cloud 中报告的安全警报。
 
-1. 打开 Microsoft Sentinel 的浏览器选项卡。
+1. 在 Azure 服务主页中，选择“Microsoft Sentinel”，然后选择创建的实例“SC900-Sentinel-workspace”。****
 
-1. 从左侧导航面板中，选择“**内容中心**”。
+1. 在左侧导航面板中，展开“**内容管理**”，然后选择“**内容中心**”。
 
 1. 请花点时间向下滚动，查看可用解决方案的长列表以及筛选列表的选项。  在本任务中，你要寻找 **Microsoft Defender for Cloud**。  从列表中选择该服务。  在打开的侧窗口中，阅读说明，然后选择“**安装**”。  安装完成后，主窗口中的状态列将显示为已安装。
 
